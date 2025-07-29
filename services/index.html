@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- link with css file -->
+    <link rel="stylesheet" href="./Style/styles.css">
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,20 +15,6 @@
     <style>
         .font-manrope {
             font-family: 'Manrope', sans-serif;
-        }
-
-        @keyframes fillBar {
-            from {
-                width: 0%;
-            }
-
-            to {
-                width: var(--target-width);
-            }
-        }
-
-        .animate-fill {
-            animation: fillBar 1.5s ease forwards;
         }
     </style>
 
@@ -200,8 +188,8 @@
         </div>
     </section>
 
-
-    <section class="bg-[#F1F0EB] px-16 py-16">
+    <!-- animated section -02  -->
+    <section class="bg-[#F1F0EB] px-16 py-20">
         <div class="flex justify-center items-center gap-8 ">
             <div class="w-[40%] space-y-8">
                 <h1 class="text-4xl text-gray-700 font-semibold">We make your spending <br> stress-free for
@@ -256,6 +244,45 @@
                 <img src="./images/image_8.png" alt="">
             </div>
         </div>
+    </section>
+
+   
+
+    <!-- Join our community -->
+    <section class="py-56">
+        <div class="text-center">
+            <p class="text-gray-400 mb-5">JOIN OUR COMMUNITY</p>
+            <h1 class="text-4xl font-semibold text-gray-700">We are trusted by over 5000+ clients. <br> Join them now
+                and grow your business.</h1>
+        </div>
+        <div class="flex justify-center items-center gap-16 mt-10">
+            <div class="text-center">
+                <p class="text-5xl font-semibold text-blue-500 pb-2 counter-7518 "></p>
+                <p class="text-gray-400">Completed Projects</p>
+            </div>
+            <div class="text-center">
+                <p class="text-5xl font-semibold text-blue-500 pb-2 counter-5472"></p>
+                <p class="text-gray-400">Satisfied Customers</p>
+            </div>
+            <div class="text-center">
+                <p class="text-5xl font-semibold text-blue-500 pb-2 counter-2184"></p>
+                <p class="text-gray-400">Expert Employees</p>
+            </div>
+        </div>
+        <!-- <div class="flex justify-center items-center gap-32 mt-10">
+            <div class="text-center">
+                <p class="text-5xl font-semibold text-blue-500 pb-2">7518</p>
+                <p class="text-gray-400">Completed Projects</p>
+            </div>
+            <div class="text-center">
+                <p class="text-5xl font-semibold text-blue-500 pb-2">5472</p>
+                <p class="text-gray-400">Satisfied Customers</p>
+            </div>
+            <div class="text-center">
+                <p class="text-5xl font-semibold text-blue-500 pb-2">2184</p>
+                <p class="text-gray-400">Expert Employees</p>
+            </div>
+        </div> -->
     </section>
 </body>
 
