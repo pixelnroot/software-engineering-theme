@@ -7,12 +7,27 @@
     <title>Carrear</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+     <style>
+    .slant-box {
+      width: full;
+      height: 380px;
+      background: #4f46e5;
+
+      /* Cut the top edge diagonally */
+      clip-path: polygon(
+        0 0,        /* top-left corner */
+        100% 17%,   /* top-right corner (70% height) */
+        100% 100%,  /* bottom-right corner */
+        0 100%      /* bottom-left corner */
+      );
+    }
+  </style>
 </head>
 
 <body class="min-h-screen p-0 m-0">
     <!-- navbar -->
-    <header class="flex flex-row h-20 p-4 justify-around items-center  sticky top-0 opacity-99 bg-white z-100"> <a class="flex"
-            href="#"><img class="h-6" src="./logo.png" alt="" /></a>
+    <header class="flex flex-row h-20 p-4 justify-around items-center  sticky top-0 opacity-99 bg-white z-100"> <a
+            class="flex" href="#"><img class="h-6" src="./logo.png" alt="" /></a>
         <ul class="flex flex-row space-x-10 my-auto font-semibold text-gray-600 text-[17px]">
             <li><a class="hover:text-indigo-500" href="/landing/index.html">Home</a></li>
             <li><a class="hover:text-indigo-500" href="/services/index.html">Services</a></li>
@@ -111,7 +126,8 @@
                     <p class="font-semibold text-blue-500">Seo Manager</p>
                 </div>
                 <p class="mt-2 text-gray-600">
-                    Our relentless commitment to innovation and excellence drives us to continually enhance Pagedone.</p>
+                    Our relentless commitment to innovation and excellence drives us to continually enhance Pagedone.
+                </p>
                 <ul class="flex flex-row space-x-4 my-auto space-x-5 items-center mt-2">
                     <li><a href="#"><i
                                 class="fa-brands fa-linkedin-in text-blue-500 transition ease-in-out hover:-translate-y-1"></i></a>
@@ -151,6 +167,63 @@
 
     </div>
     </div>
+    <footer class="flex mt-24 justify-around py-32 px-12 bg-gray-800 slant-box">
+        <div class="w-[250px] mb-6"> <img class="h-6 mb-2 mt-2" src="./logo-light.png" alt="Logo"> <span
+                class="text-gray-300">&copy; 2024 Sandbox.</span> <br> <span class="text-gray-300">All rights
+                reserved.</span>
+            <ul class="flex space-x-5 mt-4 items-center">
+                <li><a href="#"><i class="fa-brands fa-twitter text-white transition hover:-translate-y-1"></i></a>
+                </li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f text-white transition hover:-translate-y-1"></i></a>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-basketball text-white transition hover:-translate-y-1"></i></a>
+                </li>
+                <li><a href="#"><i
+                            class="fa-brands fa-instagram text-white text-lg transition hover:-translate-y-1"></i></a>
+                </li>
+                <li><a href="#"><i class="fa-brands fa-youtube text-white transition hover:-translate-y-1"></i></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w-[250px] mb-6">
+            <h1 class="text-xl text-white font-semibold mb-2">Get in Touch</h1>
+            <address class="not-italic text-gray-300 mb-2">
+                Moonshine St. 14/05<br>
+                Light City, London,<br>
+                United Kingdom
+            </address>
+            <a href="mailto:info@email.com" class="mt-4 text-gray-300 hover:text-blue-500">info@email.com</a>
+            <p class="text-gray-300">00 (123) 456 78 90</p>
+        </div>
+
+        <div class="w-[250px] mb-6">
+            <h1 class="text-xl text-white font-semibold mb-2">Learn More</h1>
+            <ul class="space-y-1 text-gray-300">
+                <li><a class="hover:text-blue-500" href="#">About Us</a></li>
+                <li><a class="hover:text-blue-500" href="#">Our Story</a></li>
+                <li><a class="hover:text-blue-500" href="#">Projects</a></li>
+                <li><a class="hover:text-blue-500" href="#">Terms of Service</a></li>
+                <li><a class="hover:text-blue-500" href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="w-[250px] mb-6">
+            <h1 class="text-xl text-white font-semibold mb-2">Our Newsletter</h1>
+            <p class="text-gray-300 mb-2">Subscribe to our newsletter to get our news & deals delivered to you.</p>
+            <div class="flex my-8 ">
+                <input type="email" placeholder="Email Address"
+                    class="px-4 py-3 bg-gray-700 border border-gray-600 rounded-l-lg focus:outline-none 
+                    focus:border-blue-900 focus:rounded-none focus:placeholder:relative 
+                    focus:placeholder:bottom-4 w-[180px] h-[50px] focus:placeholder:text-xs">
+                <a href=""
+                    class="px-6 py-3 bg-blue-500 text-white border border-blue-500 rounded-r-lg 
+                    hover:shadow-lg font-bold">Join</a>
+                    
+            </div>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
