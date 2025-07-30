@@ -22,13 +22,13 @@
 </head>
 
 <body class="font-manrope">
-    <section class="relative h-screen w-full overflow-hidden">
-        <img class="absolute inset-0 w-full h-full object-cover" src="./images/HeaderBackground.jpg">
-
-        <div class="absolute inset-0 bg-black/50 z-10"></div>
-        <div class="relative z-20 text-center space-y-4 flex flex-col justify-center items-center h-screen text-white">
-            <h2 class="text-5xl ">Our Services </h2>
-            <p class="text-xl ">We are a creative company that focuses on <br> establishing long-term relationships with
+    <!-- header  -->
+    <section class="relative h-[80vh] w-full overflow-hidden">
+        <img class="absolute inset-0 w-full h-full object-cover" src="./images/header.jpg">
+        <div class="absolute inset-0 bg-black/60 z-10"></div>
+        <div class="relative z-20 text-center space-y-4 flex flex-col justify-center items-center h-[80vh] text-white">
+            <h2 class="text-5xl font-bold">Our Services </h2>
+            <p class="text-xl">We are a creative company that focuses on <br> establishing long-term relationships with
                 customers.</p>
         </div>
     </section>
@@ -246,10 +246,241 @@
         </div>
     </section>
 
-   
+    <!-- Pricing section -->
+    <section class="bg-[#EDF2FC] relative">
+        <div class="text-center pt-24 pb-96">
+            <p class="text-gray-400 mb-5">OUR PRICING</p>
+            <h1 class="text-4xl font-semibold text-gray-700">We offer great prices, premium products <br> and quality
+                service for your business.</h1>
+
+            <!-- Toggle Switch -->
+            <!-- <button id="togglePricing" class="bg-blue-600 text-white px-4 py-2 rounded-full">
+                
+            </button> -->
+            <div class="flex justify-center items-center gap-4 text-gray-600 font-medium text-lg pt-12">
+                <span>Monthly</span>
+                <!-- Toggle Switch -->
+                <div id="toggle"
+                    class="relative w-14 h-8 bg-gray-200 rounded-full cursor-pointer transition-colors duration-300">
+                    <div id="circle"
+                        class="absolute left-1 top-1 w-6 h-6 bg-blue-600 rounded-full transition-all duration-300">
+                    </div>
+                </div>
+                <span>Yearly</span>
+            </div>
+        </div>
+
+
+        <div class="absolute inset-0 top-96 -bottom-64 flex justify-center items-center gap-8">
+            <!-- First card  -->
+            <div class="bg-white shadow-lg rounded-xl py-8 px-28 text-center ">
+                <div class="flex justify-center mb-3">
+                    <img class="w-22 h-20" src="./images/fabicon_01.png" alt="">
+                </div>
+                <h2 class="text-xl font-semibold mb-2">Basic Plan</h2>
+                <div>
+                    <span class="text-lg">$</span>
+                    <span class="price text-5xl text-gray-700 mb-1 " data-monthly="9" data-yearly="99">9</span>
+                    <span class="font-normal text-lg duration">/mo</span>
+                </div>
+
+                <ul class="justify-start text-gray-500 mt-4 space-y-2 py-4 ">
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg"><span class="font-bold">1</span> Project</span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg"><span class="font-bold">100K</span> API Access</span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg"><span class="font-extrabold">100MB</span> Storage</span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-red-600 bg-red-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path
+                                    d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+                            </svg>
+                        </span> <span class="text-lg">Weekly <span class="font-extrabold">Reports</span></span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-red-600 bg-red-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path
+                                    d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+                            </svg>
+                        </span> <span class="text-lg">7/24 <span class="font-extrabold">Support</span></span>
+                    </li>
+                </ul>
+                <button
+                    class="mt-6 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 hover:-translate-y-1 hover:scale-110 transition delay-50 duration-300 ease-in-out">
+                    Choose Plan
+                </button>
+            </div>
+            <!-- Second Card  -->
+            <div class="bg-white shadow-lg rounded-xl py-14 px-28 text-center ">
+                <div class="flex justify-center mb-3">
+                    <img class="w-22 h-20" src="./images/fabicon_02.png" alt="">
+                </div>
+                <h2 class="text-xl font-semibold mb-2">Premium Plan</h2>
+                <div>
+                    <span class="text-lg">$</span>
+                    <span class="price text-5xl text-gray-700 mb-1 " data-monthly="19" data-yearly="199">19</span>
+                    <span class="font-normal text-lg duration">/mo</span>
+                </div>
+
+                <ul class="justify-start text-gray-500 mt-4 space-y-2 py-4 ">
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg"><span class="font-bold">5</span> Project</span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg"><span class="font-bold">100K</span> API Access</span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg"><span class="font-extrabold">200MB</span> Storage</span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg">Weekly <span class="font-extrabold">Reports</span></span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-red-600 bg-red-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path
+                                    d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+                            </svg>
+                        </span> <span class="text-lg">7/24 <span class="font-extrabold">Support</span></span>
+                    </li>
+                </ul>
+                <button
+                    class="mt-6 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 hover:-translate-y-1 hover:scale-110 transition delay-50 duration-300 ease-in-out">
+                    Choose Plan
+                </button>
+            </div>
+            <!-- Third card  -->
+            <div class="bg-white shadow-lg rounded-xl py-8 px-28 text-center ">
+                <div class="flex justify-center mb-3">
+                    <img class="w-22 h-20" src="./images/fabicon_03.png" alt="">
+                </div>
+                <h2 class="text-xl font-semibold mb-2">Corporate Plan</h2>
+                <div>
+                    <span class="text-lg">$</span>
+                    <span class="price text-5xl text-gray-700 mb-1 " data-monthly="49" data-yearly="499">49</span>
+                    <span class="font-normal text-lg duration">/mo</span>
+                </div>
+
+                <ul class="justify-start text-gray-500 mt-4 space-y-2 py-4 ">
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg"><span class="font-bold">20</span> Project</span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg"><span class="font-bold">300K</span> API Access</span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg"><span class="font-extrabold">500MB</span> Storage</span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg">Weekly <span class="font-extrabold">Reports</span></span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="text-blue-500 bg-blue-100 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="size-5">
+                                <path fill-rule="evenodd"
+                                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span> <span class="text-lg">7/24 <span class="font-extrabold">Support</span></span>
+                    </li>
+                </ul>
+                <button
+                    class="mt-6 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 hover:-translate-y-1 hover:scale-110 transition delay-50 duration-300 ease-in-out">
+                    Choose Plan
+                </button>
+            </div>
+        </div>
+    </section>
 
     <!-- Join our community -->
-    <section class="py-56">
+    <section class="pt-96 pb-40">
         <div class="text-center">
             <p class="text-gray-400 mb-5">JOIN OUR COMMUNITY</p>
             <h1 class="text-4xl font-semibold text-gray-700">We are trusted by over 5000+ clients. <br> Join them now
@@ -284,6 +515,8 @@
             </div>
         </div> -->
     </section>
+
+    <script src="./JS/index.js"></script>
 </body>
 
 </html>
