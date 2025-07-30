@@ -8,9 +8,23 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .slant-box {
+            /* Cut the top edge diagonally */
+            clip-path: polygon(0 0,
+                    /* top-left corner */
+                    100% 0%,
+                    /* top-right corner */
+                    100% 80%,
+                    /* bottom-right corner */
+                    0 100%
+                    /* bottom-left corner */
+                );
+        }
+    </style>
 </head>
 
-<body>
+<body class="">
     <!-- navbar -->
     <div class="flex flex-row h-20 p-4 bg-indigo-50 justify-around items-center sticky top-0 opacity-99 z-100">
         <a class="flex" href="/landing/index.html"><img class="h-6" src="imgs/logo_01.png" alt="" /></a>
@@ -38,17 +52,14 @@
     </div>
 
     <!-- 2nd div  -->
-    <div class="w-full h-130 bg-white">
-        <div class="w-auto h-120 bg-indigo-50 -rotate-3 relative bottom-31 left-10"></div>
-        <div class="w-auto h-120 bg-indigo-50 -rotate-3 relative bottom-150 right-10">
-            <h1 class="text-5xl font-semibold text-gray-700 relative top-[50%] left-[44%] rotate-3">
-                Get in Touch
-            </h1>
-            <h1 class="font-semibold text-gray-500 relative top-[50%] left-[48%] rotate-3 mt-5">
-                <a class="hover:text-blue-400" href="/landing/index.html">Home</a><i
-                    class="fa-solid fa-chevron-right text-xs text-gray-400 mx-4"></i>Contact
-            </h1>
+    <div class="flex flex-col w-full h-100 bg-indigo-50 slant-box justify-center items-center gap-4 mb-32">
+        <h1 class="text-5xl font-semibold text-gray-700">Get in Touch</h1>
+        <div class="flex items-center text-gray-600 text-lg mb-28">
+            <a href="/landing/index.html">Home</a>
+            <i class="fa-solid fa-chevron-right text-xs px-4 text-gray-400"></i>
+            <h1>Contact</h1>
         </div>
+
     </div>
 
     <!-- 3nd div -->
@@ -61,9 +72,6 @@
             </div>
             <img class="rounded-lg h-100 relative left-15 bottom-40" src="imgs/image_07.jpg" alt="" />
             <img class="rounded-lg h-60 relative left-107 bottom-93" src="imgs/image_05.jpg" alt="" />
-            <div>
-
-            </div>
         </div>
         <div class="flex-2 flex-col items-start justify-center space-y-6">
             <h1 class="text-4xl font-semibold text-gray-700 mb-12">
