@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Contact Us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -16,86 +16,155 @@
         <a class="flex" href="/landing/index.html"><img class="h-6" src="imgs/logo_01.png" alt="" /></a>
 
         <ul class="flex flex-row space-x-10 my-auto font-semibold text-gray-600 text-[17px]">
-            <li><a class="hover:text-indigo-500" href="/landing/index.html">Home</a></li>
-            <li><a class="hover:text-indigo-500" href="/services/index.html">Services</a></li>
-            <li><a class="hover:text-indigo-500" href="/careear/index.html">Career</a></li>
-            <li><a class="hover:text-indigo-500" href="/about/index.html">About</a></li>
+            <li>
+                <a class="hover:text-indigo-500" href="/landing/index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:text-indigo-500" href="/services/index.html">Services</a>
+            </li>
+            <li>
+                <a class="hover:text-indigo-500" href="/careear/index.html">Career</a>
+            </li>
+            <li>
+                <a class="hover:text-indigo-500" href="/about/index.html">About</a>
+            </li>
             <li><a class="hover:text-indigo-500" href="#">Contact</a></li>
         </ul>
 
         <button
-            class="px-6 py-3 bg-blue-600 text-white font-semibold border border-blue-500 rounded-full transition hover:-translate-y-1 hover:shadow-lg">Contact</button>
+            class="px-6 py-3 bg-blue-600 text-white font-semibold border border-blue-500 rounded-full transition hover:-translate-y-1 hover:shadow-lg">
+            Contact
+        </button>
     </div>
 
     <!-- 2nd div  -->
     <div class="w-full h-130 bg-white">
-        <div class="w-auto h-120 bg-indigo-50 -rotate-3 relative bottom-31 left-10">
-        </div>
+        <div class="w-auto h-120 bg-indigo-50 -rotate-3 relative bottom-31 left-10"></div>
         <div class="w-auto h-120 bg-indigo-50 -rotate-3 relative bottom-150 right-10">
-            <h1 class="text-5xl font-semibold text-gray-700 relative top-[50%] left-[44%] rotate-3">Get in Touch</h1>
-            <h1 class=" font-semibold text-gray-500 relative top-[50%] left-[48%] rotate-3 mt-5"><a
-                    class="hover:text-blue-400" href="/landing/index.html">Home</a><i
-                    class="fa-solid fa-chevron-right text-xs text-gray-400 mx-4"></i>Contact</h1>
+            <h1 class="text-5xl font-semibold text-gray-700 relative top-[50%] left-[44%] rotate-3">
+                Get in Touch
+            </h1>
+            <h1 class="font-semibold text-gray-500 relative top-[50%] left-[48%] rotate-3 mt-5">
+                <a class="hover:text-blue-400" href="/landing/index.html">Home</a><i
+                    class="fa-solid fa-chevron-right text-xs text-gray-400 mx-4"></i>Contact
+            </h1>
         </div>
     </div>
 
-    <!-- 3rd div  -->
-    <form action="submit" class="mb-32 mt-16">
-        <h1 class="text-center text-4xl font-semibold text-gray-700 my-2">Drop Us a Line</h1>
-        <p class="text-gray-500 text-center text-lg my-2">Reach out to us from our contact form and we will get back to
-            you shortly.</p>
+    <!-- 3nd div -->
+    <div class="flex mx-16 gap-16 justify-around -mb-60">
+        <div class="flex-3">
+            <div
+                class="flex flex-col relative left-107 justify-center items-center bg-indigo-100 h-50 w-75 rounded-lg gap-2">
+                <span class="text-gray-700 text-5xl font-semibold">5000+</span>
+                <span class="text-lg text-gray-600">Satisfied Customers</span>
+            </div>
+            <img class="rounded-lg h-100 relative left-15 bottom-40" src="imgs/image_07.jpg" alt="" />
+            <img class="rounded-lg h-60 relative left-107 bottom-93" src="imgs/image_05.jpg" alt="" />
+            <div>
+
+            </div>
+        </div>
+        <div class="flex-2 flex-col items-start justify-center space-y-6">
+            <h1 class="text-4xl font-semibold text-gray-700 mb-12">
+                Convinced yet? Let's make something great together.
+            </h1>
+            <div class="flex">
+                <i class="fa-solid fa-location-dot text-blue-700 mt-2 text-2xl"><i
+                        class="fa-solid fa-minus relative right-[19px] top-3.5 text-blue-700"></i></i>
+
+                <span class="flex-1 space-y-1">
+                    <h1 class="text-gray-800 text-xl font-semibold">Address</h1>
+                    <p class="text-gray-600">
+                        Moonshine St. 14/05 Light City, <br />
+                        London, United Kingdom
+                    </p>
+                </span>
+            </div>
+            <div class="flex gap-4">
+                <i class="fa-solid fa-phone-volume text-blue-700 mt-2 text-2xl"></i>
+                <span class="flex-1 space-y-1">
+                    <h1 class="text-gray-800 text-xl font-semibold">Phone</h1>
+                    <p class="text-gray-600">+1 234 567 890</p>
+                </span>
+            </div>
+            <div class="flex gap-4">
+                <i class="fa-solid fa-envelope text-blue-700 mt-2 text-2xl"></i>
+
+                <span class="flex-1 space-y-1">
+                    <h1 class="text-gray-800 text-xl font-semibold">Email</h1>
+                    <a href="mailto:sandbox@email.com" class="text-gray-600">sandbox@email.com</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4rt div  -->
+    <form action="submit" class="mb-32">
+        <h1 class="text-center text-4xl font-semibold text-gray-700 my-2">
+            Drop Us a Line
+        </h1>
+        <p class="text-gray-500 text-center text-lg my-2">
+            Reach out to us from our contact form and we will get back to you
+            shortly.
+        </p>
         <div class="grid grid-cols-2 gap-4 mx-[25%]">
             <input type="text" placeholder="First Name"
-                class="border my-2 py-3 mx-2 pl-4 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 ">
+                class="border my-2 py-3 mx-2 pl-4 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:placeholder:relative focus:placeholder:text-xs focus:placeholder:bottom-4" />
             <input type="text" placeholder="Last Name"
-                class="border my-2 py-3 mx-2 pl-4 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 ">
+                class="border my-2 py-3 mx-2 pl-4 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:placeholder:relative focus:placeholder:text-xs focus:placeholder:bottom-4" />
             <input type="email" placeholder="Email"
-                class="border my-2 py-3 mx-2 pl-4 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 ">
+                class="border my-2 py-3 mx-2 pl-4 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:placeholder:relative focus:placeholder:text-xs focus:placeholder:bottom-4" />
             <select name="message" id="message"
-                class="border my-2 py-3 mx-2 pl-4 text-gray-500 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 ">
+                class="border my-2 py-3 mx-2 pl-4 text-gray-500 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500">
                 <option value="" disabled selected>Select a department</option>
                 <option value="general">Sales</option>
                 <option value="support">Marketing</option>
                 <option value="feedback">Customer Support</option>
             </select>
             <textarea name="message" id="message"
-                class="col-span-2 h-40 border my-2 py-3 mx-2 pl-4 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 "
+                class="col-span-2 h-40 border my-2 py-3 mx-2 pl-4 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:placeholder:relative focus:placeholder:text-xs focus:placeholder:bottom-3"
                 placeholder="Your Message"></textarea>
         </div>
         <div class="flex flex-col justify-center items-center my-4">
             <button
-                class="bg-blue-600 px-4 py-2 text-white font-semibold border border-blue-500 rounded-full transition hover:-translate-y-1 hover:shadow-lg">Send
-                message</button>
+                class="bg-blue-600 px-4 py-2 text-white font-semibold border border-blue-500 rounded-full transition hover:-translate-y-1 hover:shadow-lg">
+                Send message
+            </button>
             <p class="text-gray-500 py-2">* These fields are required.</p>
         </div>
     </form>
 
     <!-- footer  -->
-    <footer class="flex justify-around py-20 px-12 bg-gray-800">
+    <footer class="flex mt-24 justify-around py-20 px-12 bg-gray-800">
         <div class="w-[250px] mb-6">
-            <img class="h-6 mb-2 invert brightness-50" src="imgs/logo_01.png" alt="Logo">
-            <span class="text-gray-300">&copy; 2024 Sandbox.</span> <br>
+            <img class="h-6 mb-2 mt-2" src="./imgs/logo_light.png" alt="Logo" />
+            <span class="text-gray-300">&copy; 2024 Sandbox.</span> <br />
             <span class="text-gray-300">All rights reserved.</span>
             <ul class="flex space-x-5 mt-4 items-center">
-                <li><a href="#"><i class="fa-brands fa-twitter text-white transition hover:-translate-y-1"></i></a>
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter text-white transition hover:-translate-y-1"></i></a>
                 </li>
-                <li><a href="#"><i
-                            class="fa-brands fa-facebook-f text-white transition hover:-translate-y-1"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-basketball text-white transition hover:-translate-y-1"></i></a>
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f text-white transition hover:-translate-y-1"></i></a>
                 </li>
-                <li><a href="#"><i
+                <li>
+                    <a href="#"><i class="fa-solid fa-basketball text-white transition hover:-translate-y-1"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i
                             class="fa-brands fa-instagram text-white text-lg transition hover:-translate-y-1"></i></a>
                 </li>
-                <li><a href="#"><i class="fa-brands fa-youtube text-white transition hover:-translate-y-1"></i></a>
+                <li>
+                    <a href="#"><i class="fa-brands fa-youtube text-white transition hover:-translate-y-1"></i></a>
                 </li>
             </ul>
         </div>
-
         <div class="w-[250px] mb-6">
-            <h1 class="text-xl text-gray-300 font-semibold mb-2">Get in Touch</h1>
+            <h1 class="text-xl text-white font-semibold mb-2">Get in Touch</h1>
             <address class="not-italic text-gray-300 mb-2">
-                Moonshine St. 14/05<br>
-                Light City, London,<br>
+                Moonshine St. 14/05<br />
+                Light City, London,<br />
                 United Kingdom
             </address>
             <a href="mailto:info@email.com" class="mt-4 text-gray-300 hover:text-blue-500">info@email.com</a>
@@ -103,7 +172,7 @@
         </div>
 
         <div class="w-[250px] mb-6">
-            <h1 class="text-xl text-gray-300 font-semibold mb-2">Learn More</h1>
+            <h1 class="text-xl text-white font-semibold mb-2">Learn More</h1>
             <ul class="space-y-1 text-gray-300">
                 <li><a class="hover:text-blue-500" href="#">About Us</a></li>
                 <li><a class="hover:text-blue-500" href="#">Our Story</a></li>
@@ -114,17 +183,18 @@
         </div>
 
         <div class="w-[250px] mb-6">
-            <h1 class="text-xl text-gray-300 font-semibold mb-2">Our Newsletter</h1>
-            <p class="text-gray-300 mb-2">Subscribe to our newsletter to get our news & deals delivered to you.</p>
-            <div class="flex my-8 text-gray-100">
+            <h1 class="text-xl text-white font-semibold mb-2">Our Newsletter</h1>
+            <p class="text-gray-300 mb-2">
+                Subscribe to our newsletter to get our news & deals delivered to you.
+            </p>
+            <div class="flex my-8">
                 <input type="email" placeholder="Email Address"
-                    class="px-4 py-3 border border-gray-600 rounded-l-lg focus:outline-none focus:border-blue-900 focus:rounded-none focus:placeholder:relative focus:placeholder:bottom-4 focus:placeholder:text-xs">
+                    class="px-4 py-3 bg-gray-700 border border-gray-600 rounded-l-lg focus:outline-none focus:border-blue-900 focus:rounded-none focus:placeholder:relative focus:placeholder:bottom-4 w-[180px] h-[50px] focus:placeholder:text-xs" />
                 <a href=""
-                    class="px-6 py-3 bg-blue-500 text-white border border-blue-500 rounded-r-lg hover:shadow-lg">Join</a>
+                    class="px-6 py-3 bg-blue-500 text-white border border-blue-500 rounded-r-lg hover:shadow-lg font-bold">Join</a>
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
