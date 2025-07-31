@@ -241,3 +241,30 @@
         content: "4523";
     }
 }
+
+/* .carousel-track {
+    transition: transform 0.6s ease-in-out;
+} */
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.scroll-animation {
+    animation: scrollRight 30s linear infinite;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 250px;
+}
+
+.scroll-track:hover {
+    animation-play-state: paused;
+}
