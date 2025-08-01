@@ -1,0 +1,11 @@
+<div>
+    @livewire('partials.home-page.hero')
+    @livewire('partials.home-page.feature')
+    @livewire('partials.home-page.marketing')
+    @livewire('partials.home-page.highlights')
+    @livewire('partials.home-page.case-studies')
+    @livewire('partials.home-page.about')
+    @livewire('partials.home-page.vision')
+    @livewire('partials.home-page.contact')
+    @livewire('partials.home-page.community')
+</div>

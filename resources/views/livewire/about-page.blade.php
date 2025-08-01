@@ -1,0 +1,409 @@
+<div>
+    <section class="relative h-[100vh] w-full overflow-hidden">
+        <img class="absolute inset-0 w-full h-full object-cover" src="./images/about.jpg">
+        <div class="absolute inset-0 bg-black/60 z-10"></div>
+        <div class="relative z-20 text-center space-y-4 flex flex-col justify-center items-center h-[80vh] text-white">
+            <h2 class="text-7xl font-bold">About Us</h2>
+            <p class="text-2xl">A company turning ideas into beautiful things.</p>
+        </div>
+    </section>
+
+    <!-- Who are We (identity section) -->
+    <section class="px-16 py-32">
+        <div class="flex justify-between items-center gap-8 ">
+            <div class="w-[45%] space-y-7">
+                <img class="h-20 w-24" src="./Images/favicon_01.png" alt="">
+                <h1 class="text-4xl text-gray-700 font-semibold">Who Are We?</h1>
+                <p class="text-xl text-gray-500">We are a digital and branding company that believes in the power of
+                    creative strategy and along with great design</p>
+                <p class="text-gray-500">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus. Cras justo
+                    odio,
+                    dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl
+                    consectetur et.</p>
+                <div class="flex gap-16">
+                    <div class="flex gap-3 justify-center items-start">
+                        <div class="bg-sky-200 rounded-full p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </div>
+                        <p class="text-gray-500">Aenean eu leo quam ornare <br> curabitur blandit tempus.</p>
+                    </div>
+                    <div class="flex gap-3 justify-center items-start">
+                        <div class="bg-sky-200 rounded-full p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </div>
+                        <p class="text-gray-500">Aenean eu leo quam ornare <br> curabitur blandit tempus.</p>
+                    </div>
+                </div>
+                <div class="flex gap-16">
+                    <div class="flex gap-3 justify-center items-start">
+                        <div class="bg-sky-200 rounded-full p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </div>
+                        <p class="text-gray-500">Aenean eu leo quam ornare <br> curabitur blandit tempus.</p>
+                    </div>
+                    <div class="flex gap-3 justify-center items-start">
+                        <div class="bg-sky-200 rounded-full p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </div>
+                        <p class="text-gray-500">Aenean eu leo quam ornare <br> curabitur blandit tempus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-end">
+                <img class="h-80 w-1/4 absolute right-72 top-270 rounded-xl" src="./Images/image_02.jpg" alt="">
+                <img class=" h-96 w-3/4 rounded-xl " src="./Images/image-01.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Working Step  -->
+    <section class="px-16 pt-16 pb-24">
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-18 w-22 mb-2" src="./Images/favicon_02.png" alt="">
+            <h1 class="text-4xl text-center font-medium text-gray-700">Here are 3 working steps to <br> organize our
+                business projects.</h1>
+        </div>
+        <div class="flex items-center pt-14">
+            <div class="space-y-7 w-[45%]">
+                <h1 class="text-3xl font-medium text-gray-700">How It Works?</h1>
+                <p class="text-xl text-gray-500">Find out everything you need to know and more about how we create our
+                    business process models.</p>
+                <p class="text-gray-500">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                    Etiam porta sem
+                    malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis
+                    risus eget urna mollis ornare.</p>
+                <p class="text-gray-500">Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula
+                    porta felis euismod
+                    semper. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis.
+                    Vestibulum id ligula porta felis.</p>
+                <button
+                    class="bg-blue-500 transition delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 px-6 py-3 text-white rounded-full">
+                    Learn More</button>
+            </div>
+            <div class="mx-auto w-2/5 space-y-7">
+                <!-- card-01 -->
+                <div
+                    class="border border-gray-200 rounded-xl p-6 flex justify-start items-center gap-4 shadow-lg delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105">
+                    <p class="bg-blue-100 text-blue-600 p-4 rounded-full text-xl font-bold">01</p>
+                    <div class="space-y-2">
+                        <h5 class="text-xl font-medium">Collect Ideas</h5>
+                        <p class="text-gray-500">Nulla vitae elit libero pharetra augue dapibus.</p>
+                    </div>
+                </div>
+
+                <!-- card-02  -->
+                <div
+                    class="relative left-20 border border-gray-200 rounded-xl p-6 flex justify-start items-center gap-4 shadow-lg delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105">
+                    <p class="bg-blue-100 text-blue-600 p-4 rounded-full text-xl font-bold">02</p>
+                    <div class="space-y-2">
+                        <h5 class="text-xl font-medium">Data Analysis</h5>
+                        <p class="text-gray-500">Vivamus sagittis lacus vel augue laoreet.</p>
+                    </div>
+                </div>
+
+                <!-- card -03  -->
+                <div
+                    class="relative left-5 border border-gray-200 rounded-xl p-6 flex justify-start items-center gap-4 shadow-lg delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105">
+                    <p class="bg-blue-100 text-blue-600 p-4 rounded-full text-xl font-bold">03</p>
+                    <div class="space-y-2">
+                        <h5 class="text-xl font-medium">Finalize Product</h5>
+                        <p class="text-gray-500">Cras mattis consectetur purus sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#EDF2FC]">
+        <div class="flex justify-center items-center gap-24">
+            <div class="pt-14 w-3/7">
+                <img class="" src="./Images/user.png" alt="">
+            </div>
+            <div class="pt-14 relative overflow-hidden">
+                <div id="slider" class="flex transition-transform duration-500 ease-in-out w-[300%]">
+                    <!-- Slide 1 -->
+                    <div>
+                        <P class="text-xl text-gray-500">“Vivamus sagittis lacus vel augue laoreet rutrum <br> faucibus
+                            dolor auctor. Vestibulum ligula porta felis <br>
+                            euismod semper. Cras justo odio consectetur nulla <br> dapibus curabitur blandit.”</P>
+                        <P class="text-xl font-medium pt-6 pb-2">Coriss Ambady</P>
+                        <P class="text-gray-500">Financial Analyst</P>
+                        <!-- </div>
+                        <P class="text-xl text-gray-500">“Vivamus sagittis lacus vel augue laoreet rutrum <br> faucibus
+                            dolor auctor. Vestibulum ligula porta felis <br>
+                            euismod semper. Cras justo odio consectetur nulla <br> dapibus curabitur blandit.”</P>
+                        <P class="text-xl font-medium pt-6 pb-2">Coriss Ambady</P>
+                        <P class="text-gray-500">Financial Analyst</P>
+                    </div> -->
+
+                        <!-- <div>
+                        <P class="text-xl text-gray-500">“Vivamus sagittis lacus vel augue laoreet rutrum <br> faucibus
+                            dolor auctor. Vestibulum ligula porta felis <br>
+                            euismod semper. Cras justo odio consectetur nulla <br> dapibus curabitur blandit.”</P>
+                        <P class="text-xl font-medium pt-6 pb-2">Coriss Ambady</P>
+                        <P class="text-gray-500">Financial Analyst</P>
+                    </div> -->
+                    </div>
+                    <!-- Navigation Dots -->
+                    <!-- <div class="flex justify-center mt-8 space-x-2">
+                    <button class="dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500" data-index="0"></button>
+                    <button class="dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500" data-index="1"></button>
+                    <button class="dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500" data-index="2"></button>
+                </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team details  -->
+    <section class="pb-14 pt-20">
+        <div>
+            <div class="flex flex-col justify-center items-center">
+                <img class="h-20 w-24 mb-2" src="./Images/favicon_03.png" alt="">
+                <h1 class="text-4xl text-center font-medium text-gray-700">Save your time and money by <br> choosing
+                    our
+                    professional team</h1>
+            </div>
+            <div class="bg-white flex items-center justify-center p-8 ">
+                <div class="relative w-full h-full py-10 px-20">
+                    <!-- Outer container with overflow hidden -->
+                    <div class="overflow-hidden">
+                        <!-- Scrolling wrapper -->
+                        <div class="flex space-x-8 animate-slide w-max">
+                            <!-- CARD 1 -->
+                            <div
+                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_04.jpg"
+                                    alt="Croiss Ambady">
+                                <h2 class="text-lg font-semibold text-gray-900">Croiss Ambady</h2>
+                                <p class="text-sm text-gray-400 my-2">FINANCIAL ANALYST</p>
+                                <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
+                                    morbi leo.</p>
+                                <div class="flex justify-center space-x-6 text-xl text-blue-500 mt-1">
+                                    <i
+                                        class="fab fa-twitter duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fa-brands fa-facebook-f duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fab fa-dribbble text-pink-500 duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                </div>
+                            </div>
+
+                            <!-- CARD 2 -->
+                            <div
+                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_06.jpg"
+                                    alt="Cory Zamora">
+                                <h2 class="text-lg font-semibold text-gray-900">Cory Zamora</h2>
+                                <p class="text-sm text-gray-400 my-2">MARKETING SPACIALIST</p>
+                                <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
+                                    morbi leo.</p>
+                                <div class="flex justify-center space-x-6 text-xl text-blue-500 mt-1">
+                                    <i
+                                        class="fab fa-twitter duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fa-brands fa-facebook-f duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fab fa-dribbble text-pink-500 duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                </div>
+                            </div>
+
+                            <!-- CARD 3 -->
+                            <div
+                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_05.jpg"
+                                    alt="Nikolas Brooten">
+                                <h2 class="text-lg font-semibold text-gray-900">Nikolas Brooten</h2>
+                                <p class="text-sm text-gray-400 my-2">SALES MANAGER</p>
+                                <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
+                                    morbi leo.</p>
+                                <div class="flex justify-center space-x-6 text-xl text-blue-500 mt-1">
+                                    <i
+                                        class="fab fa-twitter duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fa-brands fa-facebook-f duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fab fa-dribbble text-pink-500 duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                </div>
+                            </div>
+
+                            <!-- CARD 4 -->
+                            <div
+                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_08.jpg"
+                                    alt="Tom Geller">
+                                <h2 class="text-lg font-semibold text-gray-900">Tom Geller</h2>
+                                <p class="text-sm text-gray-400 my-2">INVESTMENT PLANNER</p>
+                                <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
+                                    morbi leo.</p>
+                                <div class="flex justify-center space-x-6 text-xl text-blue-500 mt-1">
+                                    <i
+                                        class="fab fa-twitter duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fa-brands fa-facebook-f duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fab fa-dribbble text-pink-500 duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                </div>
+                            </div>
+
+                            <!-- card - 05 -->
+                            <div
+                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_10.jpg"
+                                    alt="Nova Grac">
+                                <h2 class="text-lg font-semibold text-gray-900">Nova Grace</h2>
+                                <p class="text-sm text-gray-400 my-2">SALES SPECIALIST</p>
+                                <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
+                                    morbi leo.</p>
+                                <div class="flex justify-center space-x-6 text-xl text-blue-500 mt-1">
+                                    <i
+                                        class="fab fa-twitter duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fa-brands fa-facebook-f duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fab fa-dribbble text-pink-500 duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                </div>
+                            </div>
+
+                            <!-- card - 06  -->
+                            <div
+                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_07.jpg"
+                                    alt="Mr. Tony">
+                                <h2 class="text-lg font-semibold text-gray-900">Mr. Tony</h2>
+                                <p class="text-sm text-gray-400 my-2">FINANCIAL ANALYST</p>
+                                <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
+                                    morbi leo.</p>
+                                <div class="flex justify-center space-x-6 text-xl text-blue-500 mt-1">
+                                    <i
+                                        class="fab fa-twitter duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fa-brands fa-facebook-f duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fab fa-dribbble text-pink-500 duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                </div>
+                            </div>
+
+                            <!-- card - 07  -->
+                            <div
+                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_09.jpg"
+                                    alt="Mr. Tony">
+                                <h2 class="text-lg font-semibold text-gray-900">Nicolas rony</h2>
+                                <p class="text-sm text-gray-400 my-2">MARKETING ANALYST</p>
+                                <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
+                                    morbi leo.</p>
+                                <div class="flex justify-center space-x-6 text-xl text-blue-500 mt-1">
+                                    <i
+                                        class="fab fa-twitter duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fa-brands fa-facebook-f duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                    <i
+                                        class="fab fa-dribbble text-pink-500 duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join our team  -->
+    <section class="bg-[#EDF2FC] py-24">
+        <div class="flex justify-center items-center gap-16 mt-10">
+            <div class="text-center flex flex-col justify-center items-center">
+                <img class="h-20 w-20" src="./Images/favicon_04.png" alt="">
+                <p class="text-5xl font-semibold text-gray-700 pb-2 counter-7518 "></p>
+                <p class="text-gray-500">Completed Projects</p>
+            </div>
+            <div class="text-center flex flex-col justify-center items-center">
+                <img class="h-20 w-20" src="./Images/favicon_05.png" alt="">
+                <p class="text-5xl font-semibold text-gray-700 pb-2 counter-3472 "></p>
+                <p class="text-gray-500">Satisfied Customers</p>
+            </div>
+            <div class="text-center flex flex-col justify-center items-center">
+                <img class="h-20 w-20" src="./Images/favicon_06.png" alt="">
+                <p class="text-5xl font-semibold text-gray-700 pb-2 counter-2184 "></p>
+                <p class="text-gray-500">Expert Employees</p>
+            </div>
+            <div class="text-center flex flex-col justify-center items-center">
+                <img class="h-20 w-20" src="./Images/favicon_07.png" alt="">
+                <p class="text-5xl font-semibold text-gray-700 pb-2 counter-4523 "></p>
+                <p class="text-gray-500">Awards Won</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact  -->
+    <section class="py-28 angled-contact">
+        <div class="flex gap-10 justify-center items-center">
+            <div class="w-2/5">
+                <img class="rounded-xl" src="./Images/image_03.jpg" alt="">
+            </div>
+            <div class="pl-10 space-y-6">
+                <img class="h-20 w-20" src="./Images/favicon_08.png" alt="">
+                <h1 class="text-4xl text-left font-medium text-gray-700 mt-5 mb-10">Convinced yet? Let's make <br>
+                    something great together.</h1>
+                <!-- Address  -->
+                <div class="flex gap-10">
+                    <div class="text-blue-700 pt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="2.0" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h5 class="text-xl font-medium mb-2">Address</h5>
+                        <p class="text-gray-500">Moonshine St. 14/05 Light City, <br>
+                            London, United Kingdom</p>
+                    </div>
+                </div>
+                <!-- Phone  -->
+                <div class="flex gap-10">
+                    <div class="text-blue-700 pt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="2.0" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h5 class="text-xl font-medium mb-2">Phone</h5>
+                        <p class="text-gray-500">00 (123) 456 78 90</p>
+                    </div>
+                </div>
+                <!-- E-mail  -->
+                <div class="flex gap-10">
+                    <div class="text-blue-700 pt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="2.0" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h5 class="text-xl font-medium mb-2">E-mail</h5>
+                        <p class="text-gray-500">Sand@box.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
