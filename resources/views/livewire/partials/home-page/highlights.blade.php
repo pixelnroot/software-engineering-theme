@@ -1,6 +1,6 @@
-    <section class="mt-20 relative max-w-8xl  mx-4">
+    <section class="mt-20 relative  max-w-[1200px] mx-auto">
         <div
-            class="bg-blue-100 h-[458px] rounded-xl border w-full  px-24  flex flex-col md:flex-row pt-24 relative z-10">
+            class="bg-blue-100 h-[458px] rounded-xl  w-full  px-24  flex flex-col md:flex-row pt-24 relative z-10">
             <div class="mb-8 md:mb-0 md:mr-40">
                 <p class="text-4xl font-semibold text-gray-800 mb-2">We are proud of our works</p>
                 <p class="text-lg text-gray-600">We bring solutions to make life easier for our customers.</p>
@@ -26,7 +26,7 @@
         <!-- Testimonials -->
         <div class="relative z-20 -mt-36 flex flex-col  md:flex-row gap-6 justify-center ">
             <div
-                class="bg-white bg-white hover:scale-105 transition-transform duration-300 rounded-xl pt-16 shadow-lg p-6 h-[345px] w-full md:w-1/5 border-b-8 border-gray-400">
+                class=" bg-white hover:scale-105 transition-transform duration-300 rounded-xl pt-16 shadow-lg p-6 h-[345px] w-full md:w-1/5 border-b-8 border-gray-400">
                 <p class="text-gray-700 text-xl mb-4">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
                     auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
                 <div class="mt-4">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div
-                class="bg-white bg-white hover:scale-105 transition-transform duration-300 rounded-xl pt-16 shadow-lg p-6 w-full md:w-1/5 h-[345px] border-b-8 border-gray-400">
+                class=" bg-white hover:scale-105 transition-transform duration-300 rounded-xl pt-16 shadow-lg p-6 w-full md:w-1/5 h-[345px] border-b-8 border-gray-400">
                 <p class="text-gray-700 text-xl mb-4">“Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel
                     augue laoreet rutrum faucibus dolor eu rutrum. Nulla vitae libero.”</p>
                 <div class="mt-4">
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div
-                class="bg-white bg-white hover:scale-105 transition-transform duration-300 rounded-xl pt-16 shadow-lg p-6 w-full md:w-1/5 h-[345px] border-b-8 border-gray-400">
+                class=" bg-white hover:scale-105 transition-transform duration-300 rounded-xl pt-16 shadow-lg p-6 w-full md:w-1/5 h-[345px] border-b-8 border-gray-400">
                 <p class="text-gray-700 text-xl mb-4">“Etiam adipiscing tincidunt elit convallis felis suscipit ut.
                     Phasellus rhoncus eu tincidunt auctor nullam rutrum, pharetra augue.”</p>
                 <div class="mt-4">

@@ -1,4 +1,4 @@
-<div>
+<div class="max-w-[1200px] mx-auto">
     <div>
         <div class="flex flex-col  cursor-pointer mt-4 w-full ">
             <div class=" flex flex-col justify-center items-center ">
@@ -6,13 +6,13 @@
                     class="text-5xl font-bold flex items-center text-gray-700 mt-4 justify-center
              text-center">
                     Our Projects</p>
-                <p class="text-gray-500 text-xl font-semibold  text-center mx-40 mt-4">Check out some of Our
+                <p class="text-gray-500 text-xl font-semibold  text-center  mt-4">Check out some of Our
                     recent work and decide yourself.
                 </p>
             </div>
         </div>
     </div>
-    <div class="mt-12 flex justify-between mx-20">
+    <div class="mt-12 flex justify-between ">
         <div class="w-[420px] h-[460px] shadow-md flex flex-col">
             <div>
                 <img src="imgs/projects/code.jpg" class="w-[420px] h-[236px]" alt="">

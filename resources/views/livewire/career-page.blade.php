@@ -1,4 +1,4 @@
-<div>
+<div class="max-w-[1200px]">
     <div>
         <div class="flex flex-col  cursor-pointer mt-4 w-full ">
             <div class=" flex flex-col justify-center items-center ">
@@ -27,7 +27,7 @@
                 <p class="mt-2 text-gray-600">
                     We are thrilled to introduce the newest members of our team. Each individual
                     brings a wealth of experience to our organization.</p>
-                <ul class="flex flex-row space-x-4 my-auto space-x-5 items-center mt-2">
+                <ul class="flex flex-row space-x-5 my-auto items-center mt-2">
                     <li><a href="#"><i
                                 class="fa-brands fa-linkedin-in text-blue-500 transition ease-in-out hover:-translate-y-1"></i></a>
                     </li>
@@ -51,7 +51,7 @@
                 <p class="mt-2 text-gray-600">
                     I have dedicated myself to pushing our limits
                     to ensure the success of our platform. We have worked tirelessly to create a tool.</p>
-                <ul class="flex flex-row space-x-4 my-auto space-x-5 items-center mt-2">
+                <ul class="flex flex-row space-x-4 my-auto  items-center mt-2">
                     <li><a href="#"><i
                                 class="fa-brands fa-linkedin-in text-blue-500 transition ease-in-out hover:-translate-y-1"></i></a>
                     </li>
@@ -77,7 +77,7 @@
                 <p class="mt-2 text-gray-600">
                     Our relentless commitment to innovation and excellence drives us to continually enhance Pagedone.
                 </p>
-                <ul class="flex flex-row space-x-4 my-auto space-x-5 items-center mt-2">
+                <ul class="flex flex-row space-x-4 my-auto  items-center mt-2">
                     <li><a href="#"><i
                                 class="fa-brands fa-linkedin-in text-blue-500 transition ease-in-out hover:-translate-y-1"></i></a>
                     </li>
@@ -101,7 +101,7 @@
                 <p class="mt-2 text-gray-600">
                     We are dedicated to consistently improving our platform to meet the evolving needs of busy
                     professionals.</p>
-                <ul class="flex flex-row space-x-4 my-auto space-x-5 items-center mt-2">
+                <ul class="flex flex-row space-x-4 my-auto  items-center mt-2">
                     <li><a href="#"><i
                                 class="fa-brands fa-linkedin-in text-blue-500 transition ease-in-out hover:-translate-y-1"></i></a>
                     </li>

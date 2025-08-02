@@ -1,4 +1,4 @@
-  <div>
+  <div class="max-w-[1200px] mx-auto">
       <div class="flex items-center mx-32 gap-16 justify-around">
           <img class="flex-1 h-screen" src="imgs/image_02.png" alt="">
           <div class="flex-1 flex-col items-start justify-center space-y-4">
@@ -31,30 +31,24 @@
               </div>
           </div>
       </div>
-      <div class="flex md:flex-row flex-col max-w-9xl mx-[80px] bg-white  rounded-xl overflow-hidden mt-12">
-          <div class="md:w-5/12 p-6 flex flex-col justify-center">
-              <p class="text-red-500 font-bold tracking-wide uppercase mb-2">WHAT MAKES US DIFFERENT?</p>
-              <p class="text-4xl mt-2 font-semibold text-gray-700 mr-12 leading-tight">We make spending stress free so
-                  you
-                  have the perfect control.</p>
-              <p class="text-gray-500 font-semibold text-lg mr-8 mt-4">Etiam porta sem malesuada magna mollis euismod.
-                  Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac,
-                  vestibulum
-                  at eros. Fusce dapibus, tellus ac cursus. Integer posuere erat a ante venenatis dapibus posuere velit.
-              </p>
-              <ul class="text-gray-500 font-semibold text-lg mt-6 space-y-2 list-disc list-inside">
-                  <li>Aenean eu leo quam. Pellentesque ornare</li>
-                  <li>Nullam quis risus eget urna mollis ornare.</li>
-                  <li>Donec id elit non mi porta gravida at eget.</li>
-              </ul>
-          </div>
-          <div
+    <div class="flex flex-col md:flex-row max-w-9xl mx-4 md:mx-20 bg-white rounded-xl overflow-hidden mt-12">
+        <div class="md:w-5/12 w-full p-4 md:p-6 flex flex-col justify-center">
+            <p class="text-red-500 font-bold tracking-wide uppercase mb-2">WHAT MAKES US DIFFERENT?</p>
+            <p class="text-2xl md:text-4xl mt-2 font-semibold text-gray-700 md:mr-12 leading-tight">We make spending stress free so you have the perfect control.</p>
+            <p class="text-gray-500 font-semibold text-base md:text-lg md:mr-8 mt-4">Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus. Integer posuere erat a ante venenatis dapibus posuere velit.</p>
+            <ul class="text-gray-500 font-semibold text-base md:text-lg mt-6 space-y-2 list-disc list-inside">
+                <li>Aenean eu leo quam. Pellentesque ornare</li>
+                <li>Nullam quis risus eget urna mollis ornare.</li>
+                <li>Donec id elit non mi porta gravida at eget.</li>
+            </ul>
+        </div>
+        <div
               class=" lg:w-6/12 w-full flex-[0_0_auto]  lg:!px-[20px] md:!px-[20px] !px-[15px]
-        max-w-full  lg:!ml-[8.33333333%]  lg:!order-2 !relative !mt-[50px] ">
-              <img src="imgs/happycustomer1.jpeg" alt="Happy Customer"
+        max-w-full  lg:!ml-[8.33333333%] hidden md:block lg:!order-2 !relative !mt-[50px] ">
+              <img src="./happycustomer.jpg" alt="Happy Customer"
                   class="w-[625px] h-[590px] object-cover rounded-r-xl z-1">
               <div class="absolute shadow-lg z-10 bg-white rounded-xl flex items-center py-4 px-5"
-                  style="top: 15%; left: -7%; width: 207px; height: 99px;">
+                  style="top: 15%; left: -7%; width: 207px; height: 99px">
                   <img src="https://sandbox-tailwind-template.netlify.app/assets/img/icons/solid/cloud-group.svg"
                       alt="Cloud Group Icon" class="w-9 h-9 mr-4" />
                   <div>
@@ -89,6 +83,5 @@
               </div>
 
           </div>
-
-      </div>
+    </div>
   </div>
