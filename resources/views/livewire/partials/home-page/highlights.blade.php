@@ -24,42 +24,107 @@
             </div>
         </div>
         <!-- Testimonials -->
-        <div class="relative z-20 -mt-36 flex flex-col  md:flex-row gap-6 justify-center ">
-            <div
-                class=" bg-white hover:scale-105 transition-transform duration-300 rounded-xl pt-16 shadow-lg p-6 h-[345px] w-full md:w-1/5 border-b-8 border-gray-400">
-                <p class="text-gray-700 text-xl mb-4">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-                    auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
-                <div class="mt-4">
-                    <p class="font-semibold text-gray-800">Coriss Ambady</p>
-                    <p class="text-gray-500 text-sm">Financial Analyst</p>
+        <div class="relative z-20 -mt-36 flex flex-col mx-14  md:flex-row gap-6 justify-center ">
+                <div
+                        class="bg-white hover:shadow-2xl transition-transform duration-300 hover:scale-105 
+                            rounded-2xl p-8 h-[350px] w-full md:w-1/4 border border-blue-200 flex flex-col justify-between">
+
+                        <!-- Top Section: Title & Stars -->
+                    <div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-2">Best Performance</h3>
+                        <div class="flex items-center mb-4">
+                            <!-- 5 stars (SVG or Unicode) -->
+                            <span class="text-yellow-400 text-lg">★★★★★</span>
+                        </div>
+
+                        <!-- Testimonial Text -->
+                        <p class="text-gray-700 text-base italic leading-relaxed">
+                            “Our team not only exceeded expectations but also delivered results well ahead of schedule. 
+                            The commitment to excellence truly stood out.”
+                        </p>
+                    </div>
+
+                    <!-- Bottom Section: Author Info -->
+                    <div class="flex items-center gap-3 mt-4">
+                        <!-- Optional avatar -->
+                      
+                        <div>
+                            <p class="font-semibold text-blue-900">Coriss Ambady</p>
+                            <p class="text-blue-600 text-sm">Financial Analyst </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div
-                class="bg-white hover:scale-105 transition-transform duration-300 rounded-xl pt-16 shadow-lg p-6 h-[345px] w-full md:w-1/5 border-b-8 border-gray-400">
-                <p class="text-gray-700 text-xl mb-4">“Fusce dapibus, tellus ac cursus tortor mauris condimentum
-                    fermentum massa justo sit amet purus sit amet fermentum.”</p>
-                <div class="mt-4">
-                    <p class="font-semibold text-gray-800">Cory Zamora</p>
-                    <p class="text-gray-500 text-sm">Marketing Specialist</p>
+
+               <div
+                    class="bg-white hover:shadow-2xl transition-transform duration-300 hover:scale-105
+                        rounded-2xl p-8 h-[350px] w-full md:w-1/4 border border-blue-200 flex flex-col justify-between">
+                    <!-- Title & Stars -->
+                    <div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-2"> Results</h3>
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400 text-lg">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700 text-base italic leading-relaxed">
+                        “Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum
+                        massa justo sit amet purus sit amet fermentum.”
+                    </p>
+                    </div>
+
+                    <!-- Author -->
+                    <div class="flex items-center gap-3 mt-4">
+                    <div>
+                        <p class="font-semibold text-blue-900">Cory Zamora</p>
+                        <p class="text-blue-600 text-sm">Marketing Specialist</p>
+                    </div>
+                    </div>
                 </div>
-            </div>
-            <div
-                class=" bg-white hover:scale-105 transition-transform duration-300 rounded-xl pt-16 shadow-lg p-6 w-full md:w-1/5 h-[345px] border-b-8 border-gray-400">
-                <p class="text-gray-700 text-xl mb-4">“Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel
-                    augue laoreet rutrum faucibus dolor eu rutrum. Nulla vitae libero.”</p>
-                <div class="mt-4">
-                    <p class="font-semibold text-gray-800">Nikolas Brooten</p>
-                    <p class="text-gray-500 text-sm">Sales Manager</p>
+
+           
+                <div
+                    class="bg-white hover:shadow-2xl transition-transform duration-300 hover:scale-105
+                        rounded-2xl p-8 h-[350px] w-full md:w-1/4 border border-blue-200 flex flex-col justify-between">
+                    <div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-2"> Leadership</h3>
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400 text-lg">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700 text-base italic leading-relaxed">
+                        “Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue
+                        laoreet rutrum faucibus dolor eu rutrum. Nulla vitae libero.”
+                    </p>
+                    </div>
+
+                    <div class="flex items-center gap-3 mt-4">
+
+                    <div>
+                        <p class="font-semibold text-blue-900">Nikolas Brooten</p>
+                        <p class="text-blue-600 text-sm">Sales Manager </p>
+                    </div>
+                    </div>
                 </div>
-            </div>
-            <div
-                class=" bg-white hover:scale-105 transition-transform duration-300 rounded-xl pt-16 shadow-lg p-6 w-full md:w-1/5 h-[345px] border-b-8 border-gray-400">
-                <p class="text-gray-700 text-xl mb-4">“Etiam adipiscing tincidunt elit convallis felis suscipit ut.
-                    Phasellus rhoncus eu tincidunt auctor nullam rutrum, pharetra augue.”</p>
-                <div class="mt-4">
-                    <p class="font-semibold text-gray-800">Coriss Ambady</p>
-                    <p class="text-gray-500 text-sm">Financial Analyst</p>
+
+            
+                <div
+                    class="bg-white hover:shadow-2xl transition-transform duration-300 hover:scale-105
+                        rounded-2xl p-8 h-[350px] w-full md:w-1/4 border border-blue-200 flex flex-col justify-between">
+                    <div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-2"> Support</h3>
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400 text-lg">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700 text-base italic leading-relaxed">
+                        “Etiam adipiscing tincidunt elit convallis felis suscipit ut.
+                        Phasellus rhoncus eu tincidunt auctor nullam rutrum, pharetra augue.”
+                    </p>
+                    </div>
+
+                    <div class="flex items-center gap-3 mt-4">
+
+                    <div>
+                        <p class="font-semibold text-blue-900">Coriss Ambady</p>
+                        <p class="text-blue-600 text-sm">Financial Analyst</p>
+                    </div>
+                    </div>
                 </div>
-            </div>
         </div>
     </section>
