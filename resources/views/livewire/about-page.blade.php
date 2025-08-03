@@ -1,6 +1,6 @@
 <div>
-    <section class="relative h-[100vh] w-full overflow-hidden">
-        <img class="absolute inset-0 w-full h-full object-cover" src="./images/about.jpg">
+    <section class="relative h-[90vh] w-full overflow-hidden">
+        <img class="absolute inset-0 w-full h-full object-cover" src="{{ asset('storage/images/about/about.jpg') }}">
         <div class="absolute inset-0 bg-black/60 z-10"></div>
         <div class="relative z-20 text-center space-y-4 flex flex-col justify-center items-center h-[80vh] text-white">
             <h2 class="text-7xl font-bold">About Us</h2>
@@ -12,7 +12,7 @@
     <section class="px-16 py-32">
         <div class="flex justify-between items-center gap-8 ">
             <div class="w-[45%] space-y-7">
-                <img class="h-20 w-24" src="./Images/favicon_01.png" alt="">
+                <img class="h-20 w-24" src="{{ asset('storage/images/about/favicon_01.png') }}" alt="">
                 <h1 class="text-4xl text-gray-700 font-semibold">Who Are We?</h1>
                 <p class="text-xl text-gray-500">We are a digital and branding company that believes in the power of
                     creative strategy and along with great design</p>
@@ -63,8 +63,8 @@
                 </div>
             </div>
             <div class="flex justify-end">
-                <img class="h-80 w-1/4 absolute right-72 top-270 rounded-xl" src="./Images/image_02.jpg" alt="">
-                <img class=" h-96 w-3/4 rounded-xl " src="./Images/image-01.jpg" alt="">
+                <img class="h-80 w-1/4 absolute right-72 top-270 rounded-xl" src="{{ asset('storage/images/about/image_01.jpg') }}" alt="">
+                <img class=" h-96 w-3/4 rounded-xl " src="{{ asset('storage/images/about/image_02.jpg') }}" alt="">
             </div>
         </div>
     </section>
@@ -72,7 +72,7 @@
     <!-- Working Step  -->
     <section class="px-16 pt-16 pb-24">
         <div class="flex flex-col justify-center items-center">
-            <img class="h-18 w-22 mb-2" src="./Images/favicon_02.png" alt="">
+            <img class="h-18 w-22 mb-2" src="{{ asset('storage/images/about/favicon_02.png') }}" alt="">
             <h1 class="text-4xl text-center font-medium text-gray-700">Here are 3 working steps to <br> organize our
                 business projects.</h1>
         </div>
@@ -130,7 +130,7 @@
     <section class="bg-[#EDF2FC]">
         <div class="flex justify-center items-center gap-24">
             <div class="pt-14 w-3/7">
-                <img class="" src="./Images/user.png" alt="">
+                <img class="" src="{{ asset('storage/images/about/user.png') }}" alt="">
             </div>
             <div class="pt-14 relative overflow-hidden">
                 <div id="slider" class="flex transition-transform duration-500 ease-in-out w-[300%]">
@@ -172,7 +172,7 @@
     <section class="pb-14 pt-20">
         <div>
             <div class="flex flex-col justify-center items-center">
-                <img class="h-20 w-24 mb-2" src="./Images/favicon_03.png" alt="">
+                <img class="h-20 w-24 mb-2" src="{{ asset('storage/images/about/favicon_03.png') }}" alt="">
                 <h1 class="text-4xl text-center font-medium text-gray-700">Save your time and money by <br> choosing
                     our
                     professional team</h1>
@@ -186,7 +186,7 @@
                             <!-- CARD 1 -->
                             <div
                                 class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_04.jpg"
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="{{ asset('storage/images/about/card_01.jpg') }}"
                                     alt="Croiss Ambady">
                                 <h2 class="text-lg font-semibold text-gray-900">Croiss Ambady</h2>
                                 <p class="text-sm text-gray-400 my-2">FINANCIAL ANALYST</p>
@@ -205,7 +205,7 @@
                             <!-- CARD 2 -->
                             <div
                                 class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_06.jpg"
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="{{ asset('storage/images/about/card_02.jpg') }}"
                                     alt="Cory Zamora">
                                 <h2 class="text-lg font-semibold text-gray-900">Cory Zamora</h2>
                                 <p class="text-sm text-gray-400 my-2">MARKETING SPACIALIST</p>
@@ -224,7 +224,7 @@
                             <!-- CARD 3 -->
                             <div
                                 class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_05.jpg"
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="{{ asset('storage/images/about/card_03.jpg') }}"
                                     alt="Nikolas Brooten">
                                 <h2 class="text-lg font-semibold text-gray-900">Nikolas Brooten</h2>
                                 <p class="text-sm text-gray-400 my-2">SALES MANAGER</p>
@@ -243,7 +243,7 @@
                             <!-- CARD 4 -->
                             <div
                                 class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_08.jpg"
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="{{ asset('storage/images/about/card_04.jpg') }}"
                                     alt="Tom Geller">
                                 <h2 class="text-lg font-semibold text-gray-900">Tom Geller</h2>
                                 <p class="text-sm text-gray-400 my-2">INVESTMENT PLANNER</p>
@@ -262,7 +262,7 @@
                             <!-- card - 05 -->
                             <div
                                 class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_10.jpg"
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="{{ asset('storage/images/about/card_05.jpg') }}"
                                     alt="Nova Grac">
                                 <h2 class="text-lg font-semibold text-gray-900">Nova Grace</h2>
                                 <p class="text-sm text-gray-400 my-2">SALES SPECIALIST</p>
@@ -281,7 +281,7 @@
                             <!-- card - 06  -->
                             <div
                                 class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_07.jpg"
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="{{ asset('storage/images/about/card_06.jpg') }}"
                                     alt="Mr. Tony">
                                 <h2 class="text-lg font-semibold text-gray-900">Mr. Tony</h2>
                                 <p class="text-sm text-gray-400 my-2">FINANCIAL ANALYST</p>
@@ -300,7 +300,7 @@
                             <!-- card - 07  -->
                             <div
                                 class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_09.jpg"
+                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="{{ asset('storage/images/about/card_07.jpg') }}"
                                     alt="Mr. Tony">
                                 <h2 class="text-lg font-semibold text-gray-900">Nicolas rony</h2>
                                 <p class="text-sm text-gray-400 my-2">MARKETING ANALYST</p>
@@ -326,22 +326,22 @@
     <section class="bg-[#EDF2FC] py-24">
         <div class="flex justify-center items-center gap-16 mt-10">
             <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="./Images/favicon_04.png" alt="">
+                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_04.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-7518 "></p>
                 <p class="text-gray-500">Completed Projects</p>
             </div>
             <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="./Images/favicon_05.png" alt="">
+                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_05.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-3472 "></p>
                 <p class="text-gray-500">Satisfied Customers</p>
             </div>
             <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="./Images/favicon_06.png" alt="">
+                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_06.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-2184 "></p>
                 <p class="text-gray-500">Expert Employees</p>
             </div>
             <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="./Images/favicon_07.png" alt="">
+                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_07.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-4523 "></p>
                 <p class="text-gray-500">Awards Won</p>
             </div>
@@ -352,10 +352,10 @@
     <section class="py-28 angled-contact">
         <div class="flex gap-10 justify-center items-center">
             <div class="w-2/5">
-                <img class="rounded-xl" src="./Images/image_03.jpg" alt="">
+                <img class="rounded-xl" src="{{ asset('storage/images/about/contact.jpg') }}" alt="">
             </div>
             <div class="pl-10 space-y-6">
-                <img class="h-20 w-20" src="./Images/favicon_08.png" alt="">
+                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_08.png') }}" alt="">
                 <h1 class="text-4xl text-left font-medium text-gray-700 mt-5 mb-10">Convinced yet? Let's make <br>
                     something great together.</h1>
                 <!-- Address  -->
