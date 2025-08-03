@@ -1,4 +1,4 @@
-<div>
+<div class="max-w-[1200px] mx-auto">
     <div>
         <div class="flex flex-col  cursor-pointer mt-4 w-full ">
             <div class=" flex flex-col justify-center items-center ">
@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-    <div class="mt-12 flex justify-between mx-20">
+    <div class="mt-12 flex justify-between ">
         <div class="w-[420px] h-[460px] shadow-md flex flex-col">
             <div>
                 <img src="{{ asset('storage/images/project/code.jpg') }}" class="w-[420px] h-[236px]" alt="">
