@@ -1,6 +1,6 @@
   <div>
       <div class="flex items-center mx-32 gap-16 justify-around">
-          <img class="flex-1 h-screen" src="imgs/image_02.png" alt="">
+          <img class="flex-1 h-screen" src="{{ asset("storage/images/home/marketing.png") }}" alt="">
           <div class="flex-1 flex-col items-start justify-center space-y-4">
               <h4 class="text-lg font-semibold text-pink-500">Have Perfect Control</h4>
               <h1 class="text-4xl font-bold text-gray-700">We bring solutions to make life easier for our customers.</h1>
@@ -51,8 +51,8 @@
           <div
               class=" lg:w-6/12 w-full flex-[0_0_auto]  lg:!px-[20px] md:!px-[20px] !px-[15px]
         max-w-full  lg:!ml-[8.33333333%]  lg:!order-2 !relative !mt-[50px] ">
-              <img src="imgs/happycustomer1.jpeg" alt="Happy Customer"
-                  class="w-[625px] h-[590px] object-cover rounded-r-xl z-1">
+              <img src="{{ asset("storage/images/home/marketing_02.jpg") }}" alt="Happy Customer"
+                  class="w-[625px] h-[590px] object-cover rounded-xl z-1">
               <div class="absolute shadow-lg z-10 bg-white rounded-xl flex items-center py-4 px-5"
                   style="top: 15%; left: -7%; width: 207px; height: 99px;">
                   <img src="https://sandbox-tailwind-template.netlify.app/assets/img/icons/solid/cloud-group.svg"

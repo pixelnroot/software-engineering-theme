@@ -1,5 +1,5 @@
   <div class="flex items-center mx-30 gap-42 justify-around mb-32 mt-48">
-    <img class="flex-1" src="imgs/image_03.png" alt="">
+    <img class="flex-1" src="{{ asset("storage/images/home/contact.png") }}" alt="">
     <ul class="flex-1 flex-col items-start justify-center space-y-4">
       <li class="text-lg text-pink-500">CONTACT US</li>
       <li class="text-4xl font-semibold text-gray-700 mb-12">Got any questions? Don't hesitate to get in touch.</li>
@@ -17,8 +17,8 @@
           <p class="text-gray-600 ">00 (123) 456 78 90</p>
         </span>
       </li>
-      <li class="flex"><i class="fa-solid fa-envelope text-pink-500 text-3xl mt-1 -mr-2"><i
-            class="fa-solid fa-envelope text-3xl pr-1 rounded-lg bg-white text-purple-700 relative right-10 bottom-2"></i></i>
+      <li class="flex"><i class="fa-solid fa-envelope text-pink-500 text-3xl mt-1 mr-2"><i
+            class="fa-solid fa-envelope text-3xl rounded-lg bg-white text-purple-700 relative right-10 bottom-2"></i></i>
         <span class="flex-1 space-y-1">
           <h1 class="text-gray-800 text-xl font-semibold">E-mail</h1>
           <a href="mailto:sandbox@email.com" class="mt-4 text-gray-600">sandbox@email.com</a>
