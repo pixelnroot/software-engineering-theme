@@ -1,29 +1,29 @@
     <section class="mt-20 relative max-w-[1200px]  mx-auto">
         <div
-            class="bg-blue-100 rounded-xl w-full px-6 md:px-24 flex flex-col md:flex-row pt-12 md:pt-24 relative z-10 h-[458px]">
+            class="bg-blue-100 rounded-xl w-full px-6 md:px-24 flex flex-col md:flex-row pt-6 md:pt-20 relative z-10 h-[500px] md:h-[458px]">
             <div class="mb-8 md:mb-0 md:mr-40 flex-shrink-0">
                 <p class="text-2xl md:text-4xl font-semibold text-gray-800 mb-2">We are proud of our works</p>
                 <p class="text-base md:text-lg text-gray-600">We bring solutions to make life easier for our customers.</p>
             </div>
             <div class="flex flex-col md:flex-row w-full">
-                <div class="flex-1 flex flex-col items-center md:border-r md:border-gray-300 px-4 md:px-8 mb-6 md:mb-0">
+                <div class="flex-1 flex flex-col items-center md:border-r md:border-gray-300 px-4 md:px-8 mb-4 md:mb-0">
                     <img src="imgs/bullseye-pointer.svg" class="h-8 w-8 mb-2" alt="Completed Projects">
                     <p class="text-2xl md:text-4xl font-bold text-gray-800">1000+</p>
                     <p class="text-gray-600 text-sm md:text-base">Completed Projects</p>
                 </div>
-                <div class="flex-1 flex flex-col items-center md:border-r md:border-gray-300 px-4 md:px-8 mb-6 md:mb-0">
+                <div class="flex-1 flex flex-col items-center md:border-r md:border-gray-300 px-4 md:px-8 mb-4 md:mb-0">
                     <img src="imgs/chart-line-up.svg" class="h-8 w-8 mb-2" alt="Revenue Growth">
                     <p class="text-2xl md:text-4xl font-bold text-gray-800">4x</p>
                     <p class="text-gray-600 text-sm md:text-base">Revenue Growth</p>
                 </div>
-                <div class="flex-1 flex flex-col items-center px-4 md:px-8 mb-6 md:mb-0">
+                <div class="flex-1 flex flex-col items-center px-4 md:px-8 mb-4 md:mb-0">
                     <img src="imgs/users-alt.svg" class="h-8 w-8 mb-2" alt="Customer Satisfaction">
                     <p class="text-2xl md:text-4xl font-bold text-gray-800">99.7%</p>
                     <p class="text-gray-600 text-sm md:text-base">Customer Satisfaction</p>
                 </div>
             </div>
         </div>    <!-- Testimonials -->
-        <div class="relative z-20 flex flex-col md:flex-row gap-8 justify-center mx-10 -mt-20">
+        <div class="relative z-20 flex flex-col md:flex-row gap-8 justify-center mx-10 -mt-12 md:-mt-20">
     <!-- Card 1 -->
     <div class="bg-white rounded-xl shadow-xl border-l-8 border-blue-400 p-8 hover:shadow-2xl transition duration-300 flex flex-col w-full md:w-1/4">
         <h3 class="text-xl font-bold text-gray-800 mb-2">Strong Leadership</h3>

@@ -1,10 +1,10 @@
-    <div class="flex flex-col mt-24 cursor-pointer">
+    <div class="flex flex-col mt-24 cursor-pointer max-w-[1200px] mx-auto">
         <div class=" flex flex-col justify-center items-center">
             <p class="text-gray-400 text-lg font-semibold uppercase ">Case Studies</p>
             <p class="text-4xl font-semibold flex items-center text-gray-800 mt-4 justify-center text-center">Check out
                 some of our awesome projects <br> with creative ideas and great design.</p>
         </div>
-        <div class="max-w-7xl flex flex-col md:flex-row items-stretch justify-between mx-4 md:mx-28 gap-8 mt-10">
+        <div class="max-w-7xl flex flex-col md:flex-row items-stretch justify-between mx-4 md:mx-12 gap-8 mt-10">
             <div class="rounded-xl overflow-hidden flex-1 flex flex-col ">
                 <div class="flex-1 flex flex-col group relative ">
                     <img src="imgs/office.jpg" alt="Case Study 1"
