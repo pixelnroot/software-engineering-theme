@@ -15,7 +15,7 @@
     <div class="mt-12 flex justify-between mx-20">
         <div class="w-[420px] h-[460px] shadow-md flex flex-col">
             <div>
-                <img src="imgs/projects/code.jpg" class="w-[420px] h-[236px]" alt="">
+                <img src="{{ asset('storage/images/project/code.jpg') }}" class="w-[420px] h-[236px]" alt="">
             </div>
             <div class="flex flex-col gap-4 mt-6 px-6">
                 <p class="text-2xl font-semibold text-gray-800">Web Developement</p>
@@ -31,7 +31,7 @@
         </div>
         <div class="w-[420px] h-[460px] shadow-md flex flex-col">
             <div>
-                <img src="imgs/projects/mobile-app.jpg" class="w-[420px] h-[236px]" alt="">
+                <img src="{{ asset('storage/images/project/mobile-app.jpg') }}" class="w-[420px] h-[236px]" alt="">
             </div>
             <div class="flex flex-col gap-4 mt-6 px-6">
                 <p class="text-2xl font-semibold text-gray-800">Mobile Application</p>
@@ -47,7 +47,7 @@
         </div>
         <div class="w-[420px] h-[460px] shadow-md flex flex-col">
             <div>
-                <img src="imgs/projects/e-commerce.jpg" class="w-[420px] h-[236px]" alt="">
+                <img src="{{ asset('storage/images/project/e-commerce.jpg') }}" class="w-[420px] h-[236px]" alt="">
             </div>
             <div class="flex flex-col gap-4 mt-6 px-6">
                 <p class="text-2xl font-semibold text-gray-800">E-commerce Platform</p>
