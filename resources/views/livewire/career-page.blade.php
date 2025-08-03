@@ -48,9 +48,9 @@
             </div>
         </div>
     </div>
-    <div class="flex flex-col md:flex-row gap-6 mt-16 mb-8 justify-between">
+    <div class="flex flex-col md:flex-row gap-6 mt-6 md:mt-16 mb-8 justify-between">
         <div class="flex flex-col md:flex-row w-full md:w-[600px] h-auto md:h-[200px] rounded-lg shadow-md gap-4">
-            <img src="{{ asset('storage/images/team/member3.jpg') }}" class="object-cover w-full md:w-[200px] h-[200px] md:h-auto rounded-lg" alt="">
+            <img src="{{ asset('storage/images/team/member3.jpg') }}" class="object-cover  w-full md:w-[200px] h-[200px] md:h-auto rounded-lg" alt="">
             <div class="mx-4 mt-4 md:mt-0">
                 <div class="flex flex-col md:flex-row justify-between w-full">
                     <p class="font-semibold text-lg">Noah Anderson</p>
