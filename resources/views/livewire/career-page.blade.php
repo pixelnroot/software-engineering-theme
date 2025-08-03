@@ -18,7 +18,7 @@
 
     <div class="flex md:flex-row flex-col gap- mt-16 mx-32 justify-between">
         <div class="flex w-[600px] h-[200px]  rounded-lg shadow-md  gap-4">
-            <img src="imgs/team/pro1.jpg" class="object-cover w-[200px] h-auto rounded-lg" alt="">
+            <img src="{{asset("storage/images/team/member1.jpg") }}" class="object-cover w-[200px] h-auto rounded-lg" alt="">
             <div class="mx-4">
                 <div class="flex  justify-between  w-full mt-4">
                     <p class="font-semibold text-lg">Noah Anderson</p>
