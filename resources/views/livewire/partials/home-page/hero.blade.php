@@ -11,5 +11,5 @@
         class="mt-8 px-6 py-4 text-lg text-white font-semibold bg-gradient-to-r from bg-pink-500 to-pink-600 rounded-lg transition ease-in-out hover:-translate-y-1 hover:shadow-lg">Explore
         Now</button>
     </div>
-    <img class="relative top-16" src="imgs/image_01.png" alt="">
+    <img class="relative top-16" src="{{ asset("storage/images/home/hero.png") }}" alt="">
   </div>

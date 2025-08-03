@@ -1,5 +1,5 @@
   <div class="flex items-center mx-30 gap-42 justify-around mb-32 mt-48">
-    <img class="flex-1" src="imgs/image_03.png" alt="">
+    <img class="flex-1" src="{{ asset("storage/images/home/contact.png") }}" alt="">
     <ul class="flex-1 flex-col items-start justify-center space-y-4">
       <li class="text-lg text-pink-500">CONTACT US</li>
       <li class="text-4xl font-semibold text-gray-700 mb-12">Got any questions? Don't hesitate to get in touch.</li>

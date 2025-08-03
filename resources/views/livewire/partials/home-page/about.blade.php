@@ -1,8 +1,8 @@
  <div class="flex items-center m-16 gap-16 justify-around -mb-8">
     <div class="flex-1 gap-4">
-      <img class="rounded-lg relative h-60 left-3 top-20" src="imgs/image_04.jpg" alt="">
-      <img class="rounded-lg relative h-50 left-91 bottom-30" src="imgs/image_05.jpg" alt="">
-      <img class="rounded-lg w-150 relative left-10 bottom-23 " src="imgs/image_06.jpg" alt="">
+      <img class="rounded-lg relative h-60 left-3 top-20" src="{{ asset("storage/images/home/teamwork_01.jpg") }}" alt="">
+      <img class="rounded-lg relative h-50 left-91 bottom-30" src="{{ asset("storage/images/home/teamwork_02.jpg") }}" alt="">
+      <img class="rounded-lg w-150 relative left-10 bottom-23 " src="{{ asset("storage/images/home/teamwork_03.jpg") }}" alt="">
     </div>
     <div class="flex-1 flex-col items-start justify-center space-y-4 relative">
       <h4 class="text-lg font-semibold text-pink-500">Who Are We?</h4>

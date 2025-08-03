@@ -18,8 +18,8 @@
                 <span class="text-gray-700 text-5xl font-semibold">5000+</span>
                 <span class="text-lg text-gray-600">Satisfied Customers</span>
             </div>
-            <img class="rounded-lg h-100 relative left-15 bottom-40" src="imgs/contact/image_07.jpg" alt="" />
-            <img class="rounded-lg h-60 relative left-107 bottom-93" src="imgs/contact/image_05.jpg" alt="" />
+            <img class="rounded-lg h-100 relative left-15 bottom-40" src="{{ asset("storage/images/contact/contact_page.jpg") }}" alt="" />
+            <img class="rounded-lg h-60 relative left-107 bottom-93" src="{{ asset("storage/images/contact/teamwork_02.jpg") }}" alt="" />
         </div>
         <div class="flex-2 flex-col items-start justify-center space-y-6">
             <h1 class="text-4xl font-semibold text-gray-700 mb-12">
@@ -37,14 +37,14 @@
                     </p>
                 </span>
             </div>
-            <div class="flex gap-4">
+            <div class="flex">
                 <i class="fa-solid fa-phone-volume text-blue-700 mt-2 text-2xl"></i>
                 <span class="flex-1 space-y-1">
                     <h1 class="text-gray-800 text-xl font-semibold">Phone</h1>
                     <p class="text-gray-600">+1 234 567 890</p>
                 </span>
             </div>
-            <div class="flex gap-4">
+            <div class="flex">
                 <i class="fa-solid fa-envelope text-blue-700 mt-2 text-2xl"></i>
 
                 <span class="flex-1 space-y-1">
