@@ -60,31 +60,46 @@
                     <p class="text-gray-500 text-md">Happy Clients</p>
                 </div>
             </div>
-
-            <div class="absolute shadow-lg z-10 bg-white rounded-xl flex items-center py-4 px-5"
+            <!-- Progress Card -->
+            <div class="absolute shadow-lg z-10 hidden md:flex bg-white rounded-xl items-center py-4 px-5"
                 style="bottom: 10%; left: -10%; width: 230px; height: 189px;">
                 <div class="p-6 w-[230px] h-[188px]">
                     <svg viewBox="0 0 100 50" style="display: block; width: 100%;">
-                        <path d="M 50,50 m -47,0 a 47,47 0 1 1 94,0" stroke="#eee" stroke-width="6" fill-opacity="0">
-                        </path>
+                        <path d="M 50,50 m -47,0 a 47,47 0 1 1 94,0" stroke="#eee" stroke-width="6" fill-opacity="0"></path>
                         <path d="M 50,50 m -47,0 a 47,47 0 1 1 94,0" stroke="#555" stroke-width="6" fill-opacity="0"
-                            style="stroke-dasharray: 147.708, 147.708; stroke-dashoffset: 29.5416;"> </path> == $0
+                            style="stroke-dasharray: 147.708, 147.708; stroke-dashoffset: 29.5416;"> </path>
                     </svg>
-                    <div class="progressbar-text" style="position: absolute; left: 50%; top: 35%; padding: 0px; margin: 0px; transform: translate(-50%, 0px);
-                     color: rgb(85, 85, 85); bottom: 0px;">
+                    <div class="progressbar-text"
+                        style="position: absolute; left: 50%; top: 35%; transform: translate(-50%, 0px); color: rgb(85, 85, 85);">
                         <p> <span class="text-4xl font-semibold">80</span> % </p>
-
                     </div>
-                    <div class="progressbar-text" style="position: absolute; left: 50%; top: 55%; padding: 0px; margin: 0px; transform: translate(-50%, 0px);
-                     color: rgb(85, 85, 85); bottom: 0px;">
+                    <div class="progressbar-text"
+                        style="position: absolute; left: 50%; top: 55%; transform: translate(-50%, 0px); color: rgb(85, 85, 85);">
                         <p class="text-xl font-semibold mt-2">Time Saved</p>
-
                     </div>
-
                 </div>
             </div>
-
+            <!-- Mobile Cards -->
+            <div class="md:hidden w-full flex flex-col gap-4 mt-4">
+                <div class="shadow-lg bg-white rounded-xl flex items-center py-4 px-5 w-full">
+                    <img src="https://sandbox-tailwind-template.netlify.app/assets/img/icons/solid/cloud-group.svg"
+                        alt="Cloud Group Icon" class="w-9 h-9 mr-4" />
+                    <div>
+                        <p class="font-semibold text-xl text-gray-700">25,000+</p>
+                        <p class="text-gray-500 text-md">Happy Clients</p>
+                    </div>
+                </div>
+                <div class="shadow-lg bg-white rounded-xl flex flex-col items-center py-4 px-5 w-full">
+                    <svg viewBox="0 0 100 50" style="display: block; width: 80px;">
+                        <path d="M 50,50 m -47,0 a 47,47 0 1 1 94,0" stroke="#eee" stroke-width="6" fill-opacity="0"></path>
+                        <path d="M 50,50 m -47,0 a 47,47 0 1 1 94,0" stroke="#555" stroke-width="6" fill-opacity="0"
+                            style="stroke-dasharray: 147.708, 147.708; stroke-dashoffset: 29.5416;"> </path>
+                    </svg>
+                    <p class="text-2xl font-semibold mt-2">80 %</p>
+                    <p class="text-lg font-semibold mt-1">Time Saved</p>
+                </div>
+            </div>
         </div>
 
-    </div>
-</div>
+      </div>
+  </div>

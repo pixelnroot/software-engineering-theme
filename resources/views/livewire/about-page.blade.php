@@ -1,104 +1,113 @@
 <div>
-    <section class="relative h-[100vh] w-full overflow-hidden">
-        <img class="absolute inset-0 w-full h-full object-cover" src="./images/about.jpg">
+    <section class="relative h-56 lg:h-[90vh] md:h-[70vh] w-full overflow-hidden lg:max-w-[1200px] mx-auto">
+        <img class="absolute inset-0 w-full h-full object-cover" src="{{ asset('storage/images/about/about.jpg') }}">
         <div class="absolute inset-0 bg-black/60 z-10"></div>
-        <div class="relative z-20 text-center space-y-4 flex flex-col justify-center items-center h-[80vh] text-white">
-            <h2 class="text-7xl font-bold">About Us</h2>
-            <p class="text-2xl">A company turning ideas into beautiful things.</p>
+        <div
+            class="relative z-20 text-center lg:space-y-4 md:space-y-4 space-y-2 flex flex-col justify-center items-center lg:h-[80vh] md:h-[80vh] h-[30vh] text-white">
+            <h2 class="text-2xl md:text-5xl lg:text-7xl font-bold">
+                About Us
+            </h2>
+            <p class="w-3/5 md:text-xl lg:text-2xl">A company turning ideas into beautiful things.
+            </p>
         </div>
     </section>
 
     <!-- Who are We (identity section) -->
-    <section class="px-16 py-32">
-        <div class="flex justify-between items-center gap-8 ">
-            <div class="w-[45%] space-y-7">
-                <img class="h-20 w-24" src="./Images/favicon_01.png" alt="">
-                <h1 class="text-4xl text-gray-700 font-semibold">Who Are We?</h1>
-                <p class="text-xl text-gray-500">We are a digital and branding company that believes in the power of
+    <section class="lg:px-10 md:px-10 lg:py-32 md:py-24 py-12 px-5 max-w-[1200px] mx-auto">
+        <div class="flex lg:flex-row flex-col justify-between items-center ">
+            <div
+                class="lg:w-[50%] lg:space-y-6 md:flex flex-col md:items-center md:space-y-6 space-y-3 lg:mb-0 md:mb-0 mb-6">
+                <img class="lg:h-20 lg:w-24 md:h-16 md:w-18 h-14 w-16"
+                    src="{{ asset('storage/images/about/favicon_01.png') }}" alt="">
+                <h1 class="lg:text-4xl md:text-3xl md:text-center text-2xl text-gray-700 font-semibold">Who Are We?</h1>
+                <p class="lg:text-xl md:text-xl text-lg text-gray-500">We are a digital and branding company that
+                    believes in the power of
                     creative strategy and along with great design</p>
                 <p class="text-gray-500">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                     ridiculus mus. Cras justo
                     odio,
                     dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl
                     consectetur et.</p>
-                <div class="flex gap-16">
+                <div class="lg:flex md:flex gap-16 lg:space-y-0 md:space-y-0 space-y-5">
                     <div class="flex gap-3 justify-center items-start">
-                        <div class="bg-sky-200 rounded-full p-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <div class="bg-sky-200 rounded-full p-1 mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-4">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </div>
-                        <p class="text-gray-500">Aenean eu leo quam ornare <br> curabitur blandit tempus.</p>
+                        <p class="text-gray-500">Aenean eu leo quam ornare curabitur blandit tempus.</p>
                     </div>
                     <div class="flex gap-3 justify-center items-start">
-                        <div class="bg-sky-200 rounded-full p-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <div class="bg-sky-200 rounded-full p-1 mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-4">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </div>
-                        <p class="text-gray-500">Aenean eu leo quam ornare <br> curabitur blandit tempus.</p>
+                        <p class="text-gray-500">Aenean eu leo quam ornare curabitur blandit tempus.</p>
                     </div>
                 </div>
-                <div class="flex gap-16">
+                <div class="lg:flex md:flex gap-16 lg:space-y-0 md:space-y-0 space-y-5">
                     <div class="flex gap-3 justify-center items-start">
-                        <div class="bg-sky-200 rounded-full p-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <div class="bg-sky-200 rounded-full p-1 mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-4">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </div>
-                        <p class="text-gray-500">Aenean eu leo quam ornare <br> curabitur blandit tempus.</p>
+                        <p class="text-gray-500">Aenean eu leo quam ornare curabitur blandit tempus.</p>
                     </div>
                     <div class="flex gap-3 justify-center items-start">
-                        <div class="bg-sky-200 rounded-full p-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <div class="bg-sky-200 rounded-full p-1 mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-4">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </div>
-                        <p class="text-gray-500">Aenean eu leo quam ornare <br> curabitur blandit tempus.</p>
+                        <p class="text-gray-500">Aenean eu leo quam ornare curabitur blandit tempus.</p>
                     </div>
                 </div>
             </div>
-            <div class="flex justify-end">
-                <img class="h-80 w-1/4 absolute right-72 top-270 rounded-xl" src="./Images/image_02.jpg" alt="">
-                <img class=" h-96 w-3/4 rounded-xl " src="./Images/image-01.jpg" alt="">
+            <div class="lg:flex md:flex justify-end lg:space-y-0 md:space-y-0 space-y-6 md:gap-5 md:mt-8">
+                <img class="lg:h-72 lg:w-1/5 md:w-[50%]  lg:absolute right-85 top-280 rounded-xl"
+                    src="{{ asset('storage/images/about/image_01.jpg') }}" alt="">
+                <img class=" lg:h-88 lg:w-3/4 md:w-[50%] rounded-xl "
+                    src="{{ asset('storage/images/about/image_02.jpg') }}" alt="">
             </div>
         </div>
     </section>
 
     <!-- Working Step  -->
-    <section class="px-16 pt-16 pb-24">
+    <section class="px-5 md:px-16 lg:px-16 lg:pt-16 pb-14 lg:pb-24 max-w-[1200px] mx-auto">
         <div class="flex flex-col justify-center items-center">
-            <img class="h-18 w-22 mb-2" src="./Images/favicon_02.png" alt="">
-            <h1 class="text-4xl text-center font-medium text-gray-700">Here are 3 working steps to <br> organize our
+            <img class="lg:h-20 lg:w-24 md:h-16 md:w-18 h-14 w-16 mb-2"
+                src="{{ asset('storage/images/about/favicon_02.png') }}" alt="">
+            <h1 class="lg:text-4xl md:text-3xl text-2xl text-center font-medium text-gray-700 lg:w-2/4 md:w-3/5">Here
+                are 3 working steps to organize our
                 business projects.</h1>
         </div>
-        <div class="flex items-center pt-14">
-            <div class="space-y-7 w-[45%]">
-                <h1 class="text-3xl font-medium text-gray-700">How It Works?</h1>
+        <div class="lg:flex lg:flex-row md:flex-col items-center pt-14 gap-12 md:gap-16">
+            <div class="lg:space-y-7 md:space-y-6 space-y-5 lg:w-[45%]">
+                <h1 class="lg:text-3xl md:text-2xl text-lg font-semibold text-gray-700">How It Works?</h1>
                 <p class="text-xl text-gray-500">Find out everything you need to know and more about how we create our
                     business process models.</p>
                 <p class="text-gray-500">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-                    Etiam porta sem
-                    malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis
-                    risus eget urna mollis ornare.</p>
+                    Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id
+                    elit. Nullam quis risus eget urna mollis ornare.</p>
                 <p class="text-gray-500">Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula
-                    porta felis euismod
-                    semper. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis.
-                    Vestibulum id ligula porta felis.</p>
+                    porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur
+                    est at lobortis. Vestibulum id ligula porta felis.</p>
                 <button
-                    class="bg-blue-500 transition delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 px-6 py-3 text-white rounded-full">
+                    class="bg-blue-500 transition delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 lg:px-6 md:px-6 md:py-3 lg:py-3 px-4 py-2 text-white rounded-full lg:mb-0 mb-4">
                     Learn More</button>
             </div>
-            <div class="mx-auto w-2/5 space-y-7">
+            <div class="mx-auto lg:space-y-8 md:space-y-7 space-y-6">
                 <!-- card-01 -->
                 <div
-                    class="border border-gray-200 rounded-xl p-6 flex justify-start items-center gap-4 shadow-lg delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105">
+                    class="border border-gray-200 rounded-xl lg:w-full md:w-4/5 p-7 flex justify-start items-center gap-4 shadow-lg delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105">
                     <p class="bg-blue-100 text-blue-600 p-4 rounded-full text-xl font-bold">01</p>
-                    <div class="space-y-2">
+                    <div class="space-y-2 ">
                         <h5 class="text-xl font-medium">Collect Ideas</h5>
                         <p class="text-gray-500">Nulla vitae elit libero pharetra augue dapibus.</p>
                     </div>
@@ -106,7 +115,7 @@
 
                 <!-- card-02  -->
                 <div
-                    class="relative left-20 border border-gray-200 rounded-xl p-6 flex justify-start items-center gap-4 shadow-lg delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105">
+                    class="relative left-0 lg:left-20 md:left-12 border border-gray-200 lg:w-full md:w-4/5 rounded-xl p-7 flex justify-start items-center gap-4 shadow-lg delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105">
                     <p class="bg-blue-100 text-blue-600 p-4 rounded-full text-xl font-bold">02</p>
                     <div class="space-y-2">
                         <h5 class="text-xl font-medium">Data Analysis</h5>
@@ -114,9 +123,9 @@
                     </div>
                 </div>
 
-                <!-- card -03  -->
+                <!-- card-03  -->
                 <div
-                    class="relative left-5 border border-gray-200 rounded-xl p-6 flex justify-start items-center gap-4 shadow-lg delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105">
+                    class="relative left-0 lg:left-5 md:left-24 border border-gray-200 lg:w-full md:w-4/5 rounded-xl p-7 flex justify-start items-center gap-4 shadow-lg delay-50 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105">
                     <p class="bg-blue-100 text-blue-600 p-4 rounded-full text-xl font-bold">03</p>
                     <div class="space-y-2">
                         <h5 class="text-xl font-medium">Finalize Product</h5>
@@ -127,67 +136,47 @@
         </div>
     </section>
 
-    <section class="bg-[#EDF2FC]">
-        <div class="flex justify-center items-center gap-24">
-            <div class="pt-14 w-3/7">
-                <img class="" src="./Images/user.png" alt="">
-            </div>
-            <div class="pt-14 relative overflow-hidden">
-                <div id="slider" class="flex transition-transform duration-500 ease-in-out w-[300%]">
-                    <!-- Slide 1 -->
-                    <div>
-                        <P class="text-xl text-gray-500">“Vivamus sagittis lacus vel augue laoreet rutrum <br> faucibus
-                            dolor auctor. Vestibulum ligula porta felis <br>
-                            euismod semper. Cras justo odio consectetur nulla <br> dapibus curabitur blandit.”</P>
-                        <P class="text-xl font-medium pt-6 pb-2">Coriss Ambady</P>
-                        <P class="text-gray-500">Financial Analyst</P>
-                        <!-- </div>
-                        <P class="text-xl text-gray-500">“Vivamus sagittis lacus vel augue laoreet rutrum <br> faucibus
-                            dolor auctor. Vestibulum ligula porta felis <br>
-                            euismod semper. Cras justo odio consectetur nulla <br> dapibus curabitur blandit.”</P>
-                        <P class="text-xl font-medium pt-6 pb-2">Coriss Ambady</P>
-                        <P class="text-gray-500">Financial Analyst</P>
-                    </div> -->
 
-                        <!-- <div>
-                        <P class="text-xl text-gray-500">“Vivamus sagittis lacus vel augue laoreet rutrum <br> faucibus
+    <section class="bg-[#EDF2FC] max-w-[1200px] mx-auto px-5 lg:px-0 md:py-0 py-12">
+        <div class="md:flex justify-center items-center gap-24 md:text-left text-center">
+            <div class="pt-14 md:w-3/7">
+                <img class="" src="{{ asset('storage/images/about/user.png') }}" alt="">
+            </div>
+            <div class="md:pt-14 pt-4 relative overflow-hidden">
+                <div class="flex transition-transform duration-500 ease-in-out">
+                    <div>
+                        <P class="lg:text-xl text-gray-500">“Vivamus sagittis lacus vel augue laoreet rutrum <br> faucibus
                             dolor auctor. Vestibulum ligula porta felis <br>
                             euismod semper. Cras justo odio consectetur nulla <br> dapibus curabitur blandit.”</P>
-                        <P class="text-xl font-medium pt-6 pb-2">Coriss Ambady</P>
+                        <P class="md:text-xl text-lg font-medium pt-6 pb-2">Coriss Ambady</P>
                         <P class="text-gray-500">Financial Analyst</P>
-                    </div> -->
                     </div>
-                    <!-- Navigation Dots -->
-                    <!-- <div class="flex justify-center mt-8 space-x-2">
-                    <button class="dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500" data-index="0"></button>
-                    <button class="dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500" data-index="1"></button>
-                    <button class="dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500" data-index="2"></button>
-                </div> -->
                 </div>
             </div>
         </div>
     </section>
 
     <!-- team details  -->
-    <section class="pb-14 pt-20">
+    <section class="pb-14 pt-20 lg:px-0 md:px-8 max-w-[1200px] mx-auto">
         <div>
             <div class="flex flex-col justify-center items-center">
-                <img class="h-20 w-24 mb-2" src="./Images/favicon_03.png" alt="">
-                <h1 class="text-4xl text-center font-medium text-gray-700">Save your time and money by <br> choosing
+                <img class="lg:h-20 lg:w-24 md:h-16 md:w-18 h-14 w-16 md:mb-0 mb-2" src="{{ asset('storage/images/about/favicon_03.png') }}" alt="">
+                <h1 class="text-center text-gray-700 lg:text-4xl md:text-3xl text-2xl  font-medium  lg:w-2/4 md:w-3/5 w-[80%]">Save your time and money by choosing
                     our
                     professional team</h1>
             </div>
-            <div class="bg-white flex items-center justify-center p-8 ">
-                <div class="relative w-full h-full py-10 px-20">
+            <div class="bg-white flex items-center justify-center">
+                <div class="w-full h-full py-10">
                     <!-- Outer container with overflow hidden -->
                     <div class="overflow-hidden">
                         <!-- Scrolling wrapper -->
-                        <div class="flex space-x-8 animate-slide w-max">
+                        {{-- <div class="flex md:flex-row flex-col items-center gap-8 lg:px-10 "> --}}
+                            <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 justify-center items-center lg:px-10 px-6">
                             <!-- CARD 1 -->
                             <div
-                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_04.jpg"
-                                    alt="Croiss Ambady">
+                                class="flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4"
+                                    src="{{ asset('storage/images/about/card_01.jpg') }}" alt="Croiss Ambady">
                                 <h2 class="text-lg font-semibold text-gray-900">Croiss Ambady</h2>
                                 <p class="text-sm text-gray-400 my-2">FINANCIAL ANALYST</p>
                                 <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
@@ -204,9 +193,9 @@
 
                             <!-- CARD 2 -->
                             <div
-                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_06.jpg"
-                                    alt="Cory Zamora">
+                                class=" flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4"
+                                    src="{{ asset('storage/images/about/card_02.jpg') }}" alt="Cory Zamora">
                                 <h2 class="text-lg font-semibold text-gray-900">Cory Zamora</h2>
                                 <p class="text-sm text-gray-400 my-2">MARKETING SPACIALIST</p>
                                 <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
@@ -223,9 +212,9 @@
 
                             <!-- CARD 3 -->
                             <div
-                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_05.jpg"
-                                    alt="Nikolas Brooten">
+                                class=" flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4"
+                                    src="{{ asset('storage/images/about/card_03.jpg') }}" alt="Nikolas Brooten">
                                 <h2 class="text-lg font-semibold text-gray-900">Nikolas Brooten</h2>
                                 <p class="text-sm text-gray-400 my-2">SALES MANAGER</p>
                                 <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
@@ -242,9 +231,9 @@
 
                             <!-- CARD 4 -->
                             <div
-                                class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_08.jpg"
-                                    alt="Tom Geller">
+                                class="flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4"
+                                    src="{{ asset('storage/images/about/card_04.jpg') }}" alt="Tom Geller">
                                 <h2 class="text-lg font-semibold text-gray-900">Tom Geller</h2>
                                 <p class="text-sm text-gray-400 my-2">INVESTMENT PLANNER</p>
                                 <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
@@ -260,10 +249,10 @@
                             </div>
 
                             <!-- card - 05 -->
-                            <div
+                            {{-- <div
                                 class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_10.jpg"
-                                    alt="Nova Grac">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4"
+                                    src="{{ asset('storage/images/about/card_05.jpg') }}" alt="Nova Grac">
                                 <h2 class="text-lg font-semibold text-gray-900">Nova Grace</h2>
                                 <p class="text-sm text-gray-400 my-2">SALES SPECIALIST</p>
                                 <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
@@ -276,13 +265,13 @@
                                     <i
                                         class="fab fa-dribbble text-pink-500 duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
                                 </div>
-                            </div>
+                            </div> --}}
 
                             <!-- card - 06  -->
-                            <div
+                            {{-- <div
                                 class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_07.jpg"
-                                    alt="Mr. Tony">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4"
+                                    src="{{ asset('storage/images/about/card_06.jpg') }}" alt="Mr. Tony">
                                 <h2 class="text-lg font-semibold text-gray-900">Mr. Tony</h2>
                                 <p class="text-sm text-gray-400 my-2">FINANCIAL ANALYST</p>
                                 <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
@@ -295,13 +284,13 @@
                                     <i
                                         class="fab fa-dribbble text-pink-500 duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
                                 </div>
-                            </div>
+                            </div> --}}
 
                             <!-- card - 07  -->
-                            <div
+                            {{-- <div
                                 class="w-75 flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
-                                <img class="w-28 h-28 object-cover rounded-full mb-4" src="./Images/image_09.jpg"
-                                    alt="Mr. Tony">
+                                <img class="w-28 h-28 object-cover rounded-full mb-4"
+                                    src="{{ asset('storage/images/about/card_07.jpg') }}" alt="Mr. Tony">
                                 <h2 class="text-lg font-semibold text-gray-900">Nicolas rony</h2>
                                 <p class="text-sm text-gray-400 my-2">MARKETING ANALYST</p>
                                 <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
@@ -314,7 +303,7 @@
                                     <i
                                         class="fab fa-dribbble text-pink-500 duration-200 ease-in-out hover:-translate-y-1 hover:scale-y-105"></i>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -323,46 +312,46 @@
     </section>
 
     <!-- Join our team  -->
-    <section class="bg-[#EDF2FC] py-24">
+    {{-- <section class="bg-[#EDF2FC] py-24 max-w-[1200px] mx-auto">
         <div class="flex justify-center items-center gap-16 mt-10">
             <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="./Images/favicon_04.png" alt="">
+                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_04.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-7518 "></p>
                 <p class="text-gray-500">Completed Projects</p>
             </div>
             <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="./Images/favicon_05.png" alt="">
+                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_05.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-3472 "></p>
                 <p class="text-gray-500">Satisfied Customers</p>
             </div>
             <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="./Images/favicon_06.png" alt="">
+                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_06.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-2184 "></p>
                 <p class="text-gray-500">Expert Employees</p>
             </div>
             <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="./Images/favicon_07.png" alt="">
+                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_07.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-4523 "></p>
                 <p class="text-gray-500">Awards Won</p>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- Contact  -->
-    <section class="py-28 angled-contact">
+    {{-- <section class="py-28 angled-contact max-w-[1200px] mx-auto">
         <div class="flex gap-10 justify-center items-center">
             <div class="w-2/5">
-                <img class="rounded-xl" src="./Images/image_03.jpg" alt="">
+                <img class="rounded-xl" src="{{ asset('storage/images/about/contact.jpg') }}" alt="">
             </div>
             <div class="pl-10 space-y-6">
-                <img class="h-20 w-20" src="./Images/favicon_08.png" alt="">
+                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_08.png') }}" alt="">
                 <h1 class="text-4xl text-left font-medium text-gray-700 mt-5 mb-10">Convinced yet? Let's make <br>
                     something great together.</h1>
                 <!-- Address  -->
                 <div class="flex gap-10">
                     <div class="text-blue-700 pt-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="2.0" stroke="currentColor" class="size-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.0"
+                            stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -378,8 +367,8 @@
                 <!-- Phone  -->
                 <div class="flex gap-10">
                     <div class="text-blue-700 pt-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="2.0" stroke="currentColor" class="size-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.0"
+                            stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                         </svg>
@@ -392,8 +381,8 @@
                 <!-- E-mail  -->
                 <div class="flex gap-10">
                     <div class="text-blue-700 pt-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="2.0" stroke="currentColor" class="size-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.0"
+                            stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                         </svg>
@@ -405,5 +394,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 </div>
