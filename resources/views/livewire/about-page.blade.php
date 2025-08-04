@@ -1,5 +1,5 @@
 <div>
-    <section class="relative h-56 lg:h-[90vh] md:h-[70vh] w-full overflow-hidden lg:max-w-[1200px] mx-auto">
+    <section class="relative h-56 lg:h-[90vh] md:h-[70vh] w-full overflow-hidden lg:rounded-2xl lg:max-w-[90%] mx-auto">
         <img class="absolute inset-0 w-full h-full object-cover" src="{{ asset('storage/images/about/about.jpg') }}">
         <div class="absolute inset-0 bg-black/60 z-10"></div>
         <div
@@ -13,10 +13,10 @@
     </section>
 
     <!-- Who are We (identity section) -->
-    <section class="lg:px-10 md:px-10 lg:py-32 md:py-24 py-12 px-5 max-w-[1200px] mx-auto">
+    <section class="lg:px-10 md:px-10 lg:py-32 md:py-24 py-12 px-5 max-w-[90%] mx-auto">
         <div class="flex lg:flex-row flex-col justify-between items-center ">
             <div
-                class="lg:w-[50%] lg:space-y-6 md:flex flex-col md:items-center md:space-y-6 space-y-3 lg:mb-0 md:mb-0 mb-6">
+                class="lg:w-[50%] lg:space-y-6 md:flex flex-col lg:items-start md:items-center md:space-y-6 space-y-3 md:mb-0 mb-6">
                 <img class="lg:h-20 lg:w-24 md:h-16 md:w-18 h-14 w-16"
                     src="{{ asset('storage/images/about/favicon_01.png') }}" alt="">
                 <h1 class="lg:text-4xl md:text-3xl md:text-center text-2xl text-gray-700 font-semibold">Who Are We?</h1>
@@ -70,20 +70,20 @@
                 </div>
             </div>
             <div class="lg:flex md:flex justify-end lg:space-y-0 md:space-y-0 space-y-6 md:gap-5 md:mt-8">
-                <img class="lg:h-72 lg:w-1/5 md:w-[50%]  lg:absolute right-85 top-280 rounded-xl"
+                <img class="lg:h-72 lg:w-1/4 md:w-[50%]  lg:absolute right-80 top-270 rounded-xl"
                     src="{{ asset('storage/images/about/image_01.jpg') }}" alt="">
-                <img class=" lg:h-88 lg:w-3/4 md:w-[50%] rounded-xl "
+                <img class=" lg:h-84 lg:w-4/5 md:w-[50%] rounded-xl "
                     src="{{ asset('storage/images/about/image_02.jpg') }}" alt="">
             </div>
         </div>
     </section>
 
     <!-- Working Step  -->
-    <section class="px-5 md:px-16 lg:px-16 lg:pt-16 pb-14 lg:pb-24 max-w-[1200px] mx-auto">
+    <section class="px-5 md:px-16 lg:px-16 lg:pt-16 pb-14 lg:pb-24 max-w-[90%] mx-auto">
         <div class="flex flex-col justify-center items-center">
             <img class="lg:h-20 lg:w-24 md:h-16 md:w-18 h-14 w-16 mb-2"
                 src="{{ asset('storage/images/about/favicon_02.png') }}" alt="">
-            <h1 class="lg:text-4xl md:text-3xl text-2xl text-center font-medium text-gray-700 lg:w-2/4 md:w-3/5">Here
+            <h1 class="lg:text-4xl md:text-3xl text-2xl text-center font-medium text-gray-700 lg:w-2/4 md:w-2/3">Here
                 are 3 working steps to organize our
                 business projects.</h1>
         </div>
@@ -137,7 +137,7 @@
     </section>
 
 
-    <section class="bg-[#EDF2FC] max-w-[1200px] mx-auto px-5 lg:px-0 md:py-0 py-12">
+    <section class="bg-[#EDF2FC] max-w-[90%] mx-auto px-5 lg:px-0 md:py-0 py-12">
         <div class="md:flex justify-center items-center gap-24 md:text-left text-center">
             <div class="pt-14 md:w-3/7">
                 <img class="" src="{{ asset('storage/images/about/user.png') }}" alt="">
@@ -157,7 +157,7 @@
     </section>
 
     <!-- team details  -->
-    <section class="pb-14 pt-20 lg:px-0 md:px-8 max-w-[1200px] mx-auto">
+    <section class="pb-14 pt-20 lg:px-0 md:px-8 max-w-[90%] mx-auto">
         <div>
             <div class="flex flex-col justify-center items-center">
                 <img class="lg:h-20 lg:w-24 md:h-16 md:w-18 h-14 w-16 md:mb-0 mb-2" src="{{ asset('storage/images/about/favicon_03.png') }}" alt="">
@@ -179,7 +179,7 @@
                                     src="{{ asset('storage/images/about/card_01.jpg') }}" alt="Croiss Ambady">
                                 <h2 class="text-lg font-semibold text-gray-900">Croiss Ambady</h2>
                                 <p class="text-sm text-gray-400 my-2">FINANCIAL ANALYST</p>
-                                <p class="text-gray-500 mb-4 text-center">Fermentum massa justo <br> sit amet risus
+                                <p class="text-gray-500 mb-4 text-center">Fermentum massa justo sit amet risus
                                     morbi leo.</p>
                                 <div class="flex justify-center space-x-6 text-xl text-blue-500 mt-1">
                                     <i
@@ -212,7 +212,7 @@
 
                             <!-- CARD 3 -->
                             <div
-                                class=" flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10">
+                                class=" flex flex-col items-center bg-white rounded-lg border border-gray-100 shadow-md p-10 ">
                                 <img class="w-28 h-28 object-cover rounded-full mb-4"
                                     src="{{ asset('storage/images/about/card_03.jpg') }}" alt="Nikolas Brooten">
                                 <h2 class="text-lg font-semibold text-gray-900">Nikolas Brooten</h2>
@@ -312,40 +312,41 @@
     </section>
 
     <!-- Join our team  -->
-    {{-- <section class="bg-[#EDF2FC] py-24 max-w-[1200px] mx-auto">
-        <div class="flex justify-center items-center gap-16 mt-10">
-            <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_04.png') }}" alt="">
+    <section class="bg-[#EDF2FC] md:py-32 py-18 max-w-[90%] mx-auto">
+        {{-- <div class="flex md:flex-nowrap flex-wrap justify-center items-center md:gap-14 mt-10"> --}}
+        <div class="grid md:grid-cols-4 grid-cols-2 md:w-5/6 justify-center items-center mx-auto">
+            <div class="text-center flex flex-col justify-center items-center md:mb-0 mb-6">
+                <img class="lg:h-22 lg:w-22 h-18 w-18" src="{{ asset('storage/images/about/favicon_04.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-7518 "></p>
                 <p class="text-gray-500">Completed Projects</p>
             </div>
-            <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_05.png') }}" alt="">
+            <div class="text-center flex flex-col justify-center items-center md:mb-0 mb-6">
+                <img class="lg:h-22 lg:w-22 h-18 w-18" src="{{ asset('storage/images/about/favicon_05.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-3472 "></p>
                 <p class="text-gray-500">Satisfied Customers</p>
             </div>
             <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_06.png') }}" alt="">
+                <img class="lg:h-22 lg:w-22 h-18 w-18" src="{{ asset('storage/images/about/favicon_06.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-2184 "></p>
                 <p class="text-gray-500">Expert Employees</p>
             </div>
             <div class="text-center flex flex-col justify-center items-center">
-                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_07.png') }}" alt="">
+                <img class="lg:h-22 lg:w-22 h-18 w-18" src="{{ asset('storage/images/about/favicon_07.png') }}" alt="">
                 <p class="text-5xl font-semibold text-gray-700 pb-2 counter-4523 "></p>
                 <p class="text-gray-500">Awards Won</p>
             </div>
         </div>
-    </section> --}}
+    </section>
 
     <!-- Contact  -->
-    {{-- <section class="py-28 angled-contact max-w-[1200px] mx-auto">
-        <div class="flex gap-10 justify-center items-center">
-            <div class="w-2/5">
+    <section class="md:py-28 py-16 angled-contact max-w-[90%] mx-auto">
+        <div class="md:flex lg:gap-10 md:gap-4 justify-center items-center">
+            <div class="w-2/5 hidden md:block">
                 <img class="rounded-xl" src="{{ asset('storage/images/about/contact.jpg') }}" alt="">
             </div>
-            <div class="pl-10 space-y-6">
-                <img class="h-20 w-20" src="{{ asset('storage/images/about/favicon_08.png') }}" alt="">
-                <h1 class="text-4xl text-left font-medium text-gray-700 mt-5 mb-10">Convinced yet? Let's make <br>
+            <div class="md:pl-10 pl-6 lg:space-y-6 space-y-4">
+                <img class="lg:h-22 lg:w-24 md:h-16 md:w-18 h-16 w-16 lg:block md:hidden" src="{{ asset('storage/images/about/favicon_08.png') }}" alt="">
+                <h1 class="lg:text-4xl md:text-3xl text-2xl text-left font-medium text-gray-700 lg:mt-5 lg:mb-10 md:mb-5">Convinced yet? Let's make <br>
                     something great together.</h1>
                 <!-- Address  -->
                 <div class="flex gap-10">
@@ -359,7 +360,7 @@
                         </svg>
                     </div>
                     <div>
-                        <h5 class="text-xl font-medium mb-2">Address</h5>
+                        <h5 class="md:text-xl text-lg font-medium mb-2">Address</h5>
                         <p class="text-gray-500">Moonshine St. 14/05 Light City, <br>
                             London, United Kingdom</p>
                     </div>
@@ -374,7 +375,7 @@
                         </svg>
                     </div>
                     <div>
-                        <h5 class="text-xl font-medium mb-2">Phone</h5>
+                        <h5 class="md:text-xl text-lg font-medium mb-2">Phone</h5>
                         <p class="text-gray-500">00 (123) 456 78 90</p>
                     </div>
                 </div>
@@ -388,11 +389,11 @@
                         </svg>
                     </div>
                     <div>
-                        <h5 class="text-xl font-medium mb-2">E-mail</h5>
+                        <h5 class="md:text-xl text-lg font-medium mb-2">E-mail</h5>
                         <p class="text-gray-500">Sand@box.com</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 </div>
