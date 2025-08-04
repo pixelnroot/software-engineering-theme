@@ -16,17 +16,17 @@
         <div
             class="sm:flex sm:flex-col sm:items-center mx-18 md:mx-auto md:flex-row md:items-center md:gap-8 md:justify-around">
             <div class="flex-col sm:flex-1 space-y-4 relative md:ml-20 lg:ml-12">
-                <img class="rounded-lg sm:w-100 md:w-70 lg:w-60 relative lg:top-25" src="{{ asset("storage/images/home/teamwork_01.jpg") }}" alt="">
-                <div class="rounded-lg sm:w-100 md:w-70 lg:w-45 relative lg:left-65 lg:bottom-19">
+                <img class="rounded-lg sm:w-100 md:w-70 lg:w-60 relative lg:top-25 xl:w-65 xl: xl:top-30" src="{{ asset("storage/images/home/teamwork_01.jpg") }}" alt="">
+                <div class="rounded-lg sm:w-100 md:w-70 lg:w-45 relative lg:left-65 lg:bottom-23 xl:left-70">
                     <div
-                        class="flex flex-col justify-center items-center bg-indigo-100 h-70 md:h-50 lg:h-40 lg:w-50 rounded-lg gap-2">
+                        class="flex flex-col justify-center items-center bg-indigo-100 h-70 md:h-50 lg:h-40 lg:w-50 xl:h-50 xl:w-65 rounded-lg gap-2">
                         <span class="text-gray-700 text-5xl font-semibold">5000+</span>
                         <span class="text-lg text-gray-600">Satisfied Customers</span>
                     </div>
                 </div>
                 {{-- <img class="rounded-lg sm:w-100 md:w-70 lg:w-45 relative lg:left-65 lg:bottom-19 " src="{{ asset("
                     storage/images/home/teamwork_03.jpg") }}" alt=""> --}}
-                <img class="rounded-lg sm:w-100 md:w-70 lg:w-90 relative lg:left-12 lg:bottom-18" src="{{ asset("storage/images/home/teamwork_02.jpg") }}" alt="">
+                <img class="rounded-lg sm:w-100 md:w-70 lg:w-90 relative lg:left-12 lg:bottom-18 xl:w-110 xl:left-12" src="{{ asset("storage/images/home/teamwork_02.jpg") }}" alt="">
             </div>
 
             <div class="flex-1 flex-col items-start mt-8 justify-center space-y-4 relative md:mr-12 lg:mr-8">

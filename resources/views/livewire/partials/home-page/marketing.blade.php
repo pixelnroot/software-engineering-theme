@@ -1,36 +1,35 @@
-<div>
-    <div class="flex items-center mx-32 gap-16 justify-around">
-        <img class="flex-1 h-screen" src="{{ asset("storage/images/home/marketing.png") }}" alt="">
-        <div class="flex-1 flex-col items-start justify-center space-y-4">
-            <h4 class="text-lg font-semibold text-pink-500">Have Perfect Control</h4>
-            <h1 class="text-4xl font-bold text-gray-700">We bring solutions to make life easier for our customers.</h1>
-            <p class="text-gray-500 text-lg">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus
-                mus.
-                Cras justo odio, dapibus
-                ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                et. Vivamus
-                sagittis lacus vel augue rutrum.</p>
-            <div class="grid grid-cols-2 text-lg mt-4 text-gray-500 gap-2 ">
-                <div class="flex items-start">
-                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
-                    <span>Aenean quam ornare. Curabitur blandit.</span>
-                </div>
-                <div class="flex items-start">
-                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
-                    <span>Etiam porta euismod malesuada mollis.</span>
-                </div>
-                <div class="flex items-start">
-                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
-                    <span>Nullam quis risus eget urna mollis ornare.</span>
-                </div>
-                <div class="flex items-start">
-                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
-                    <span>Vivamus sagittis lacus vel augue rutrum.</span>
-                </div>
+<div class="max-w-[90%] mx-auto">
+    <div class="flex flex-col lg:flex-row items-center mx-4 lg:mx-16 gap-8 lg:gap-16 justify-around">
+    <!-- Image Section -->
+    <img class="w-full lg:flex-1 h-auto sm:w-100 md:w-120 lg:w-90 object-cover" src="{{ asset('storage/images/home/marketing.png') }}" alt="">
+
+    <!-- Content Section -->
+    <div class="flex-1 flex-col items-start justify-center space-y-4">
+        <h4 class="text-lg font-semibold text-pink-500">Have Perfect Control</h4>
+        <h1 class="text-2xl lg:text-3xl font-bold text-gray-700">We bring solutions to make life easier for our customers.</h1>
+        <p class="text-gray-500 text-base lg:text-lg">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue rutrum.</p>
+
+        <div class="xl:grid grid-cols-1 sm:grid-cols-2 text-lg mt-4 space-y-4 font-semibold text-gray-500 gap-4">
+            <div class="flex items-start">
+                <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+                <span>Aenean quam ornare. Curabitur blandit.</span>
+            </div>
+            <div class="flex items-start">
+                <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+                <span>Etiam porta euismod malesuada mollis.</span>
+            </div>
+            <div class="flex items-start">
+                <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+                <span>Nullam quis risus eget urna mollis ornare.</span>
+            </div>
+            <div class="flex items-start">
+                <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+                <span>Vivamus sagittis lacus vel augue rutrum.</span>
             </div>
         </div>
     </div>
+</div>
+
     <div class="flex md:flex-row flex-col max-w-9xl mx-[80px] bg-white  rounded-xl overflow-hidden mt-12">
         <div class="md:w-5/12 p-6 flex flex-col justify-center">
             <p class="text-red-500 font-bold tracking-wide uppercase mb-2">WHAT MAKES US DIFFERENT?</p>
