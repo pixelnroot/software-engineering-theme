@@ -1,5 +1,5 @@
 <div>
-    <section class="relative h-56 lg:h-[90vh] md:h-[70vh] w-full overflow-hidden lg:max-w-[1200px] mx-auto">
+    <section class="relative h-56 lg:h-[90vh] md:h-[70vh] w-full overflow-hidden lg:rounded-2xl lg:max-w-[90%] mx-auto">
         <img class="absolute inset-0 w-full h-full object-cover" src="{{ asset('storage/images/about/about.jpg') }}">
         <div class="absolute inset-0 bg-black/60 z-10"></div>
         <div
@@ -13,7 +13,7 @@
     </section>
 
     <!-- Who are We (identity section) -->
-    <section class="lg:px-10 md:px-10 lg:py-32 md:py-24 py-12 px-5 max-w-[1200px] mx-auto">
+    <section class="lg:px-10 md:px-10 lg:py-32 md:py-24 py-12 px-5 max-w-[90%] mx-auto">
         <div class="flex lg:flex-row flex-col justify-between items-center ">
             <div
                 class="lg:w-[50%] lg:space-y-6 md:flex flex-col md:items-center md:space-y-6 space-y-3 lg:mb-0 md:mb-0 mb-6">
@@ -79,7 +79,7 @@
     </section>
 
     <!-- Working Step  -->
-    <section class="px-5 md:px-16 lg:px-16 lg:pt-16 pb-14 lg:pb-24 max-w-[1200px] mx-auto">
+    <section class="px-5 md:px-16 lg:px-16 lg:pt-16 pb-14 lg:pb-24 max-w-[90%] mx-auto">
         <div class="flex flex-col justify-center items-center">
             <img class="lg:h-20 lg:w-24 md:h-16 md:w-18 h-14 w-16 mb-2"
                 src="{{ asset('storage/images/about/favicon_02.png') }}" alt="">
@@ -137,7 +137,7 @@
     </section>
 
 
-    <section class="bg-[#EDF2FC] max-w-[1200px] mx-auto px-5 lg:px-0 md:py-0 py-12">
+    <section class="bg-[#EDF2FC] max-w-[90%] mx-auto px-5 lg:px-0 md:py-0 py-12">
         <div class="md:flex justify-center items-center gap-24 md:text-left text-center">
             <div class="pt-14 md:w-3/7">
                 <img class="" src="{{ asset('storage/images/about/user.png') }}" alt="">
@@ -157,7 +157,7 @@
     </section>
 
     <!-- team details  -->
-    <section class="pb-14 pt-20 lg:px-0 md:px-8 max-w-[1200px] mx-auto">
+    <section class="pb-14 pt-20 lg:px-0 md:px-8 max-w-[90%] mx-auto">
         <div>
             <div class="flex flex-col justify-center items-center">
                 <img class="lg:h-20 lg:w-24 md:h-16 md:w-18 h-14 w-16 md:mb-0 mb-2" src="{{ asset('storage/images/about/favicon_03.png') }}" alt="">
