@@ -7,8 +7,8 @@
         <div class="max-w-7xl flex flex-col md:flex-row items-stretch justify-between mx-4 md:mx-12 gap-8 mt-10">
             <div class="rounded-xl overflow-hidden flex-1 flex flex-col ">
                 <div class="flex-1 flex flex-col group relative ">
-                    <img src="imgs/office.jpg" alt="Case Study 1"
-                        class="transition-transform duration-300 group-hover:scale-105 h-auto w-full object-cover">
+                    <img src="{{ asset("storage/images/home/case_studies_01.jpg") }}" alt="Case Study 1"
+                        class="transition-transform duration-300 group-hover:scale-105 h-70 w-full object-cover">
                     <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center
                         opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:scale-105">
                         <span class="text-white text-2xl font-semibold px-6 py-2  transform -translate-y-8
@@ -33,8 +33,8 @@
             </div>
             <div class="rounded-xl overflow-hidden flex-1 flex flex-col ">
                 <div class="flex-1 flex flex-col group relative ">
-                    <img src="imgs/room.jpg" alt="Case Study 1"
-                        class=" transition-transform duration-300 group-hover:scale-105 h-auto w-full object-cover">
+                    <img src="{{ asset("storage/images/home/case_studies_02.jpg") }}" alt="Case Study 1"
+                        class=" transition-transform duration-300 group-hover:scale-105 h-70 w-full object-cover">
                     <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center
                         opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:scale-105">
                         <span class="text-white text-2xl font-semibold px-6 py-2  transform -translate-y-8
@@ -59,8 +59,8 @@
             </div>
             <div class="rounded-xl overflow-hidden flex-1 flex flex-col ">
                 <div class="flex-1 flex flex-col group relative ">
-                    <img src="imgs/table.jpg" alt="Case Study 1"
-                        class=" transition-transform duration-300 group-hover:scale-105 h-auto w-full object-cover">
+                    <img src="{{ asset("storage/images/home/case_studies_03.jpg") }}" alt="Case Study 1"
+                        class=" transition-transform duration-300 group-hover:scale-105 h-70 w-full object-cover">
                     <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center
                         opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:scale-105">
                         <span class="text-white text-2xl font-semibold px-6 py-2  transform -translate-y-8
