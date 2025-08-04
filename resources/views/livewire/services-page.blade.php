@@ -1,7 +1,7 @@
 <div>
     <!-- header  -->
-    <section class="relative h-[80vh] w-full overflow-hidden">
-        <img class="absolute inset-0 w-full h-full object-cover" src="./images/header.jpg">
+    <section class="relative h-[80vh] w-full overflow-hidden max-w-[1200px mx-auto]">
+        <img class="absolute inset-0 w-full h-full object-cover" src="{{ asset('storage/images/service/header.jpg') }}">
         <div class="absolute inset-0 bg-black/50 z-10"></div>
         <div class="relative z-20 text-center space-y-4 flex flex-col justify-center items-center h-[80vh] text-white">
             <h2 class="text-5xl font-bold">Our Services </h2>
@@ -11,7 +11,7 @@
     </section>
 
     <!-- What we do section -->
-    <section class="bg-[#faf9f6] pt-28 pb-96">
+    <section class="bg-[#faf9f6] pt-28 pb-96 max-w-[1200px mx-auto]">
         <div class="flex px-10 justify-center items-center">
             <div class="w-[40%] mr-14 space-y-7 ">
                 <p class="text-gray-400">WHAT WE DO?</p>
@@ -31,14 +31,14 @@
             <div>
                 <div class="flex gap-7 relative left-16 mb-7">
                     <div class="bg-[#efe5d8] p-8 space-y-4 rounded-xl">
-                        <img class="h-18 w-20" src="./images/image.png" alt="">
+                        <img class="h-18 w-20" src="{{ asset('storage/images/service/image.png') }}" alt="">
                         <h4 class="text-xl font-semibold pl-2">24/7 Support</h4>
                         <p class="text-gray-500 pl-2 w-48">Nulla vitae elit libero, a pharetra augue. Donec id elit
                             non mi porta.
                         </p>
                     </div>
                     <div class="bg-[#F0D3CD] px-8 py-7 h-60 space-y-3 rounded-xl relative top-6">
-                        <img class="h-18 w-20" src="./images/image 1.png" alt="">
+                        <img class="h-18 w-20" src="{{ asset('storage/images/service/image_01.png') }}" alt="">
                         <h4 class="text-xl font-semibold pl-2">Secure Payments</h4>
                         <p class="text-gray-500 pl-2">Nulla vitae elit libero, a pharetra <br> augue. Donec id elit non
                             mi porta.
@@ -47,13 +47,13 @@
                 </div>
                 <div class="flex gap-7">
                     <div class="bg-[#E6E2DF] px-8 py-5 space-y-3 rounded-xl h-56">
-                        <img class="h-18 w-20" src="./images/image 2.png" alt="">
+                        <img class="h-18 w-20" src="{{ asset('storage/images/service/image_02.png') }}" alt="">
                         <h4 class="text-xl font-semibold pl-2">Daily Updates</h4>
                         <p class="text-gray-500 pl-2">Nulla vitae elit libero, a <br> pharetra augue.
                         </p>
                     </div>
                     <div class="bg-[#D0DEDF] p-8 space-y-3 rounded-xl">
-                        <img class="h-18 w-20" src="./images/image 3.png" alt="">
+                        <img class="h-18 w-20" src="{{ asset('storage/images/service/image_03.png') }}" alt="">
                         <h4 class="text-xl font-semibold pl-2">Market Research</h4>
                         <p class="text-gray-500 pl-2">Nulla vitae elit libero, a pharetra <br> augue. Donec id elit non
                             mi porta <br> gravida at eget.
@@ -65,7 +65,7 @@
     </section>
 
     <!-- video section  -->
-    <section class="relative">
+    <section class="relative max-w-[1200px mx-auto]">
         <div class="absolute inset-0 flex items-center justify-center">
             <iframe width="1040" height="615" src="https://www.youtube.com/embed/FPhg_ZjrPtU?si=4Cr3VhWYhaNta0IM"
                 title="YouTube video player" frameborder="0"
@@ -76,7 +76,7 @@
     </section>
 
     <!-- our process section -->
-    <section class="bg-[#EDF2FC] pt-96 pb-32 ">
+    <section class="bg-[#EDF2FC] pt-96 pb-32 max-w-[1200px mx-auto]">
         <div class="text-center space-y-4">
             <p class="text-gray-400">OUR PROCESS</p>
             <h1 class="text-4xl font-semibold text-gray-700">Find out everything you need to know <br> about creating a
@@ -85,19 +85,19 @@
         <div class="flex justify-center items-center gap-10 mt-14">
             <div
                 class="flex flex-col justify-center items-center text-center bg-[#B5D2DB] w-80 p-8 rounded-xl space-y-2  transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-[#B5D2DB]">
-                <img class="h-20 w-22" src="./images/image 4.png" alt="">
+                <img class="h-20 w-22" src="{{ asset('storage/images/service/image_04.png') }}" alt="">
                 <h4 class="text-xl font-bold text-gray-800">1. Concept</h4>
                 <p class="text-gray-500">Nulla vitae elit libero elit non porta gravida eget metus cras.</p>
             </div>
             <div
                 class="flex flex-col justify-center items-center text-center bg-[#B2D8D8] w-80 p-8 rounded-xl space-y-2 transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-[#B2D8D8]">
-                <img class="h-20 w-26" src="./images/image_5.png" alt="">
+                <img class="h-20 w-26" src="{{ asset('storage/images/service/image_05.png') }}" alt="">
                 <h4 class="text-xl font-bold text-gray-800">2. Prepare</h4>
                 <p class="text-gray-500">Nulla vitae elit libero elit non porta gravida eget metus cras.</p>
             </div>
             <div
                 class="flex flex-col justify-center items-center text-center bg-[#F3E6DA] w-80 p-8 rounded-xl space-y-2 transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-[#F3E6DA]">
-                <img class="h-22 w-26" src="./images/image_6.png" alt="">
+                <img class="h-22 w-26" src="{{ asset('storage/images/service/image_06.png') }}" alt="">
                 <h4 class="text-xl font-bold text-gray-800">3. Retouch</h4>
                 <p class="text-gray-500">Nulla vitae elit libero elit non porta gravida eget metus cras.</p>
             </div>
@@ -105,10 +105,10 @@
     </section>
 
     <!-- Animated section - 01 -->
-    <section class="bg-[#FCFBFC] px-14 py-16">
+    <section class="bg-[#FCFBFC] px-14 py-16 max-w-[1200px mx-auto]">
         <div class="flex justify-center items-center gap-8">
             <div class="w-[60%]">
-                <img src="./images/image_7.png" alt="">
+                <img src="{{ asset('storage/images/service/image_08.png') }}" alt="">
             </div>
             <div class="max-w-xl mx-auto w-[40%]">
                 <h2 class="text-4xl text-gray-700 font-semibold leading-snug mb-8">
@@ -165,7 +165,7 @@
     </section>
 
     <!-- animated section -02  -->
-    <section class="bg-[#F1F0EB] px-16 py-20">
+    <section class="bg-[#F1F0EB] px-16 py-20 max-w-[1200px mx-auto]">
         <div class="flex justify-center items-center gap-8 ">
             <div class="w-[40%] space-y-8">
                 <h1 class="text-4xl text-gray-700 font-semibold">We make your spending <br> stress-free for
@@ -217,13 +217,13 @@
                 </div>
             </div>
             <div class="w-[60%]">
-                <img src="./images/image_8.png" alt="">
+                <img src="{{ asset('storage/images/service/image_07.png') }}" alt="">
             </div>
         </div>
     </section>
 
     <!-- Pricing section -->
-    <section class="bg-[#EDF2FC] relative">
+    <section class="bg-[#EDF2FC] relative max-w-[1200px mx-auto]">
         <div class="text-center pt-24 pb-96">
             <p class="text-gray-400 mb-5">OUR PRICING</p>
             <h1 class="text-4xl font-semibold text-gray-700">We offer great prices, premium products <br> and quality
@@ -251,7 +251,7 @@
             <!-- First card  -->
             <div class="bg-white shadow-lg rounded-xl py-8 px-28 text-center ">
                 <div class="flex justify-center mb-3">
-                    <img class="w-22 h-20" src="./images/fabicon_01.png" alt="">
+                    <img class="w-22 h-20" src="{{ asset('storage/images/service/fabicon_01.png') }}" alt="">
                 </div>
                 <h2 class="text-xl font-semibold mb-2">Basic Plan</h2>
                 <div>
@@ -318,7 +318,7 @@
             <!-- Second Card  -->
             <div class="bg-white shadow-lg rounded-xl py-14 px-28 text-center ">
                 <div class="flex justify-center mb-3">
-                    <img class="w-22 h-20" src="./images/fabicon_02.png" alt="">
+                    <img class="w-22 h-20" src="{{ asset('storage/images/service/fabicon_02.png') }}" alt="">
                 </div>
                 <h2 class="text-xl font-semibold mb-2">Premium Plan</h2>
                 <div>
@@ -386,7 +386,7 @@
             <!-- Third card  -->
             <div class="bg-white shadow-lg rounded-xl py-8 px-28 text-center ">
                 <div class="flex justify-center mb-3">
-                    <img class="w-22 h-20" src="./images/fabicon_03.png" alt="">
+                    <img class="w-22 h-20" src="{{ asset('storage/images/service/fabicon_03.png') }}" alt="">
                 </div>
                 <h2 class="text-xl font-semibold mb-2">Corporate Plan</h2>
                 <div>
@@ -456,7 +456,7 @@
     </section>
 
     <!-- Join our community -->
-    <section class="pt-96 pb-40">
+    <section class="pt-96 pb-40 max-w-[1200px mx-auto]">
         <div class="text-center">
             <p class="text-gray-400 mb-5">JOIN OUR COMMUNITY</p>
             <h1 class="text-4xl font-semibold text-gray-700">We are trusted by over 5000+ clients. <br> Join them now
