@@ -1,13 +1,13 @@
-<div class="max-w-[1200px] mx-auto px-4">
+<div class="max-w-[90%] mx-auto px-4">
   <div
-    class="flex flex-col md:flex-col lg:flex-row items-center justify-around bg-gradient-to-tr from-cyan-100 to-pink-200 rounded-xl p-6 md:p-10 lg:p-[72px] my-6 lg:h-[650px]">
+    class="flex flex-col-reverse md:flex-col lg:flex-row items-center justify-around bg-gradient-to-tr from-cyan-100 to-pink-200 rounded-xl p-6 md:p-10 lg:p-[72px] my-6 lg:h-[650px]">
 
     <!-- Text Section -->
     <div class="flex flex-col items-center lg:items-start text-center lg:text-left mt-10 lg:mt-0 max-w-xl">
-      <span class="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-700 leading-tight tracking-tight">
+      <span class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-700 leading-tight tracking-tight">
         Networking <span class="text-pink-500">solutions</span> for worldwide communication
       </span>
-      <span class="mt-4 text-base sm:text-lg md:text-2xl text-gray-500 tracking-tight">
+      <span class="mt-4 text-base sm:text-lg md:text-xl text-gray-500 tracking-tight">
         We're a company that focuses on establishing long-term relationships with customers.
       </span> 
       <button
@@ -17,7 +17,7 @@
     </div>
 
     <!-- Image Section -->
-    <div class="mt-10 lg:mt-12 flex-shrink-0 relative top-16 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+    <div class="mt-10 lg:mt-12 flex-shrink-0 relative md:top-16 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
       <img src="{{ asset('storage/images/home/hero.png') }}" alt="Hero Image" class="w-full h-auto object-contain" />
     </div>
 

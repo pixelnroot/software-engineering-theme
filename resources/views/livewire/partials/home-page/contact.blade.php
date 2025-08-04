@@ -1,13 +1,15 @@
-<div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
 
     <div
-        class="flex flex-col md:flex-row items-center gap-12 md:gap-16 lg:gap-42 justify-center md:justify-around mb-12 md:mb-32 mt-24 md:mt-48">
+        class="flex flex-col md:flex-row items-center gap-16 md:gap-8 lg:gap-16 justify-center md:justify-around mb-12 md:mb-32 mt-24 md:mt-48">
 
-        <img class="w-full md:w-1/2 flex-1" src="{{ asset('storage/images/home/contact.png') }}" alt="">
+        <img class="w-full sm:w-2/3 md:w-80 lg:w-100 flex-1" src="{{ asset('storage/images/home/contact.png') }}"
+            alt="">
 
         <ul class="w-full md:w-1/2 flex flex-col items-start justify-center space-y-6 md:space-y-8">
             <li class="text-lg text-pink-500">CONTACT US</li>
-            <li class="text-3xl md:text-4xl font-semibold text-gray-700 mb-8 md:mb-12">Got any questions? Don't hesitate
+            <li class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-700 mb-8 md:mb-12">Got any
+                questions? Don't hesitate
                 to get in touch.</li>
 
             <li class="flex">
