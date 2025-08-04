@@ -1,10 +1,11 @@
- <div class="flex items-center m-16 gap-16 justify-around -mb-8">
-    <div class="flex-1 gap-4">
-      <img class="rounded-lg relative h-60 left-3 top-20" src="{{ asset("storage/images/home/teamwork_01.jpg") }}" alt="">
-      <img class="rounded-lg relative h-50 left-91 bottom-30" src="{{ asset("storage/images/home/teamwork_02.jpg") }}" alt="">
-      <img class="rounded-lg w-150 relative left-10 bottom-23 " src="{{ asset("storage/images/home/teamwork_03.jpg") }}" alt="">
+<div class="max-w-[1200px] mx-auto mt-30 mb-20">
+   <div class="flex sm:flex-col md:items-center md:gap-8 md:justify-around">
+    <div class="flex-1 space-y-4 relative md:ml-20 lg:ml-12">
+      <img class="rounded-lg md:w-70 lg:w-50 lg:relative lg:left-10 lg:top-15" src="{{ asset("storage/images/home/teamwork_01.jpg") }}" alt="">
+      <img class="rounded-lg md:w-70 lg:w-45 lg:relative lg:left-65 lg:bottom-19 " src="{{ asset("storage/images/home/teamwork_03.jpg") }}" alt="">
+      <img class="rounded-lg md:w-70 lg:w-90 lg:relative lg:left-15 lg:bottom-18" src="{{ asset("storage/images/home/teamwork_02.jpg") }}" alt="">
     </div>
-    <div class="flex-1 flex-col items-start justify-center space-y-4 relative">
+    <div class="flex-1 flex-col items-start justify-center space-y-4 relative md:mr-12 lg:mr-8">
       <h4 class="text-lg font-semibold text-pink-500">Who Are We?</h4>
       <h1 class="text-4xl font-bold text-gray-700">Company that believes in the power of creative strategy.</h1>
       <p class="text-gray-500 text-lg">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
@@ -32,3 +33,5 @@
       </div>
     </div>
   </div>
+
+</div>
