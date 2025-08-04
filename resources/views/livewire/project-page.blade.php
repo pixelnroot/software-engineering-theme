@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="mt-12 flex flex-col md:flex-row justify-between gap-5 mb-12">
-        <div class="w-full md:w-[420px] h-auto md:h-[460px] shadow-md pb-4 flex flex-col">
+        <div class="w-full md:w-[420px] h-auto  shadow-md pb-4 flex flex-col">
             <div>
                 <img src="{{ asset('storage/images/project/code.jpg') }}" class="w-full md:w-[420px] h-[200px] md:h-[236px] object-cover" alt="">
             </div>
@@ -26,7 +26,7 @@
                 <p class="font-semibold text-blue-600 text-base md:text-lg">View Case Study <i class="fa-solid fa-arrow-right" style="color: #3c08d9;"></i></p>
             </div>
         </div>
-        <div class="w-full md:w-[420px] h-auto md:h-[460px] shadow-md pb-4 flex flex-col">
+        <div class="w-full md:w-[420px] h-auto shadow-md pb-4 flex flex-col">
             <div>
                 <img src="{{ asset('storage/images/project/mobile-app.jpg') }}" class="w-full md:w-[420px] h-[200px] md:h-[236px] object-cover" alt="">
             </div>
@@ -40,7 +40,7 @@
                 <p class="font-semibold text-blue-600 text-base md:text-lg">View Case Study <i class="fa-solid fa-arrow-right" style="color: #3c08d9;"></i></p>
             </div>
         </div>
-        <div class="w-full md:w-[420px] h-auto md:h-[460px] shadow-md pb-4 flex flex-col">
+        <div class="w-full md:w-[420px] h-auto  shadow-md pb-4 flex flex-col">
             <div>
                 <img src="{{ asset('storage/images/project/e-commerce.jpg') }}" class="w-full md:w-[420px] h-[200px] md:h-[236px] object-cover" alt="">
             </div>
