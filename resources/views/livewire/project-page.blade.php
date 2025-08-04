@@ -1,4 +1,4 @@
-<div class="max-w-[1200px] mx-auto px-4">
+<div class="max-w-[1200px] mx-auto">
     <div>
         <div class="flex flex-col cursor-pointer mt-4 w-full">
             <div class="flex flex-col justify-center items-center">
@@ -28,7 +28,7 @@
         </div>
         <div class="w-full md:w-[420px] h-auto md:h-[460px] shadow-md pb-4 flex flex-col">
             <div>
-                <img src="{{ asset('storage/images/project/mobile-app.jpg') }}" class="w-full md:w-[420px] h-[200px] md:h-[236px] object-cover" alt="">
+                <img src="{{ asset('storage/images/project/mobile-app.jpg') }}" class="w-[420px] h-[236px]" alt="">
             </div>
             <div class="flex flex-col gap-4 mt-6 px-4 md:px-6">
                 <p class="text-xl md:text-2xl font-semibold text-gray-800">Mobile Application</p>
