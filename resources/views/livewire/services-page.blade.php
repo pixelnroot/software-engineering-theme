@@ -1,6 +1,6 @@
 <div>
     <!-- header  -->
-    <section class="relative h-[80vh] w-full overflow-hidden max-w-[1200px mx-auto]">
+    <section class="relative h-[80vh] w-full overflow-hidden max-w-[90%] mx-auto">
         <img class="absolute inset-0 w-full h-full object-cover" src="{{ asset('storage/images/service/header.jpg') }}">
         <div class="absolute inset-0 bg-black/50 z-10"></div>
         <div class="relative z-20 text-center space-y-4 flex flex-col justify-center items-center h-[80vh] text-white">
@@ -11,7 +11,7 @@
     </section>
 
     <!-- What we do section -->
-    <section class="bg-[#faf9f6] pt-28 pb-96 max-w-[1200px mx-auto]">
+    <section class="bg-[#faf9f6] pt-28 pb-96 max-w-[90%] mx-auto">
         <div class="flex px-10 justify-center items-center">
             <div class="w-[40%] mr-14 space-y-7 ">
                 <p class="text-gray-400">WHAT WE DO?</p>
@@ -65,7 +65,7 @@
     </section>
 
     <!-- video section  -->
-    <section class="relative max-w-[1200px mx-auto]">
+    <section class="relative max-w-[90%] mx-auto">
         <div class="absolute inset-0 flex items-center justify-center">
             <iframe width="1040" height="615" src="https://www.youtube.com/embed/FPhg_ZjrPtU?si=4Cr3VhWYhaNta0IM"
                 title="YouTube video player" frameborder="0"
@@ -76,7 +76,7 @@
     </section>
 
     <!-- our process section -->
-    <section class="bg-[#EDF2FC] pt-96 pb-32 max-w-[1200px mx-auto]">
+    <section class="bg-[#EDF2FC] pt-96 pb-32 max-w-[90%] mx-auto">
         <div class="text-center space-y-4">
             <p class="text-gray-400">OUR PROCESS</p>
             <h1 class="text-4xl font-semibold text-gray-700">Find out everything you need to know <br> about creating a
@@ -105,10 +105,10 @@
     </section>
 
     <!-- Animated section - 01 -->
-    <section class="bg-[#FCFBFC] px-14 py-16 max-w-[1200px mx-auto]">
+    <section class="bg-[#FCFBFC] px-14 py-16 max-w-[90%] mx-auto">
         <div class="flex justify-center items-center gap-8">
             <div class="w-[60%]">
-                <img src="{{ asset('storage/images/service/image_08.png') }}" alt="">
+                <img src="{{ asset('storage/images/service/image_07.png') }}" alt="">
             </div>
             <div class="max-w-xl mx-auto w-[40%]">
                 <h2 class="text-4xl text-gray-700 font-semibold leading-snug mb-8">
@@ -165,7 +165,7 @@
     </section>
 
     <!-- animated section -02  -->
-    <section class="bg-[#F1F0EB] px-16 py-20 max-w-[1200px mx-auto]">
+    <section class="bg-[#F1F0EB] px-16 py-20 max-w-[90%] mx-auto">
         <div class="flex justify-center items-center gap-8 ">
             <div class="w-[40%] space-y-8">
                 <h1 class="text-4xl text-gray-700 font-semibold">We make your spending <br> stress-free for
@@ -217,13 +217,13 @@
                 </div>
             </div>
             <div class="w-[60%]">
-                <img src="{{ asset('storage/images/service/image_07.png') }}" alt="">
+                <img src="{{ asset('storage/images/service/image_08.png') }}" alt="">
             </div>
         </div>
     </section>
 
     <!-- Pricing section -->
-    <section class="bg-[#EDF2FC] relative max-w-[1200px mx-auto]">
+    <section class="bg-[#EDF2FC] relative max-w-[90%] mx-auto">
         <div class="text-center pt-24 pb-96">
             <p class="text-gray-400 mb-5">OUR PRICING</p>
             <h1 class="text-4xl font-semibold text-gray-700">We offer great prices, premium products <br> and quality
@@ -448,7 +448,7 @@
                     </li>
                 </ul>
                 <button
-                    class="mt-6 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 hover:-translate-y-1 hover:scale-110 transition delay-50 duration-300 ease-in-out">
+                    class="mt-6 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 hover:-translate-y-1 hover:scale-110 transition delay-10 duration-300 ease-in-out">
                     Choose Plan
                 </button>
             </div>
@@ -456,7 +456,7 @@
     </section>
 
     <!-- Join our community -->
-    <section class="pt-96 pb-40 max-w-[1200px mx-auto]">
+    <section class="pt-96 pb-40 max-w-[90%] mx-auto">
         <div class="text-center">
             <p class="text-gray-400 mb-5">JOIN OUR COMMUNITY</p>
             <h1 class="text-4xl font-semibold text-gray-700">We are trusted by over 5000+ clients. <br> Join them now
