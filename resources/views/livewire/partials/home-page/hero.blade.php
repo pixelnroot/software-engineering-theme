@@ -1,6 +1,6 @@
 <div class="max-w-[90%] mx-auto px-4">
   <div
-    class="flex flex-col md:flex-col lg:flex-row items-center justify-around bg-gradient-to-tr from-cyan-100 to-pink-200 rounded-xl p-6 md:p-10 lg:p-[72px] my-6 lg:h-[650px]">
+    class="flex flex-col-reverse md:flex-col lg:flex-row items-center justify-around bg-gradient-to-tr from-cyan-100 to-pink-200 rounded-xl p-6 md:p-10 lg:p-[72px] my-6 lg:h-[650px]">
 
     <!-- Text Section -->
     <div class="flex flex-col items-center lg:items-start text-center lg:text-left mt-10 lg:mt-0 max-w-xl">
@@ -17,7 +17,7 @@
     </div>
 
     <!-- Image Section -->
-    <div class="mt-10 lg:mt-12 flex-shrink-0 relative top-16 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+    <div class="mt-10 lg:mt-12 flex-shrink-0 relative md:top-16 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
       <img src="{{ asset('storage/images/home/hero.png') }}" alt="Hero Image" class="w-full h-auto object-contain" />
     </div>
 
