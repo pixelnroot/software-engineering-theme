@@ -108,7 +108,7 @@
     <section class="bg-[#FCFBFC] px-14 py-16 max-w-[1200px mx-auto]">
         <div class="flex justify-center items-center gap-8">
             <div class="w-[60%]">
-                <img src="{{ asset('storage/images/service/image_08.png') }}" alt="">
+                <img src="{{ asset('storage/images/service/image_07.png') }}" alt="">
             </div>
             <div class="max-w-xl mx-auto w-[40%]">
                 <h2 class="text-4xl text-gray-700 font-semibold leading-snug mb-8">
@@ -217,7 +217,7 @@
                 </div>
             </div>
             <div class="w-[60%]">
-                <img src="{{ asset('storage/images/service/image_07.png') }}" alt="">
+                <img src="{{ asset('storage/images/service/image_08.png') }}" alt="">
             </div>
         </div>
     </section>
@@ -448,7 +448,7 @@
                     </li>
                 </ul>
                 <button
-                    class="mt-6 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 hover:-translate-y-1 hover:scale-110 transition delay-50 duration-300 ease-in-out">
+                    class="mt-6 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 hover:-translate-y-1 hover:scale-110 transition delay-10 duration-300 ease-in-out">
                     Choose Plan
                 </button>
             </div>
