@@ -70,9 +70,9 @@
                 </div>
             </div>
             <div class="lg:flex md:flex justify-end lg:space-y-0 md:space-y-0 space-y-6 md:gap-5 md:mt-8">
-                <img class="lg:h-72 lg:w-1/4 md:w-[50%]  lg:absolute right-80 top-270 rounded-xl"
+                <img class="lg:h-72 lg:w-1/4 md:w-[50%] lg:absolute right-80 top-270 rounded-xl"
                     src="{{ asset('storage/images/about/image_01.jpg') }}" alt="">
-                <img class=" lg:h-84 lg:w-4/5 md:w-[50%] rounded-xl "
+                <img class="lg:h-84 lg:w-4/5 md:w-[50%] rounded-xl "
                     src="{{ asset('storage/images/about/image_02.jpg') }}" alt="">
             </div>
         </div>
