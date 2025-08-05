@@ -5,7 +5,16 @@
 
   <!-- Grid Layout with Tailwind's responsive classes -->
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 mx-6 my-8">
-
+    <x-feature-card
+      icon="fa-solid fa-desktop"
+      title="Software & Integration"
+      description="Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget."
+    />
+    <x-feature-card
+      icon="fa-solid fa-shield"
+      title="Network Security"
+      description="Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget."
+    />
     <!-- Feature 1 -->
     <div class="p-4 flex">
       <div class="mt-2 mr-4"><i class="fa-solid fa-desktop text-4xl text-violet-800"></i></div>

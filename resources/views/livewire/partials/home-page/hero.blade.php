@@ -9,7 +9,7 @@
       </span>
       <span class="mt-4 text-base sm:text-lg md:text-xl text-gray-500 tracking-tight">
         We're a company that focuses on establishing long-term relationships with customers.
-      </span> 
+      </span>
       <button
         class="mt-8 px-6 py-4 text-base md:text-lg text-white font-semibold bg-gradient-to-r from-pink-500 to-pink-600 rounded-lg transition ease-in-out hover:-translate-y-1 hover:shadow-lg">
         Explore Now
@@ -17,7 +17,7 @@
     </div>
 
     <!-- Image Section -->
-    <div class="mt-10 lg:mt-12 flex-shrink-0 relative md:top-16 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+    <div class="mt-10 lg:mt-12 flex-shrink-0 relative md:top-16 w-full max-w-xs lg:max-w-lg">
       <img src="{{ asset('storage/images/home/hero.png') }}" alt="Hero Image" class="w-full h-auto object-contain" />
     </div>
 
