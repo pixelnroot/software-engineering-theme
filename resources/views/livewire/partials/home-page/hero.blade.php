@@ -1,4 +1,4 @@
-<div class="max-w-[90%] mx-auto px-4">
+<div class="max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto px-4">
   <div
     class="flex flex-col-reverse md:flex-col lg:flex-row items-center justify-around bg-gradient-to-tr from-cyan-100 to-pink-200 rounded-xl p-6 md:p-10 lg:p-[72px] my-6 lg:h-[650px]">
 

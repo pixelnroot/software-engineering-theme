@@ -39,7 +39,7 @@
     <hr class="mt-16 lg:hidden text-gray-200 mx-8">
 
     <div class="flex lg:flex-row flex-col-reverse bg-white rounded-xl mt-16 ">
-        <div class="mx-4 flex flex-col lg:flex-col justify-center mt-8">
+        <div class="mx-4 flex-1 flex-col lg:flex-col justify-center mt-8">
             <p class="text-red-500 font-bold text-sm md:text-base tracking-wide uppercase mb-2">WHAT MAKES US DIFFERENT?
             </p>
             <p class="text-2xl md:text-3xl mt-2 font-semibold text-gray-700 mr-12 leading-tight">We make spending stress
@@ -57,7 +57,7 @@
                 <li>Donec id elit non mi porta gravida at eget.</li>
             </ul>
         </div>
-        <div class="max-w-full mx-auto">
+        <div class="flex-1 max-w-full mx-auto lg:mt-12 lg:relative left-15 lg:mr-15 xl:left-35">
             <img src="{{ asset("storage/images/home/marketing_02.jpg") }}" alt="Happy Customer"
                 class="w-100 sm:relative left-12 object-cover rounded-xl z-1">
 
