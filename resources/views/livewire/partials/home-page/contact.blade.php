@@ -1,21 +1,18 @@
-<div class="max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
-
+<div class="max-w-[95%] mx-auto">
     <div
         class="flex flex-col md:flex-row items-center gap-16 md:gap-8 lg:gap-16 justify-center md:justify-around mb-12 md:mb-32 mt-24 md:mt-48">
 
-        <img class="w-full sm:w-2/3 md:w-80 lg:w-100 flex-1" src="{{ asset('storage/images/home/contact.png') }}"
+        <img class="w-70 sm:w-100 md:w-70 lg:w-80 xl:w-90 flex-1" src="{{ asset('storage/images/home/contact.png') }}"
             alt="">
 
-        <ul class="w-full md:w-1/2 flex flex-col items-start justify-center space-y-6 md:space-y-8">
-            <li class="text-lg text-pink-500">CONTACT US</li>
-            <li class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-700 mb-8 md:mb-12">Got any
+        <ul class="w-full md:w-1/2 flex flex-col items-start justify-center space-y-4">
+            <li class="text-base text-pink-500">CONTACT US</li>
+            <li class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-gray-700 mb-8 md:mb-12">Got any
                 questions? Don't hesitate
                 to get in touch.</li>
 
-            <li class="flex">
-                <i class="fa-solid fa-thumbtack rotate-45 text-purple-700 text-4xl mt-4 mr-2">
-                    <i
-                        class="fa-solid fa-minus text-2xl bg-white text-red rotate-90 text-pink-500 relative right-6 top-3"></i>
+            <li class="flex gap-2">
+                <i class="fa-solid fa-thumbtack text-purple-700 text-3xl mt-2 mr-2">
                 </i>
                 <span class="flex-1 space-y-1">
                     <h1 class="text-gray-800 text-xl font-semibold">Address</h1>
@@ -23,9 +20,8 @@
                 </span>
             </li>
 
-            <li class="flex">
-                <i class="fa-solid fa-phone text-purple-700 text-3xl mt-3 mr-2">
-                    <i class="fa-solid fa-wifi text-pink-500 text-sm relative right-4 bottom-4 rotate-45"></i>
+            <li class="flex gap-2">
+                <i class="fa-solid fa-phone text-purple-700 text-3xl mt-2 mr-2">
                 </i>
                 <span class="flex-1 space-y-1">
                     <h1 class="text-gray-800 text-xl font-semibold">Phone</h1>
@@ -33,10 +29,8 @@
                 </span>
             </li>
 
-            <li class="flex">
-                <i class="fa-solid fa-envelope text-pink-500 text-3xl mt-1 mr-2">
-                    <i
-                        class="fa-solid fa-envelope text-3xl rounded-lg bg-white text-purple-700 relative right-10 bottom-2"></i>
+            <li class="flex gap-2">
+                <i class="fa-solid fa-envelope text-pink-500 text-3xl mt-2 mr-2">
                 </i>
                 <span class="flex-1 space-y-1">
                     <h1 class="text-gray-800 text-xl font-semibold">E-mail</h1>

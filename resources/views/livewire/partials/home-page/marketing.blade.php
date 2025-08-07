@@ -15,7 +15,7 @@
                 rutrum.</p>
 
             <div
-                class="xl:grid grid-cols-1 sm:grid-cols-2 mt-4 space-y-4 text-sm sm:text-base font-semibold text-justify text-gray-500 gap-4">
+                class="grid sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 mt-4 space-y-4 text-base sm:text-base font-semibold text-justify text-gray-500 gap-4">
                 <div class="flex items-start">
                     <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
                     <span>Aenean quam ornare. Curabitur blandit.</span>

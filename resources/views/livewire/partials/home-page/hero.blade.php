@@ -1,10 +1,10 @@
 <div class="max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto px-4">
   <div
-    class="flex flex-col-reverse md:flex-col lg:flex-row items-center justify-around bg-gradient-to-tr from-cyan-100 to-pink-200 rounded-xl p-6 md:p-10 lg:p-[72px] my-6 lg:h-[650px]">
+    class="flex flex-col-reverse lg:flex-row items-center justify-around bg-gradient-to-tr from-cyan-100 to-pink-200 rounded-xl p-6 md:p-10 lg:p-[72px] my-6 lg:h-[650px]">
 
     <!-- Text Section -->
     <div class="flex flex-col items-center lg:items-start text-center lg:text-left mt-10 lg:mt-0 max-w-xl">
-      <span class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-700 leading-tight tracking-tight">
+      <span class="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-700 leading-tight tracking-tight">
         Networking <span class="text-pink-500">solutions</span> for worldwide communication
       </span>
       <span class="mt-4 text-base sm:text-lg md:text-xl text-gray-500 tracking-tight">
@@ -17,8 +17,8 @@
     </div>
 
     <!-- Image Section -->
-    <div class="mt-10 lg:mt-12 flex-shrink-0 relative md:top-16 w-full max-w-xs lg:max-w-lg">
-      <img src="{{ asset('storage/images/home/hero.png') }}" alt="Hero Image" class="w-full h-auto object-contain" />
+    <div class="mt-10 lg:mt-12 flex-shrink-0 w-full max-w-sm">
+      <img src="{{ asset('storage/images/home/hero.png') }}" alt="Hero Image" class="h-auto object-contain" />
     </div>
 
   </div>

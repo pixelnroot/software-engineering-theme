@@ -1,4 +1,4 @@
-<div class="lg:flex lg:mx-[15%] space-y-4 justify-around mx-16 gap-16">
+<div class="lg:flex space-y-4 justify-around mx-16 gap-16 text-justify">
   <div class="flex items-start space-x-4">
     <div>
       <div class="bg-gray-200 rounded-full px-3 py-1 mt-2 font-semibold">
