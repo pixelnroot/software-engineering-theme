@@ -15,13 +15,13 @@
     <!-- What we do section -->
     <section class="bg-[#faf9f6] pt-28 pb-32 max-w-[90%] mx-auto">
         <div class="flex flex-col lg:flex-row px-4 md:px-10 justify-center items-center">
-            <div class="w-full lg:w-[40%] lg:mr-14 space-y-7 mb-10 lg:mb-0">
+            <div class="w-full lg:w-[60%] lg:mr-14 space-y-7 mb-10 lg:mb-0">
                 <p class="text-gray-400">WHAT WE DO?</p>
                 <h1 class="text-2xl md:text-4xl font-semibold text-gray-700">
                     The service we offer is specifically designed to <br class="hidden md:block" />
                     meet your needs.
                 </h1>
-                <p class="text-gray-500 text-base md:text-lg">
+                <p class="text-gray-500 text-base md:text-lg text-justify">
                     Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas
                     sed diam eget risus
                     varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Praesent commodo cursus magna,
@@ -32,7 +32,7 @@
                     More details
                 </button>
             </div>
-            <div class="w-full lg:w-auto">
+            <div class="w-full lg:w-auto text-justify">
                 <div class="flex flex-col md:flex-row gap-7 relative lg:left-16 mb-7">
                     <div class="flex flex-col md:flex-row lg:items-end gap-7">
                         {{-- card - 01 --}}
@@ -40,14 +40,14 @@
                             class="bg-[#efe5d8] px-8 py-5 space-y-3 rounded-xl h-auto md:h-56 flex-1 mb-7 md:mb-0 lg:h-64 lg:w-24">
                             <img class="h-18 w-20" src="{{ asset('storage/images/service/image.png') }}" alt="">
                             <h4 class="text-lg md:text-xl font-semibold pl-2" p>Support</h4>
-                            <p class="text-gray-500 pl-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non
+                            <p class="text-gray-500 pl-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non 
                                 mi porta.
                             </p>
                         </div>
                         {{-- card - 02 --}}
-                        <div class="bg-[#F0D3CD] px-8 py-5 space-y-3 rounded-xl h-auto md:h-56 flex-1 mb-7 md:mb-0">
+                        <div class="bg-[#F0D3CD] px-8 py-5 space-y-3 rounded-xl h-auto md:h-56 flex-1 mb-7 md:mb-0 lg:h-64">
                             <img class="h-18 w-20" src="{{ asset('storage/images/service/image_01.png') }}" alt="">
-                            <h4 class="text-lg md:text-xl font-semibold pl-2">Secure Payments</h4>
+                            <h4 class="text-lg md:text-xl font-semibold pl-2">Secure Payment</h4>
                             <p class="text-gray-500 pl-2">Nulla vitae elit libero, a pharetra
                                 augue. Donec id elit non.
                             </p>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="flex flex-col md:flex-row gap-7">
                     {{-- card - 03 --}}
-                    <div class="bg-[#E6E2DF] px-8 py-5 space-y-3 rounded-xl h-auto md:h-56 flex-1 mb-7 md:mb-0">
+                    <div class="bg-[#E6E2DF] px-8 py-5 space-y-3 rounded-xl h-auto md:h-56 flex-1 mb-7 md:mb-0 lg:h-64">
                         <img class="h-18 w-20" src="{{ asset('storage/images/service/image_02.png') }}" alt="">
                         <h4 class="text-lg md:text-xl font-semibold pl-2">Daily Updates</h4>
                         <p class="text-gray-500 pl-2">Nulla vitae elit libero, a pharetra
@@ -88,7 +88,7 @@
     </section>
 
     <!-- our process section -->
-    <section class="bg-[#EDF2FC] pt-24 md:pt-48 lg:pt-96 pb-16 md:pb-24 px-4 lg:pb-32 max-w-[90%] mx-auto">
+    <section class="bg-[#EDF2FC] pt-24 md:pt-32 pb-16 md:pb-24 px-4 lg:pb-32 max-w-[90%] mx-auto">
         <div class="text-center space-y-4 px-4 md:px-0">
             <p class="text-gray-400">OUR PROCESS</p>
             <h1 class="text-2xl md:text-4xl font-semibold text-gray-700">
@@ -130,9 +130,9 @@
                     class="w-full max-w-xs md:max-w-full h-auto object-contain">
             </div>
             <div class="w-full lg:w-[50%] max-w-xl mx-auto">
-                <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-700 font-semibold leading-snug mb-6 md:mb-8">
-                    We bring rapid solutions<br />
-                    to make the life of our<br />
+                <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-700 font-semibold leading-snug mb-6 md:mb-8 text-justify">
+                    We bring rapid solutions
+                    to make the life of our
                     customers easier.
                 </h2>
 
@@ -186,7 +186,7 @@
     <!-- animated section -02  -->
     <section
         class="bg-[#F1F0EB] px-4 md:px-8 lg:px-16 py-10 md:py-16 lg:py-20 max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto">
-        <div class="flex flex-col-reverse lg:flex-row justify-center items-center gap-8">
+        <div class="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 text-justify">
             <div class="w-full lg:w-[50%] space-y-8 mt-8 md:mt-0">
                 <h1 class="text-2xl md:text-3xl lg:text-4xl text-gray-700 font-semibold leading-snug">
                     We make your spending
@@ -200,7 +200,7 @@
                     nisl
                     consectetur et.
                 </p>
-                <div class="xl:grid-cols-2 grid lg:grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                <div class="sm:grid-cols-2 grid lg:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 md:gap-8">
                     <div class="flex gap-3 items-start">
                         <div class="bg-sky-200 rounded-full p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -249,7 +249,7 @@
 
     <!-- Pricing section -->
     <section class="bg-[#EDF2FC] md:relative max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto">
-        <div class="text-center pt-24 pb-8 mx-4 ">
+        <div class="text-center pt-24 mx-8 md:mx-16 ">
             <p class="text-gray-400 mb-5">OUR PRICING</p>
             <h1 class="text-4xl font-semibold text-gray-700">We offer great prices, premium products and quality
                 service for your business.</h1>
@@ -267,10 +267,10 @@
         </div>
 
 
-        <div class="md:relative md:inset-0 flex justify-center items-center gap-8">
+        <div class="md:relative md:inset-0 flex justify-center items-center gap-8 ">
             <!-- All card  -->
             <div
-                class="flex flex-col md:relative md:flex-row md:flex-wrap lg:flex-nowrap md:top-20 mb-50 justify-center items-stretch md:gap-6 md:px-4 sm:p-20 p-10 w-full">
+                class="flex flex-col md:relative md:flex-row md:flex-wrap lg:flex-nowrap md:top-20 mb-50 justify-center items-stretch md:gap-8 md:px-4 sm:p-20 p-10 w-full lg:gap-12">
                 <!-- First card -->
                 <div
                     class="bg-white shadow-lg rounded-xl py-8 px-6 md:px-8 lg:px-10 xl:px-16 text-center flex-1 min-w-0 mb-6 md:mb-0">
