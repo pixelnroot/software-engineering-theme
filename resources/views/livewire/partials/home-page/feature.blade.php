@@ -1,4 +1,4 @@
-<div class="max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto my-32">
+<div class="max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto my-12">
   <h4 class="text-center text-pink-500 text-sm sm:text-base my-2">OUR FEATURES</h4>
   <h1 class="text-2xl md:text-3xl text-center font-semibold text-gray-700 my-2">The service we offer is specifically <br> designed
     to meet your needs.</h1>

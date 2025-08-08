@@ -1,5 +1,5 @@
 <div class="max-w-[100%] mx-auto px-[5%]">
-  <div class="bg-linear-to-tr from-cyan-100 to-pink-200 py-[10%] my-32 rounded-xl">
+  <div class="bg-linear-to-tr from-cyan-100 to-pink-200 py-[10%] my-16 md:-mt-16 rounded-xl">
     <div class="flex flex-col items-center justify-center h-full">
       <h4 class="text-lg text-pink-500 py-3">JOIN OUR COMMUNITY</h4>
       <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-700 text-center">We are trusted by over 5000+ clients. <br> Join them

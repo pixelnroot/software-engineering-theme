@@ -1,6 +1,6 @@
 <div class="max-w-[95%] mx-auto">
     <div
-        class="flex flex-col md:flex-row items-center gap-16 md:gap-8 lg:gap-16 justify-center md:justify-around mb-12 md:mb-32 mt-24 md:mt-48">
+        class="flex flex-col md:flex-row items-center gap-8 md:gap-8 lg:gap-16 justify-center md:justify-around mb-12 md:mb-32 mt-24 md:mt-24">
 
         <img class="w-70 sm:w-100 md:w-70 lg:w-80 xl:w-90 flex-1" src="{{ asset('storage/images/home/contact.png') }}"
             alt="">

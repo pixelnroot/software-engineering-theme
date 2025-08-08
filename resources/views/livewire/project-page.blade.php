@@ -14,7 +14,7 @@
     </div>
     <div class="mt-12 flex flex-col md:flex-row justify-between gap-4 mb-12 text-justify lg:gap-10">
         {{-- card 01 --}}
-        <div class="w-[320px] sm:w-[450px] md:w-[500px] h-auto shadow-md pb-4 flex flex-col mx-auto md:mx-0 rounded-lg">
+        <div class="w-85 sm:w-[450px] md:w-[500px] h-auto shadow-md pb-4 flex flex-col mx-auto md:mx-0 rounded-lg">
             <div>
                 <img src="{{ asset('storage/images/project/code.jpg') }}"
                     class="w-full h-[180px] sm:h-[200px] md:w-[420px] md:h-[236px] object-cover rounded-t-lg" alt="">
@@ -34,7 +34,7 @@
             </div>
         </div>
         {{-- card 02 --}}
-        <div class="w-[320px] sm:w-[450px] md:w-[500px] h-auto shadow-md pb-4 flex flex-col mx-auto md:mx-0 rounded-lg">
+        <div class="w-85 sm:w-[450px] md:w-[500px] h-auto shadow-md pb-4 flex flex-col mx-auto md:mx-0 rounded-lg">
             <div>
                 <img src="{{ asset('storage/images/project/mobile-app.jpg') }}"
                     class="w-full h-[180px] sm:h-[200px] md:w-[420px] md:h-[236px] object-cover rounded-t-lg" alt="">
@@ -54,7 +54,7 @@
             </div>
         </div>
         {{-- card 03 --}}
-        <div class="w-[320px] sm:w-[450px] md:w-[500px] h-auto shadow-md pb-4 flex flex-col mx-auto md:mx-0 rounded-lg">
+        <div class="w-85 sm:w-[450px] md:w-[500px] h-auto shadow-md pb-4 flex flex-col mx-auto md:mx-0 rounded-lg">
             <div>
                 <img src="{{ asset('storage/images/project/e-commerce.jpg') }}"
                     class="w-full h-[180px] sm:h-[200px] md:w-[420px] md:h-[236px] object-cover rounded-t-lg" alt="">

@@ -1,4 +1,4 @@
-<div class="flex flex-col mt-24 max-w-[95%] mx-auto">
+<div class="flex flex-col mt-12 max-w-[95%] mx-auto">
     <div class=" flex flex-col justify-center items-center">
         <p class="text-gray-400 text-lg font-semibold uppercase ">Case Studies</p>
         <p class="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-semibold flex items-center text-gray-800 mt-4 justify-center text-center">Check out

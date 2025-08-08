@@ -13,9 +13,9 @@
     </section>
 
     <!-- What we do section -->
-    <section class="bg-[#faf9f6] pt-28 pb-32 max-w-[90%] mx-auto">
-        <div class="flex flex-col lg:flex-row px-4 md:px-10 justify-center items-center">
-            <div class="w-full lg:w-[60%] lg:mr-14 space-y-7 mb-10 lg:mb-0">
+    <section class="bg-[#faf9f6] pt-8 pb-8 md:pb-16 max-w-[90%] mx-auto">
+        <div class="flex flex-col xl:flex-row px-4 md:px-10 justify-center items-center">
+            <div class="w-full xl:w-[60%] xl:mr-14 space-y-7 mb-10 xl:mb-0">
                 <p class="text-gray-400">WHAT WE DO?</p>
                 <h1 class="text-2xl md:text-4xl font-semibold text-gray-700">
                     The service we offer is specifically designed to <br class="hidden md:block" />
@@ -33,11 +33,11 @@
                 </button>
             </div>
             <div class="w-full lg:w-auto text-justify">
-                <div class="flex flex-col md:flex-row gap-7 relative lg:left-16 mb-7">
+                <div class="flex flex-col md:flex-row gap-7 relative xl:left-16 mb-7">
                     <div class="flex flex-col md:flex-row lg:items-end gap-7">
                         {{-- card - 01 --}}
                         <div
-                            class="bg-[#efe5d8] px-8 py-5 space-y-3 rounded-xl h-auto md:h-56 flex-1 mb-7 md:mb-0 lg:h-64 lg:w-24">
+                            class="bg-[#efe5d8] px-8 py-5 space-y-3 rounded-xl h-auto md:h-56 flex-1 mb-7 md:mb-0 xl:h-64 xl:w-24">
                             <img class="h-18 w-20" src="{{ asset('storage/images/service/image.png') }}" alt="">
                             <h4 class="text-lg md:text-xl font-semibold pl-2" p>Support</h4>
                             <p class="text-gray-500 pl-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non 
@@ -45,7 +45,7 @@
                             </p>
                         </div>
                         {{-- card - 02 --}}
-                        <div class="bg-[#F0D3CD] px-8 py-5 space-y-3 rounded-xl h-auto md:h-56 flex-1 mb-7 md:mb-0 lg:h-64">
+                        <div class="bg-[#F0D3CD] px-8 py-5 space-y-3 rounded-xl h-auto md:h-56 flex-1 mb-7 md:mb-0 xl:h-64">
                             <img class="h-18 w-20" src="{{ asset('storage/images/service/image_01.png') }}" alt="">
                             <h4 class="text-lg md:text-xl font-semibold pl-2">Secure Payment</h4>
                             <p class="text-gray-500 pl-2">Nulla vitae elit libero, a pharetra
@@ -88,7 +88,7 @@
     </section>
 
     <!-- our process section -->
-    <section class="bg-[#EDF2FC] pt-24 md:pt-32 pb-16 md:pb-24 px-4 lg:pb-32 max-w-[90%] mx-auto">
+    <section class="bg-[#EDF2FC] pt-8 md:pt-16 pb-8 md:pb-8 px-4 lg:pb-16 max-w-[90%] mx-auto">
         <div class="text-center space-y-4 px-4 md:px-0">
             <p class="text-gray-400">OUR PROCESS</p>
             <h1 class="text-2xl md:text-4xl font-semibold text-gray-700">
@@ -249,7 +249,7 @@
 
     <!-- Pricing section -->
     <section class="bg-[#EDF2FC] md:relative max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto">
-        <div class="text-center pt-24 mx-8 md:mx-16 ">
+        <div class="text-center pt-12 mx-8 md:mx-16 ">
             <p class="text-gray-400 mb-5">OUR PRICING</p>
             <h1 class="text-4xl font-semibold text-gray-700">We offer great prices, premium products and quality
                 service for your business.</h1>
@@ -267,10 +267,10 @@
         </div>
 
 
-        <div class="md:relative md:inset-0 flex justify-center items-center gap-8 ">
+        <div class="md:relative md:inset-0 flex justify-center items-center gap-8">
             <!-- All card  -->
             <div
-                class="flex flex-col md:relative md:flex-row md:flex-wrap lg:flex-nowrap md:top-20 mb-50 justify-center items-stretch md:gap-8 md:px-4 sm:p-20 p-10 w-full lg:gap-12">
+                class="flex flex-col md:relative md:flex-row md:flex-wrap lg:flex-nowrap md:top-20 mb-10 sm:-mt-10 md:-mt-20 justify-center items-stretch md:gap-8 md:px-4 sm:p-20 p-10 w-full lg:gap-12">
                 <!-- First card -->
                 <div
                     class="bg-white shadow-lg rounded-xl py-8 px-6 md:px-8 lg:px-10 xl:px-16 text-center flex-1 min-w-0 mb-6 md:mb-0">

@@ -63,7 +63,7 @@
 
             <!-- Progress Card -->
 
-            <div class="flex flex-col gap-4 mt-4 sm:relative bottom-95 sm:w-50 mx-8 sm:gap-24 z-10 right-20 sm:-mb-80">
+            <div class="flex flex-col gap-4 mt-4 relative bottom-10 sm:bottom-95 sm:w-50 mx-8 sm:gap-24 z-10 sm:right-20 sm:-mb-80">
                 <div
                     class="shadow-lg bg-white rounded-xl flex items-center justify-center py-4 px-5 w-full border border-gray-200 ">
                     <img src="https://sandbox-tailwind-template.netlify.app/assets/img/icons/solid/cloud-group.svg"
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div
-                    class="shadow-lg bg-white rounded-xl flex flex-col items-center py-4 px-5 sm:w-50 border border-gray-200 ">
+                    class="shadow-lg hidden sm:flex bg-white rounded-xl flex-col items-center py-4 px-5 sm:w-50 border border-gray-200 ">
                     <svg viewBox="0 0 100 50" style="display: block; width: 80px;">
                         <path d="M 50,50 m -47,0 a 47,47 0 1 1 94,0" stroke="#eee" stroke-width="6" fill-opacity="0">
                         </path>
