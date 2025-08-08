@@ -1,4 +1,4 @@
-<div class="max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto text-justify">
+<div class="max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto text-justify mt-25">
     <section class="relative h-56 lg:h-[90vh] md:h-[70vh] w-full overflow-hidden lg:rounded-2xl mx-auto">
         <img class="absolute inset-0 w-full h-full object-cover" src="{{ asset('storage/images/about/about.jpg') }}">
         <div class="absolute inset-0 bg-black/60 z-10"></div>

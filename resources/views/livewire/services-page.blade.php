@@ -1,4 +1,4 @@
-<div>
+<div class="mt-25">
     <!-- header  -->
     <section class="relative h-56 lg:h-[90vh] md:h-[80vh] w-full overflow-hidden lg:rounded-2xl lg:max-w-[90%] mx-auto">
         <img class="absolute inset-0 w-full h-full object-cover" src="{{ asset('storage/images/service/header.jpg') }}">

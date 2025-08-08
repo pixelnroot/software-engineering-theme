@@ -1,4 +1,4 @@
-<div class="max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto">
+<div class="max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto mt-25">
     <div>
         <div class="flex flex-col cursor-pointer mt-4 w-full">
             <div class="flex flex-col justify-center items-center">

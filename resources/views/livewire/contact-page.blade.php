@@ -1,4 +1,4 @@
-<div class="max-w-full">
+<div class="max-w-full mt-20">
     <!-- 2nd div  -->
     <div class="flex flex-col w-full h-50  md:h-100 bg-indigo-50 slant-box justify-center items-center gap-4 mb-10">
         <h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-700 mt-20">Get in Touch</h1>
