@@ -1,6 +1,6 @@
 <div class="bg-white text-gray-800 mt-16">
-    <section class="py-20 bg-gradient-to-r from-indigo-50 to-purple-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
+    <section class="py-16 bg-gradient-to-r from-indigo-50 to-purple-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center">
             <div class="md:w-1/2 mb-10 md:mb-0">
                 <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Meet Our Amazing Team</h1>
                 <p class="text-xl text-gray-600 mb-8 max-w-lg">
@@ -20,14 +20,29 @@
             </div>
             <div class="md:w-1/2 flex justify-center">
                 <!-- Option 1: Diverse team working together -->
-                <img src="{{ asset('storage/images/team/teamwork_01.jpg') }}"
-                    class="hero-image w-full max-w-md rounded-lg shadow-lg object-cover">
+                <dotlottie-wc src="https://lottie.host/eecbf9dc-2cc3-477f-a53a-0c926a62ebf5/03OfM3p6Oz.lottie"
+                    style="width: 400px;height: 400px" speed="1" autoplay loop></dotlottie-wc>
             </div>
+
         </div>
     </section>
 
+    {{-- <section
+        class="relative h-56 lg:h-[90vh] md:h-[80vh] w-full overflow-hidden lg:rounded-2xl lg:max-w-[90%] mx-auto">
+        <img class="absolute inset-0 w-full h-full object-cover"
+            src="{{ asset('storage/images/team/teamwork_01.jpg') }}">
+        <div class="absolute inset-0 bg-black/50 z-10"></div>
+        <div
+            class="relative z-20 text-center lg:space-y-4 md:space-y-4 space-y-2 flex flex-col justify-center items-center lg:h-[80vh] md:h-[80vh] h-[30vh] text-white">
+            <h2 class="text-2xl md:text-5xl lg:text-7xl font-bold">Our Services </h2>
+            <p class="w-[80%] md:text-xl lg:text-2xl">We are a creative company that focuses on establishing long-term
+                relationships with
+                customers.</p>
+        </div>
+    </section> --}}
+
     <!-- Leadership Team -->
-    <section id="leadership" class="py-16 bg-white"> 
+    <section id="leadership" class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-2xl font-bold text-gray-900 mb-2">Leadership Team</h2>
@@ -39,8 +54,8 @@
                 <div
                     class="bg-white hover:cursor-pointer rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 transform-gpu opacity-100 animate-fade-in">
                     <div class="pb-4">
-                        <img src="{{ asset('storage/images/team/profile01.jpg') }}"
-                            alt="Alex Morgan - CEO" class="w-full h-auto rounded-x-lg object-cover aspect-square">
+                        <img src="{{ asset('storage/images/team/profile01.jpg') }}" alt="Alex Morgan - CEO"
+                            class="w-full h-auto rounded-x-lg object-cover aspect-square">
                     </div>
                     <div class="px-6 pb-6">
                         <h3 class="text-xl font-semibold text-gray-900">Alex Morgan</h3>
@@ -105,8 +120,7 @@
                 <div class="bg-white hover:cursor-pointer rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 transform-gpu opacity-100 animate-fade-in"
                     style="animation-delay: 200ms">
                     <div class="pb-4">
-                        <img src="{{ asset('storage/images/team/profile03.jpg') }}"
-                            alt="Taylor Ray - Head of Design"
+                        <img src="{{ asset('storage/images/team/profile03.jpg') }}" alt="Taylor Ray - Head of Design"
                             class="w-full h-auto rounded-x-lg object-cover aspect-square">
                     </div>
                     <div class="px-6 pb-6">
@@ -138,8 +152,7 @@
                 <div class="bg-white hover:cursor-pointer rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 transform-gpu opacity-100 animate-fade-in"
                     style="animation-delay: 300ms">
                     <div class="pb-4">
-                        <img src="{{ asset('storage/images/team/profile04.jpg') }}"
-                            alt="Jordan Kim - Head of Product"
+                        <img src="{{ asset('storage/images/team/profile04.jpg') }}" alt="Jordan Kim - Head of Product"
                             class="w-full h-auto rounded-x-lg object-cover aspect-square">
                     </div>
                     <div class="px-6 pb-6">
@@ -321,8 +334,7 @@
                 <div class="bg-white hover:cursor-pointer rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 transform-gpu opacity-100 animate-fade-in"
                     style="animation-delay: 800ms">
                     <div class="pb-4">
-                        <img src="{{ asset('storage/images/team/profile09.jpg') }}"
-                            alt="Emma Rodriguez - UX Designer"
+                        <img src="{{ asset('storage/images/team/profile09.jpg') }}" alt="Emma Rodriguez - UX Designer"
                             class="w-full h-auto rounded-x-lg object-cover aspect-square">
                     </div>
                     <div class="px-6 pb-6">
@@ -354,8 +366,8 @@
                 <div class="bg-white hover:cursor-pointer rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 transform-gpu opacity-100 animate-fade-in"
                     style="animation-delay: 900ms">
                     <div class="pb-4">
-                        <img src="{{ asset('storage/images/team/profile10.jpg') }}"
-                            alt="Ryan Smith - UI Designer" class="w-full h-auto rounded-x-lg object-cover aspect-square">
+                        <img src="{{ asset('storage/images/team/profile10.jpg') }}" alt="Ryan Smith - UI Designer"
+                            class="w-full h-auto rounded-x-lg object-cover aspect-square">
                     </div>
                     <div class="px-6 pb-6">
                         <h3 class="text-xl font-semibold text-gray-900">Ryan Smith</h3>
@@ -421,8 +433,8 @@
                 <div class="bg-white hover:cursor-pointer rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 transform-gpu opacity-100 animate-fade-in"
                     style="animation-delay: 1100ms">
                     <div class="pb-4">
-                        <img src="{{ asset('storage/images/team/profile12.jpg') }}"
-                            alt="Chris Lee - UX Researcher" class="w-full h-auto rounded-x-lg object-cover aspect-square">
+                        <img src="{{ asset('storage/images/team/profile12.jpg') }}" alt="Chris Lee - UX Researcher"
+                            class="w-full h-auto rounded-x-lg object-cover aspect-square">
                     </div>
                     <div class="px-6 pb-6">
                         <h3 class="text-xl font-semibold text-gray-900">Chris Lee</h3>
@@ -465,8 +477,8 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden  hover:cursor-pointer">
-                    <img src="{{ asset('storage/images/team/culture02.jpg') }}"
-                        alt="Our collaborative workspace" class="w-full h-48 object-cover">
+                    <img src="{{ asset('storage/images/team/culture02.jpg') }}" alt="Our collaborative workspace"
+                        class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-900 mb-2">Collaborative Environment</h3>
                         <p class="text-gray-600">
@@ -476,8 +488,8 @@
                     </div>
                 </div>
                 <div class="bg-white rounded-xl shadow-md overflow-hidden hover:cursor-pointer">
-                    <img src="{{ asset('storage/images/team/culture01.jpg') }}"
-                        alt="Team building event" class="w-full h-48 object-cover">
+                    <img src="{{ asset('storage/images/team/culture01.jpg') }}" alt="Team building event"
+                        class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-900 mb-2">Work-Life Balance</h3>
                         <p class="text-gray-600">
@@ -508,3 +520,4 @@
     </section>
 </div>
 
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>

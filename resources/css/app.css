@@ -155,15 +155,15 @@ body {
 
 .newsletter-input {
     width: 100%;
-    background-color: #1f2937;
+    /* background-color: #ebebeb; */
     /* bg-gray-800 */
-    border: 1px solid #374151;
+    /* border: 1px solid #b6b6b6; */
     /* border-gray-700 */
     border-radius: 0.5rem;
     /* rounded-lg */
     padding: 0.75rem 1rem 0.75rem 2.5rem;
     /* px-4 py-3 pl-10 */
-    color: #fff;
+    /* color: #000000; */
     transition: all 0.3s;
 }
 
@@ -223,4 +223,438 @@ body {
     /* hover:text-primary */
     text-decoration: underline;
     text-underline-offset: 4px;
+}
+
+
+/* service */
+
+@keyframes fillBar {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: var(--target-width);
+    }
+}
+
+.animate-fill {
+    animation: fillBar 1.5s ease forwards;
+}
+
+
+.counter-7518::after {
+    content: "0";
+    animation: count7518 1s steps(12) forwards;
+}
+
+@keyframes count7518 {
+    45% {
+        content: "3382";
+    }
+
+    50% {
+        content: "3758";
+    }
+
+    55% {
+        content: "4134";
+    }
+
+    60% {
+        content: "4509";
+    }
+
+    65% {
+        content: "4885";
+    }
+
+    70% {
+        content: "5261";
+    }
+
+    75% {
+        content: "5637";
+    }
+
+    80% {
+        content: "6012";
+    }
+
+    85% {
+        content: "6388";
+    }
+
+    90% {
+        content: "6764";
+    }
+
+    95% {
+        content: "7140";
+    }
+
+    100% {
+        content: "7518";
+    }
+}
+
+
+.counter-5472::after {
+    content: "0";
+    animation: count5472 1s steps(12) forwards;
+}
+
+@keyframes count5472 {
+
+    45% {
+        content: "2464";
+    }
+
+    50% {
+        content: "2736";
+    }
+
+    55% {
+        content: "3010";
+    }
+
+    60% {
+        content: "3284";
+    }
+
+    65% {
+        content: "3558";
+    }
+
+    70% {
+        content: "3832";
+    }
+
+    75% {
+        content: "4106";
+    }
+
+    80% {
+        content: "4380";
+    }
+
+    85% {
+        content: "4654";
+    }
+
+    90% {
+        content: "4928";
+    }
+
+    95% {
+        content: "5200";
+    }
+
+    100% {
+        content: "5472";
+    }
+}
+
+/* Counter 2184 */
+.counter-2184::after {
+    content: "0";
+    animation: count2184 1s steps(12) forwards;
+}
+
+@keyframes count2184 {
+    45% {
+        content: "981";
+    }
+
+    50% {
+        content: "1092";
+    }
+
+    55% {
+        content: "1201";
+    }
+
+    60% {
+        content: "1310";
+    }
+
+    65% {
+        content: "1419";
+    }
+
+    70% {
+        content: "1528";
+    }
+
+    75% {
+        content: "1637";
+    }
+
+    80% {
+        content: "1746";
+    }
+
+    85% {
+        content: "1855";
+    }
+
+    90% {
+        content: "1964";
+    }
+
+    95% {
+        content: "2073";
+    }
+
+    100% {
+        content: "2184";
+    }
+}
+
+
+/* about */
+
+
+/* Join our team  */
+.counter-7518::after {
+    content: "0";
+    animation: count7518 1s steps(12) forwards;
+}
+
+@keyframes count7518 {
+    45% {
+        content: "3382";
+    }
+
+    50% {
+        content: "3758";
+    }
+
+    55% {
+        content: "4134";
+    }
+
+    60% {
+        content: "4509";
+    }
+
+    65% {
+        content: "4885";
+    }
+
+    70% {
+        content: "5261";
+    }
+
+    75% {
+        content: "5637";
+    }
+
+    80% {
+        content: "6012";
+    }
+
+    85% {
+        content: "6388";
+    }
+
+    90% {
+        content: "6764";
+    }
+
+    95% {
+        content: "7140";
+    }
+
+    100% {
+        content: "7518";
+    }
+}
+
+
+.counter-3472::after {
+    content: "0";
+    animation: count3472 1s steps(12) forwards;
+}
+
+@keyframes count3472 {
+
+    45% {
+        content: "1064";
+    }
+
+    50% {
+        content: "1236";
+    }
+
+    55% {
+        content: "1310";
+    }
+
+    60% {
+        content: "1684";
+    }
+
+    65% {
+        content: "1758";
+    }
+
+    70% {
+        content: "1932";
+    }
+
+    75% {
+        content: "2006";
+    }
+
+    80% {
+        content: "2180";
+    }
+
+    85% {
+        content: "2254";
+    }
+
+    90% {
+        content: "2528";
+    }
+
+    95% {
+        content: "2653";
+    }
+
+    100% {
+        content: "3472";
+    }
+}
+
+.counter-2184::after {
+    content: "0";
+    animation: count2184 1s steps(12) forwards;
+}
+
+@keyframes count2184 {
+    45% {
+        content: "981";
+    }
+
+    50% {
+        content: "1092";
+    }
+
+    55% {
+        content: "1201";
+    }
+
+    60% {
+        content: "1310";
+    }
+
+    65% {
+        content: "1419";
+    }
+
+    70% {
+        content: "1528";
+    }
+
+    75% {
+        content: "1637";
+    }
+
+    80% {
+        content: "1746";
+    }
+
+    85% {
+        content: "1855";
+    }
+
+    90% {
+        content: "1964";
+    }
+
+    95% {
+        content: "2073";
+    }
+
+    100% {
+        content: "2184";
+    }
+}
+
+
+/* Counter 4523 */
+.counter-4523::after {
+    content: "0";
+    animation: count4523 1s steps(12) forwards;
+}
+
+@keyframes count4523 {
+    45% {
+        content: "1081";
+    }
+
+    50% {
+        content: "1292";
+    }
+
+    55% {
+        content: "1401";
+    }
+
+    60% {
+        content: "1610";
+    }
+
+    65% {
+        content: "1919";
+    }
+
+    70% {
+        content: "2228";
+    }
+
+    75% {
+        content: "2737";
+    }
+
+    80% {
+        content: "2946";
+    }
+
+    85% {
+        content: "3155";
+    }
+
+    90% {
+        content: "3264";
+    }
+
+    95% {
+        content: "3873";
+    }
+
+    100% {
+        content: "4523";
+    }
+}
+
+/* team card animation */
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-slide {
+    animation: slide 30s linear infinite;
+}
+
+.animate-slide:hover {
+    animation-play-state: paused;
 }
