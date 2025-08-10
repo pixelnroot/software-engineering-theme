@@ -27,7 +27,7 @@
     </section>
 
     <!-- Leadership Team -->
-    <section id="leadership" class="py-16 bg-white"> hover:cursor-pointer
+    <section id="leadership" class="py-16 bg-white"> 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-2xl font-bold text-gray-900 mb-2">Leadership Team</h2>

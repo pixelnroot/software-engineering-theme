@@ -1,4 +1,4 @@
-<footer
+{{-- <footer
     class="{{ Route::currentRouteName() !== 'home' ? 'bg-gradient-to-br from-gray-900 to-gray-800' : 'bg-gradient-to-br from-gray-50 to-white' }} text-gray-600 py-12 px-4 sm:px-8 lg:px-12 ">
     <!-- Decorative elements -->
     <div
@@ -112,7 +112,7 @@
             </div>
 
             <!-- Newsletter -->
-            <div >
+            <div>
                 <h3
                     class="text-lg font-semibold mb-4 sm:mb-6 {{ Route::currentRouteName() !== 'home' ? 'text-white' : 'text-gray-800' }}">
                     Newsletter</h3>
@@ -155,6 +155,150 @@
                     of Service</a>
                 <a href="#"
                     class="{{ Route::currentRouteName() !== 'home' ? 'text-gray-400 hover:text-white' : 'text-gray-500 hover:text-gray-800' }} text-sm transition-colors">Cookies</a>
+            </div>
+        </div>
+    </div>
+</footer> --}}
+
+<footer class="bg-gray-900 text-white pt-16 pb-8 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 items-start">
+            <!-- Company Info -->
+            <div class="md:col-span-2 lg:col-span-1 flex flex-col">
+                <div class="mb-6">
+                    <h3 class="text-3xl font-bold mb-2">
+                        <span class="text-primary">Sand</span><span class="text-white">Box</span>
+                    </h3>
+                    <div class="w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full"></div>
+                </div>
+                <p class="text-gray-400 mb-6 leading-relaxed">
+                    Transforming businesses with innovative IT solutions and cutting-edge technology services.
+                </p>
+                <div class="flex space-x-3 mt-auto">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="flex flex-col md:ml-20">
+                <h4 class="text-lg font-semibold mb-6  relative inline-block">
+                    Navigation
+                    <span
+                        class="absolute bottom-0 left-0 w-8 h-0.5 bg-gradient-to-r from-primary to-secondary rounded-full"></span>
+                </h4>
+                <ul class="space-y-3 flex-1">
+                    <li>
+                        <a href="#" class="nav-link">
+                            <span class="nav-link-bullet"></span>
+                            <span class="nav-link-text">Home</span>
+                            <i class="nav-link-chevron"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            <span class="nav-link-bullet"></span>
+                            <span class="nav-link-text">Services</span>
+                            <i class="nav-link-chevron"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            <span class="nav-link-bullet"></span>
+                            <span class="nav-link-text">Projects</span>
+                            <i class="nav-link-chevron"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Company Links -->
+            <div class="flex flex-col md:ml-8">
+                <h4 class="text-lg font-semibold mb-6 relative inline-block ">
+                    Company
+                    <span
+                        class="absolute bottom-0 left-0 w-8 h-0.5 bg-gradient-to-r from-primary to-secondary rounded-full"></span>
+                </h4>
+                <ul class="space-y-3 flex-1">
+                    <li>
+                        <a href="#" class="nav-link">
+                            <span class="nav-link-bullet"></span>
+                            <span class="nav-link-text"> Team</span>
+                            <i class="nav-link-chevron"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-link">
+                            <span class="nav-link-bullet"></span>
+                            <span class="nav-link-text">Careers</span>
+                            <i class="nav-link-chevron"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            <span class="nav-link-bullet"></span>
+                            <span class="nav-link-text">About's</span>
+                            <i class="nav-link-chevron"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            <span class="nav-link-bullet"></span>
+                            <span class="nav-link-text">Contact</span>
+                            <i class="nav-link-chevron"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Newsletter Section -->
+            <div class="flex flex-col">
+                <h4 class="text-lg font-semibold mb-6 relative inline-block">
+                    Newsletter
+                    <span
+                        class="absolute bottom-0 left-0 w-8 h-0.5 bg-gradient-to-r from-primary to-secondary rounded-full"></span>
+                </h4>
+                <p class="text-gray-400 mb-6 leading-relaxed">
+                    Subscribe to our newsletter for the latest updates, news, and exclusive offers.
+                </p>
+                <form class="flex flex-col space-y-4 mt-auto">
+                    <div class="relative group">
+                        <input type="email" placeholder="Your Email Address" class="newsletter-input">
+                        <i
+                            class="fas fa-envelope absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 group-focus-within:text-primary transition-colors"></i>
+                    </div>
+                    <button type="submit" class="newsletter-button">
+                        <span>Subscribe Now</span>
+                        <i class="fas fa-paper-plane ml-2"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-gray-500 text-sm mb-4 md:mb-0">
+                &copy; 2023 SandBox. All rights reserved.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Terms of Service</a>
+                <a href="#" class="footer-link">Cookies</a>
+                <a href="#" class="footer-link">Sitemap</a>
             </div>
         </div>
     </div>
