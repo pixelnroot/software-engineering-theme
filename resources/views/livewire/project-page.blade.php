@@ -2,21 +2,21 @@
     <!-- Hero Section -->
     <section class="relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
-            <div class="relative z-10 md:w-2/3 lg:w-1/2">
+            <div class="relative mx-auto lg:mx-0 z-10 md:w-3/4 lg:w-1/2">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                    Modern SaaS Platform <span class="text-indigo-600">Built for Scale</span>
+                    Modern SaaS Platform <span class="text-pink-500">Built for Scale</span>
                 </h1>
                 <p class="text-lg md:text-xl text-gray-600 mb-8">
                     Nexus is a cutting-edge SaaS solution that helps businesses streamline operations, enhance
                     productivity, and drive growth with its powerful features and intuitive interface.
                 </p>
-                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                <div class="flex space-x-4">
                     <a href="#contact"
-                        class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition duration-300 transform hover:scale-105 shadow-lg shadow-indigo-500/20">
-                        Get Started
+                        class="px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white font-medium rounded-lg transition duration-300 transform hover:scale-105">
+                         Get Started
                     </a>
                     <a href="#features"
-                        class="px-6 py-3 border border-gray-300 hover:border-indigo-600 font-medium rounded-lg transition duration-300 transform hover:scale-105">
+                        class="px-6 py-3 border border-gray-300 hover:border-pink-600 font-medium rounded-lg transition duration-300 transform hover:scale-105">
                         Explore Features
                     </a>
                 </div>
@@ -31,14 +31,14 @@
 
     <!-- Project Showcase Section -->
     <section class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-[98%] md:max-w-[85%] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
                 <div class="mb-12 lg:mb-0">
                     <div class="relative rounded-xl overflow-hidden shadow-xl border border-gray-200">
                         <img src="{{ asset('storage/images/project/teamwork_01.jpg') }}"
                             alt="Nexus Dashboard Screenshot" class="w-full h-auto">
                         <div
-                            class="absolute inset-0 bg-indigo-600 opacity-0 hover:opacity-10 transition-opacity duration-300">
+                            class="absolute inset-0 bg-pink-600 opacity-0 hover:opacity-10 transition-opacity duration-300">
                         </div>
                     </div>
                 </div>
@@ -118,10 +118,10 @@
             </div>
         </div>
     </section>
-    
+
     {{-- our projects --}}
     <section class="py-16 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-[98%] md:max-w-[85%] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold mb-4">Our Recent Projects</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -153,7 +153,7 @@
                                 MongoDB
                             </span>
                         </div>
-                        <a href="#" class="mt-3 font-medium text-indigo-600 text-sm group inline-flex items-center">
+                        <a href="#" class="mt-3 font-medium text-pink-600 text-sm group inline-flex items-center">
                             View Case Study
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                                 class="w-3 h-3 ml-1 transition-transform group-hover:translate-x-1">
@@ -188,7 +188,7 @@
                                 MySQL
                             </span>
                         </div>
-                        <a href="#" class="mt-3 font-medium text-indigo-600 text-sm group inline-flex items-center">
+                        <a href="#" class="mt-3 font-medium text-pink-600 text-sm group inline-flex items-center">
                             View Case Study
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                                 class="w-3 h-3 ml-1 transition-transform group-hover:translate-x-1">
@@ -223,7 +223,7 @@
                                 TensorFlow
                             </span>
                         </div>
-                        <a href="#" class="mt-3 font-medium text-indigo-600 text-sm group inline-flex items-center">
+                        <a href="#" class="mt-3 font-medium text-pink-600 text-sm group inline-flex items-center">
                             View Case Study
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                                 class="w-3 h-3 ml-1 transition-transform group-hover:translate-x-1">
@@ -258,7 +258,7 @@
                                 MQTT
                             </span>
                         </div>
-                        <a href="#" class="mt-3 font-medium text-indigo-600 text-sm group inline-flex items-center">
+                        <a href="#" class="mt-3 font-medium text-pink-600 text-sm group inline-flex items-center">
                             View Case Study
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                                 class="w-3 h-3 ml-1 transition-transform group-hover:translate-x-1">
@@ -293,7 +293,7 @@
                                 OpenCV
                             </span>
                         </div>
-                        <a href="#" class="mt-3 font-medium text-indigo-600 text-sm group inline-flex items-center">
+                        <a href="#" class="mt-3 font-medium text-pink-600 text-sm group inline-flex items-center">
                             View Case Study
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                                 class="w-3 h-3 ml-1 transition-transform group-hover:translate-x-1">
@@ -328,7 +328,7 @@
                                 Web3.js
                             </span>
                         </div>
-                        <a href="#" class="mt-3 font-medium text-indigo-600 text-sm group inline-flex items-center">
+                        <a href="#" class="mt-3 font-medium text-pink-600 text-sm group inline-flex items-center">
                             View Case Study
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                                 class="w-3 h-3 ml-1 transition-transform group-hover:translate-x-1">
@@ -343,7 +343,7 @@
 
             <div class="text-center mt-12">
                 <a href="#"
-                    class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-300">
+                    class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-pink-600 hover:bg-pink-700 hover:-translate-y-1 ease-in-out transition-all duration-300">
                     View All Projects
                     <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 -mr-1 w-5 h-5" viewBox="0 0 20 20"
                         fill="currentColor">
@@ -358,7 +358,7 @@
 
     <!-- Features Section -->
     <section id="features" class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-[98%] md:max-w-[85%] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold mb-4">Powerful Features</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -370,9 +370,9 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Feature 1 -->
                 <div
-                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-indigo-200 hover:cursor-pointer">
+                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-pink-200 hover:cursor-pointer">
                     <div class="w-12 h-12 text-4xl rounded-lg flex items-center justify-center mb-4">
-                       💡
+                        💡
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Advanced Analytics</h3>
                     <p class="text-gray-600">
@@ -383,7 +383,7 @@
 
                 <!-- Feature 2 -->
                 <div
-                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-indigo-200 hover:cursor-pointer">
+                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-pink-200 hover:cursor-pointer">
                     <div class="w-12 h-12 text-4xl rounded-lg flex items-center justify-center mb-4">
                         ⚡
                     </div>
@@ -396,7 +396,7 @@
 
                 <!-- Feature 3 -->
                 <div
-                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-indigo-200 hover:cursor-pointer">
+                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-pink-200 hover:cursor-pointer">
                     <div class="w-12 h-12 text-4xl rounded-lg flex items-center justify-center mb-4">
                         🔒
                     </div>
@@ -409,7 +409,7 @@
 
                 <!-- Feature 4 -->
                 <div
-                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-indigo-200 hover:cursor-pointer">
+                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-pink-200 hover:cursor-pointer">
                     <div class="w-12 h-12 text-4xl rounded-lg flex items-center justify-center mb-4">
                         📱
                     </div>
@@ -422,7 +422,7 @@
 
                 <!-- Feature 5 -->
                 <div
-                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-indigo-200 hover:cursor-pointer">
+                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-pink-200 hover:cursor-pointer">
                     <div class="w-12 h-12 text-4xl rounded-lg flex items-center justify-center mb-4">
                         🛠️
                     </div>
@@ -434,7 +434,7 @@
 
                 <!-- Feature 6 -->
                 <div
-                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-indigo-200 hover:cursor-pointer">
+                    class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-pink-200 hover:cursor-pointer">
                     <div class="w-12 h-12 text-4xl rounded-lg flex items-center justify-center mb-4">
                         🌐
                     </div>
@@ -449,7 +449,7 @@
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="py-16 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-[98%] md:max-w-[85%] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold mb-4">What Our Clients Say</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -584,7 +584,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-[98%] md:max-w-[85%] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div class="mb-12 lg:mb-0">
                     <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
@@ -594,9 +594,9 @@
                     </p>
                     <div class="space-y-6">
                         <div class="flex items-start">
-                            <div class="flex-shrink-0 bg-indigo-50 rounded-lg p-3">
+                            <div class="flex-shrink-0 bg-pink-50 rounded-lg p-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-indigo-600">
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-pink-600">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                                 </svg>
@@ -607,9 +607,9 @@
                             </div>
                         </div>
                         <div class="flex items-start">
-                            <div class="flex-shrink-0 bg-indigo-50 rounded-lg p-3">
+                            <div class="flex-shrink-0 bg-pink-50 rounded-lg p-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-indigo-600">
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-pink-600">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                                 </svg>
@@ -620,9 +620,9 @@
                             </div>
                         </div>
                         <div class="flex items-start">
-                            <div class="flex-shrink-0 bg-indigo-50 rounded-lg p-3">
+                            <div class="flex-shrink-0 bg-pink-50 rounded-lg p-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-indigo-600">
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-pink-600">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -644,21 +644,21 @@
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full
                                 Name</label>
                             <input type="text" id="name" name="name" required
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition">
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-pink-500 transition">
                         </div>
                         <div class="mb-6">
                             <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email
                                 Address</label>
                             <input type="email" id="email" name="email" required
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition">
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-pink-500 transition">
                         </div>
                         <div class="mb-6">
                             <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
                             <textarea id="message" name="message" rows="4" required
-                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition"></textarea>
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-pink-500 transition"></textarea>
                         </div>
                         <button type="submit"
-                            class="w-full px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition duration-300 transform hover:scale-[1.02] shadow-lg shadow-indigo-500/20 hover:cursor-pointer">
+                            class="w-full px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white font-medium rounded-lg transition duration-300 transform hover:scale-[1.02] shadow-lg shadow-pink-500/20 hover:cursor-pointer">
                             Send Message
                         </button>
                     </form>

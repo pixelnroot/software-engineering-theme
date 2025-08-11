@@ -11,7 +11,7 @@
         We're a company that focuses on establishing long-term relationships with customers.
       </span>
       <button
-        class="mt-8 px-6 py-4 text-base md:text-lg text-white font-semibold bg-gradient-to-r from-pink-500 to-pink-600 rounded-lg transition ease-in-out hover:-translate-y-1 hover:shadow-lg">
+        class="mt-8 px-6 py-4 text-base md:text-lg text-white font-semibold bg-gradient-to-r from-pink-500 to-pink-600 rounded-lg transition ease-in-out hover:-translate-y-1 hover:shadow-lg hover:cursor-pointer">
         Explore Now
       </button>
     </div>

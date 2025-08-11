@@ -1,4 +1,3 @@
-
 <footer
     class="{{ Route::currentRouteName() === 'home' ? 'bg-gray-50 text-gray-800' : 'bg-gray-900 text-white' }} pt-16 pb-8 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
     <!-- Decorative elements -->
@@ -13,34 +12,32 @@
             <!-- Company Info -->
             <div class="sm:col-span-2 lg:col-span-1 flex flex-col mb-10 sm:mb-0">
                 <div class="mb-6 flex items-center">
-                    <img class="h-8 mr-2"
-                        src="{{ Route::currentRouteName() === 'home' ? asset('imgs/logo-dark.png') : asset('imgs/logo-light.png') }}"
-                        alt="Sandbox Logo">
-                    <h3 class="text-2xl font-bold">
-                        <span
-                            class="{{ Route::currentRouteName() === 'home' ? 'text-primary' : 'text-primary' }}">Sand</span><span
-                            class="{{ Route::currentRouteName() === 'home' ? 'text-gray-800' : 'text-white' }}">Box</span>
-                    </h3>
+                    <img class="h-8 mr-2 hover:cursor-pointer"
+                        src="{{ Route::currentRouteName() === 'home' ? asset('storage/images/home/logo_01.png') : asset('storage/images/home/logo_light.png') }}"
+                        alt="">
                 </div>
                 <div class="w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-4"></div>
-                <p
-                    class="{{ Route::currentRouteName() === 'home' ? 'text-gray-500' : 'text-gray-400' }} mb-6 leading-relaxed">
-                    Creating digital experiences that inspire and transform businesses.
-                </p>
-                <div class="flex space-x-3 mt-auto">
-                    <a href="#" class="social-icon" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
+                <p <div class="flex space-x-3 mt-auto">
+                    <a href="#"
+                        class="social-icon transition-transform duration-300 hover:scale-110 hover:shadow-lg bg-blue-100 text-blue-600"
+                        aria-label="Twitter">
+                        <i class="fab fa-twitter text-xl"></i>
                     </a>
-                    <a href="#" class="social-icon" aria-label="Instagram">
-                        <i class="fab fa-instagram"></i>
+                    <a href="#"
+                        class="social-icon transition-transform duration-300 hover:scale-110 hover:shadow-lg bg-pink-100 text-pink-600"
+                        aria-label="Instagram">
+                        <i class="fab fa-instagram text-xl"></i>
                     </a>
-                    <a href="#" class="social-icon" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
+                    <a href="#"
+                        class="social-icon transition-transform duration-300 hover:scale-110 hover:shadow-lg bg-blue-200 text-blue-800"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in text-xl"></i>
                     </a>
-                    <a href="#" class="social-icon" aria-label="Dribbble">
-                        <i class="fab fa-dribbble"></i>
+                    <a href="#"
+                        class="social-icon transition-transform duration-300 hover:scale-110 hover:shadow-lg bg-purple-100 text-purple-600"
+                        aria-label="Dribbble">
+                        <i class="fab fa-dribbble text-xl"></i>
                     </a>
-                </div>
             </div>
 
             <!-- Quick Links -->
@@ -99,18 +96,38 @@
                 <address
                     class="not-italic {{ Route::currentRouteName() === 'home' ? 'text-gray-500' : 'text-gray-400' }} space-y-3">
                     <div class="flex items-start">
-                        <i
+                        {{-- <i
                             class="fas fa-map-marker-alt mt-1 mr-3 {{ Route::currentRouteName() === 'home' ? 'text-blue-500' : 'text-blue-400' }}"></i>
+                        --}}
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-8 h-8 mr-1 -ml-1 text-pink-600">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                        </div>
                         <span>123 Design Street, Creative City, CA 90210</span>
                     </div>
                     <div class="flex items-center">
-                        <i
-                            class="fas fa-phone-alt mr-3 {{ Route::currentRouteName() === 'home' ? 'text-blue-500' : 'text-blue-400' }}"></i>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 mr-2 text-pink-600">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                            </svg>
+                        </div>
                         <span>+1 (234) 567-8900</span>
                     </div>
                     <div class="flex items-center">
-                        <i
-                            class="fas fa-envelope mr-3 {{ Route::currentRouteName() === 'home' ? 'text-blue-500' : 'text-blue-400' }}"></i>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 mr-2 text-pink-600">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                            </svg>
+                        </div>
                         <a href="mailto:hello@sandbox.com" class="hover:underline">hello@sandbox.com</a>
                     </div>
                 </address>
@@ -130,13 +147,13 @@
                 <form class="flex flex-col space-y-4 mt-auto w-full">
                     <div class="relative group w-full">
                         <input type="email" placeholder="Your Email Address"
-                            class="newsletter-input w-full pr-12 pl-10 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary transition-all {{ Route::currentRouteName() === 'home' ? 'bg-white text-gray-800 placeholder-gray-400' : 'bg-gray-800 text-white placeholder-gray-400 border-gray-700' }}">
+                            class=" w-full pr-12 pl-10 py-3 rounded-lg ring ring-gray-300 focus:outline-none focus:ring-1 focus:ring-pink-500 transition-all {{ Route::currentRouteName() === 'home' ? 'bg-white text-gray-800 placeholder-gray-400' : 'bg-gray-800 text-white placeholder-gray-400 border-gray-700' }}">
                         <i
                             class="fas fa-envelope absolute left-3 top-1/2 transform -translate-y-1/2 {{ Route::currentRouteName() === 'home' ? 'text-gray-400 group-focus-within:text-primary' : 'text-gray-500 group-focus-within:text-primary' }} transition-colors"></i>
                     </div>
                     <div class="flex items-start">
                         <input type="checkbox" id="privacy"
-                            class="mt-1 mr-2 {{ Route::currentRouteName() === 'home' ? 'accent-blue-500' : 'accent-blue-400' }}">
+                            class="mt-1 mr-2 {{ Route::currentRouteName() === 'home' ? 'accent-pink-500' : 'accent-pink-400' }}">
                         <label for="privacy"
                             class="text-sm {{ Route::currentRouteName() === 'home' ? 'text-gray-400' : 'text-gray-500' }}">
                             I agree to the privacy policy
@@ -167,6 +184,12 @@
         </div>
     </div>
 </footer>
+
+
+
+
+
+
 
 
 <style>
