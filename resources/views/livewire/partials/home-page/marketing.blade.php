@@ -15,21 +15,21 @@
                 rutrum.</p>
 
             <div
-                class="grid sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 mt-4 space-y-4 text-base sm:text-base font-semibold text-justify text-gray-500 gap-4">
+                class="grid sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 mt-4 space-y-4 text-base sm:text-base text-justify text-gray-500 gap-4">
                 <div class="flex items-start">
-                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-pink-300"></i>
                     <span>Aenean quam ornare. Curabitur blandit.</span>
                 </div>
                 <div class="flex items-start">
-                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-pink-300"></i>
                     <span>Etiam porta euismod malesuada mollis.</span>
                 </div>
                 <div class="flex items-start">
-                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-pink-300"></i>
                     <span>Nullam quis risus eget urna mollis ornare.</span>
                 </div>
                 <div class="flex items-start">
-                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+                    <i class="fa-solid fa-circle-check mr-2 mt-1 text-pink-300"></i>
                     <span>Vivamus sagittis lacus vel augue rutrum.</span>
                 </div>
             </div>
@@ -40,7 +40,7 @@
 
     <div class="flex lg:flex-row flex-col-reverse bg-white rounded-xl mt-16 ">
         <div class="mx-4 flex-1 flex-col lg:flex-col justify-center mt-8">
-            <p class="text-red-500 font-bold text-sm md:text-base tracking-wide uppercase mb-2">WHAT MAKES US DIFFERENT?
+            <p class="text-pink-500 font-bold text-sm md:text-base tracking-wide uppercase mb-2">WHAT MAKES US DIFFERENT?
             </p>
             <p class="text-2xl md:text-3xl mt-2 font-semibold text-gray-700 mr-12 leading-tight">We make spending stress
                 free so
@@ -51,7 +51,7 @@
                 vestibulum
                 at eros. Fusce dapibus, tellus ac cursus. Integer posuere erat a ante venenatis dapibus posuere velit.
             </p>
-            <ul class="text-gray-500 font-semibold text-lg mt-6 space-y-2 list-disc list-inside">
+            <ul class="text-gray-500 font-base text-lg mt-6 space-y-2 list-disc list-inside">
                 <li>Aenean eu leo quam. Pellentesque ornare</li>
                 <li>Nullam quis risus eget urna mollis ornare.</li>
                 <li>Donec id elit non mi porta gravida at eget.</li>

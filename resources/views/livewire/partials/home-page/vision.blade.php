@@ -1,8 +1,8 @@
 <div class="lg:flex space-y-4 justify-around mx-16 gap-16 text-justify">
   <div class="flex items-start space-x-4">
     <div>
-      <div class="bg-gray-200 rounded-full px-3 py-1 mt-2 font-semibold">
-        1
+      <div class="bg-pink-100 rounded-full px-3 py-1 mt-2 font-semibold">
+        <h1 class="text-pink-700">1</h1>
       </div>
     </div>
     <div>
@@ -14,8 +14,8 @@
   </div>
   <div class="flex space-x-4">
     <div>
-     <div class="bg-gray-200 rounded-full px-3 py-1 mt-2 font-semibold">
-        2
+     <div class="bg-pink-100 rounded-full px-3 py-1 mt-2 font-semibold">
+        <h1 class="text-pink-700">2</h1>
       </div>
     </div>
     <div>
@@ -27,8 +27,8 @@
   </div>
   <div class="flex space-x-4">
     <div>
-     <div class="bg-gray-200 rounded-full px-3 py-1 mt-2 font-semibold">
-        3
+     <div class="bg-pink-100 rounded-full px-3 py-1 mt-2 font-semibold">
+        <h1 class="text-pink-700">3</h1>
       </div>
     </div>
     <div>

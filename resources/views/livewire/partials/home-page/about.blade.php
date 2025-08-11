@@ -1,4 +1,4 @@
-<div class="max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto mt-16  mb-8">
+<div class="max-w-[98%] md:max-w-[95%] lg:max-w-[90%] mx-auto my-16">
   <div
     class="sm:flex sm:flex-col sm:items-center lg:flex-row md:items-center md:gap-4 md:justify-around sm:w-full mx-auto">
     <div class="flex-col lg:flex lg:flex-1 md:grid md:grid-cols-3 md:gap-4 sm:flex-row space-y-4 sm:relative md:static lg:relative mx-auto w-2/3 sm:w-[95%] sm:left-[10%]">
@@ -15,20 +15,20 @@
         sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla
         sed.</p>
       <div class="grid sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 space-y-4 text-lg mt-4 text-gray-500 gap-2 ">
-        <div class="flex items-start font-semibold">
-          <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+        <div class="flex items-start">
+          <i class="fa-solid fa-circle-check mr-2 mt-1 text-pink-300"></i>
           <span>Aenean quam ornare. Curabitur blandit.</span>
         </div>
-        <div class="flex items-start font-semibold">
-          <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+        <div class="flex items-start">
+          <i class="fa-solid fa-circle-check mr-2 mt-1 text-pink-300"></i>
           <span>Etiam porta euismod malesuada mollis.</span>
         </div>
-        <div class="flex items-start font-semibold">
-          <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+        <div class="flex items-start">
+          <i class="fa-solid fa-circle-check mr-2 mt-1 text-pink-300"></i>
           <span>Nullam quis risus eget urna mollis ornare.</span>
         </div>
-        <div class="flex items-start font-semibold">
-          <i class="fa-solid fa-circle-check mr-2 mt-1 text-gray-400"></i>
+        <div class="flex items-start">
+          <i class="fa-solid fa-circle-check mr-2 mt-1 text-pink-300"></i>
           <span>Vivamus sagittis lacus vel augue rutrum.</span>
         </div>
       </div>

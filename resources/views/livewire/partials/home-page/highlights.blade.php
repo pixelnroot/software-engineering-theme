@@ -28,7 +28,7 @@
     <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 relative bottom-12 z-10 mx-4">
         <!-- Card 1 -->
         <div
-            class="bg-white rounded-xl shadow-xl border-l-8 border-blue-400 p-4 sm:p-6  hover:shadow-2xl transition duration-300 flex flex-col w-full ">
+            class="bg-white rounded-xl shadow-xl border-l-8 border-blue-400 p-4 sm:p-6  hover:shadow-2xl transition duration-300 flex flex-col w-full cursor-pointer">
             <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2">Strong Leadership</h3>
             <p class="text-gray-600 mb-6 text-sm sm:text-base">"Vivamus sagittis lacus vel augue laoreet rutrum faucibus
                 dolor auctor.
@@ -41,7 +41,7 @@
 
         <!-- Card 2 -->
         <div
-            class="bg-white rounded-xl shadow-xl border-l-8 border-pink-400 p-4 sm:p-6 hover:shadow-2xl transition duration-300 flex flex-col w-full">
+            class="bg-white rounded-xl shadow-xl border-l-8 border-pink-400 p-4 sm:p-6 hover:shadow-2xl transition duration-300 flex flex-col w-full cursor-pointer">
             <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2">Creative Marketing</h3>
             <p class="text-gray-600 mb-6 text-sm sm:text-base">"Fusce dapibus, tellus ac cursus tortor mauris
                 condimentum fermentum massa
@@ -54,7 +54,7 @@
 
         <!-- Card 3 -->
         <div
-            class="bg-white rounded-xl shadow-xl border-l-8 border-purple-400 p-4 sm:p-6 hover:shadow-2xl transition duration-300 flex flex-col w-full">
+            class="bg-white rounded-xl shadow-xl border-l-8 border-purple-400 p-4 sm:p-6 hover:shadow-2xl transition duration-300 flex flex-col w-full cursor-pointer">
             <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2">Consistent Growth</h3>
             <p class="text-gray-600 mb-6 text-sm sm:text-base">"Curabitur blandit tempus porttitor. Vivamus sagittis
                 lacus vel augue laoreet
@@ -67,7 +67,7 @@
 
         <!-- Card 4 -->
         <div
-            class="bg-white rounded-xl shadow-xl border-l-8 border-pink-400 p-4 sm:p-6 hover:shadow-2xl transition duration-300 flex flex-col w-full">
+            class="bg-white rounded-xl shadow-xl border-l-8 border-pink-400 p-4 sm:p-6 hover:shadow-2xl transition duration-300 flex flex-col w-full cursor-pointer">
             <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2">Team Collaboration</h3>
             <p class="text-gray-600 mb-6 text-sm sm:text-base">"Etiam adipiscing tincidunt elit convallis felis suscipit
                 ut. Phasellus
