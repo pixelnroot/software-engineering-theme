@@ -17,7 +17,10 @@
                         alt="">
                 </div>
                 <div class="w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-4"></div>
-                <p <div class="flex space-x-3 mt-auto">
+                <p class="{{ Route::currentRouteName() === 'home' ? 'text-gray-500' : 'text-gray-400' }} mb-4">
+                    Empowering your digital journey with creative solutions and expert engineering.
+                </p>
+                <div class="flex space-x-3 mt-auto">
                     <a href="#"
                         class="social-icon transition-transform duration-300 hover:scale-110 hover:shadow-lg bg-blue-100 text-blue-600"
                         aria-label="Twitter">
@@ -38,6 +41,7 @@
                         aria-label="Dribbble">
                         <i class="fab fa-dribbble text-xl"></i>
                     </a>
+                </div>
             </div>
 
             <!-- Quick Links -->
